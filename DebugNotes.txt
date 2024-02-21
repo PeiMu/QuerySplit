@@ -1,0 +1,35 @@
+"SELECT count(*) FROM \tlineitem WHERE \tl_shipdate <= date '1998-12-01' - interval '90' day group by \tl_returnflag, \tl_linestatus order by \tl_returnflag, \tl_linestatus;;\n"
+
+
+
+
+SELECT count(*) FROM lineitem WHERE l_shipdate <= date '1998-12-01' - interval '90' day group by l_returnflag, l_linestatus order by l_returnflag, l_linestatus;
+
+
+
+
+
+
+
+
+"-- TPC TPC-H Parameter Substitution (Version 2.17.3 build 0) -- using default substitutions -- $ID$ -- TPC-H/TPC-R Minimum Cost Supplier Query (Q2) -- Functional Query Definition -- Approved February 1998   select \ts_acctbal, \ts_name, \tn_name, \tp_partkey, \tp_mfgr, \ts_address, \ts_phone, \ts_comment from \tpart, \tsupplier, \tpartsupp, \tnation, \tregion where \tp_partkey = ps_partkey \tand s_suppkey = ps_suppkey \tand p_size = 15 \tand p_type like '%BRASS' \tand s_nationkey = n_nationkey \tand n_regionkey = r_regionkey \tand r_name = 'EUROPE' \tand ps_supplycost = ( \t\tselect \t\t\tmin(ps_supplycost) \t\tfrom \t\t\tpartsupp, \t\t\tsupplier, \t\t\tnation, \t\t\tregion \t\twhere \t\t\tp_partkey = ps_partkey \t\t\tand s_suppkey = ps_suppkey \t\t\tand s_nationkey = n_nationkey \t\t\tand n_regionkey = r_regionkey \t\t\tand r_name = 'EUROPE' \t) order by \ts_acctbal desc, \tn_name, \ts_name, \tp_partkey; "
+
+
+
+
+
+
+
+SELECT count(*) FROM part WHERE p_partkey = ps_partkey and s_suppkey = ps_suppkey and p_size = 15 and p_type like '%BRASS' and s_nationkey = n_nationkey and n_regionkey = r_regionkey and r_name = 'EUROPE' and ps_supplycost = ( select min(ps_supplycost) from partsupp, supplier, nation, region where p_partkey = ps_partkey and s_suppkey = ps_suppkey and s_nationkey = n_nationkey and n_regionkey = r_regionkey and r_name = 'EUROPE' ) order by s_acctbal desc, n_name, s_name, p_partkey;
+
+
+
+SELECT count(*) FROM part WHERE p_partkey = ps_partkey and s_suppkey = ps_suppkey and p_size = 15 and p_type like '%BRASS' and s_nationkey = n_nationkey and n_regionkey = r_regionkey and r_name = 'EUROPE' and ps_supplycost = ( select min(ps_supplycost) from partsupp, supplier, nation, region where p_partkey = ps_partkey and s_suppkey = ps_suppkey and s_nationkey = n_nationkey and n_regionkey = r_regionkey and r_name = 'EUROPE' ) order by s_acctbal desc, n_name, s_name, p_partkey;
+
+
+
+set max_parallel_workers = 0;
+set effective_cache_size to '8 GB';
+set statement_timeout = '1000s';
+switch to relationshipcenter;
+switch to c_r;
