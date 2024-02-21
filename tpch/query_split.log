@@ -1,0 +1,286 @@
+1: time is 165.018000 ms
+1: time is 210.293000 ms
+1: time is 144.733000 ms
+1: time is 221.292000 ms
+1: time is 128.594000 ms
+1: time is 130.169000 ms
+1: time is 150.126000 ms
+1: time is 201.195000 ms
+1: time is 139.035000 ms
+1: time is 183.078000 ms
+
+query 1 geomean time is 164.265027 ms with deviation = 32.774831
+
+2: time is 159.453000 ms
+2: time is 140.171000 ms
+2: time is 121.816000 ms
+2: time is 120.283000 ms
+2: time is 132.116000 ms
+2: time is 141.009000 ms
+2: time is 128.587000 ms
+2: time is 128.445000 ms
+2: time is 158.533000 ms
+2: time is 123.082000 ms
+
+query 2 geomean time is 134.698581 ms with deviation = 13.573772
+
+3: time is 124.513000 ms
+3: time is 119.370000 ms
+3: time is 122.392000 ms
+3: time is 117.938000 ms
+3: time is 151.323000 ms
+3: time is 137.903000 ms
+3: time is 133.422000 ms
+3: time is 140.555000 ms
+3: time is 135.025000 ms
+3: time is 202.953000 ms
+
+query 3 geomean time is 136.832063 ms with deviation = 23.736155
+
+4: time is 148.422000 ms
+4: time is 134.373000 ms
+4: time is 144.323000 ms
+4: time is 152.646000 ms
+4: time is 127.678000 ms
+4: time is 131.050000 ms
+4: time is 162.261000 ms
+4: time is 130.390000 ms
+4: time is 124.481000 ms
+4: time is 133.595000 ms
+
+query 4 geomean time is 138.443831 ms with deviation = 11.719928
+
+5: time is 141.653000 ms
+5: time is 146.808000 ms
+5: time is 222.077000 ms
+5: time is 167.231000 ms
+5: time is 187.745000 ms
+5: time is 187.876000 ms
+5: time is 130.612000 ms
+5: time is 135.604000 ms
+5: time is 191.669000 ms
+5: time is 138.062000 ms
+
+query 5 geomean time is 162.409608 ms with deviation = 29.540914
+
+6: time is 171.096000 ms
+6: time is 208.986000 ms
+6: time is 212.280000 ms
+6: time is 149.405000 ms
+6: time is 142.540000 ms
+6: time is 149.745000 ms
+6: time is 188.453000 ms
+6: time is 168.703000 ms
+6: time is 164.607000 ms
+6: time is 173.227000 ms
+
+query 6 geomean time is 171.447442 ms with deviation = 22.838016
+
+7: time is 194.018000 ms
+7: time is 140.280000 ms
+7: time is 148.836000 ms
+7: time is 129.356000 ms
+7: time is 159.877000 ms
+7: time is 133.287000 ms
+7: time is 158.836000 ms
+7: time is 147.330000 ms
+7: time is 146.078000 ms
+7: time is 157.747000 ms
+
+query 7 geomean time is 150.650029 ms with deviation = 17.265456
+
+8: time is 136.674000 ms
+8: time is 136.753000 ms
+8: time is 130.438000 ms
+8: time is 131.956000 ms
+8: time is 132.901000 ms
+8: time is 165.090000 ms
+8: time is 138.962000 ms
+8: time is 130.665000 ms
+8: time is 188.268000 ms
+8: time is 149.488000 ms
+
+query 8 geomean time is 143.124612 ms with deviation = 17.904982
+
+9: time is 134.440000 ms
+9: time is 121.263000 ms
+9: time is 129.215000 ms
+9: time is 121.365000 ms
+9: time is 144.463000 ms
+9: time is 120.644000 ms
+9: time is 206.536000 ms
+9: time is 179.069000 ms
+9: time is 146.093000 ms
+9: time is 124.248000 ms
+
+query 9 geomean time is 140.470800 ms with deviation = 27.304385
+
+10: time is 160.812000 ms
+10: time is 203.249000 ms
+10: time is 132.865000 ms
+10: time is 138.403000 ms
+10: time is 151.475000 ms
+10: time is 126.734000 ms
+10: time is 139.176000 ms
+10: time is 146.436000 ms
+10: time is 139.215000 ms
+10: time is 119.514000 ms
+
+query 10 geomean time is 144.293049 ms with deviation = 22.236092
+
+11: time is 116.981000 ms
+11: time is 132.074000 ms
+11: time is 116.883000 ms
+11: time is 154.107000 ms
+11: time is 121.765000 ms
+11: time is 123.424000 ms
+11: time is 172.451000 ms
+11: time is 179.219000 ms
+11: time is 146.785000 ms
+11: time is 164.105000 ms
+
+query 11 geomean time is 141.035412 ms with deviation = 22.593864
+
+12: time is 138.289000 ms
+12: time is 123.333000 ms
+12: time is 131.702000 ms
+12: time is 116.187000 ms
+12: time is 129.638000 ms
+12: time is 200.927000 ms
+12: time is 168.709000 ms
+12: time is 133.087000 ms
+12: time is 142.800000 ms
+12: time is 321.183000 ms
+
+query 12 geomean time is 152.937579 ms with deviation = 58.983470
+
+13: time is 328.087000 ms
+13: time is 202.416000 ms
+13: time is 157.882000 ms
+13: time is 139.974000 ms
+13: time is 181.401000 ms
+13: time is 188.718000 ms
+13: time is 152.825000 ms
+13: time is 227.672000 ms
+13: time is 158.280000 ms
+13: time is 167.005000 ms
+
+query 13 geomean time is 184.702443 ms with deviation = 52.434525
+
+14: time is 182.164000 ms
+14: time is 159.833000 ms
+14: time is 131.806000 ms
+14: time is 163.918000 ms
+14: time is 144.962000 ms
+14: time is 316.310000 ms
+14: time is 150.144000 ms
+14: time is 134.448000 ms
+14: time is 195.411000 ms
+14: time is 142.730000 ms
+
+query 14 geomean time is 166.363655 ms with deviation = 52.075363
+
+15: time is 126.672000 ms
+15: time is 127.765000 ms
+15: time is 175.570000 ms
+15: time is 146.522000 ms
+15: time is 126.061000 ms
+15: time is 122.322000 ms
+15: time is 185.049000 ms
+15: time is 126.060000 ms
+15: time is 169.784000 ms
+15: time is 149.658000 ms
+
+query 15 geomean time is 143.892837 ms with deviation = 22.507164
+
+16: time is 176.823000 ms
+16: time is 131.812000 ms
+16: time is 149.086000 ms
+16: time is 131.872000 ms
+16: time is 128.578000 ms
+16: time is 189.220000 ms
+16: time is 127.939000 ms
+16: time is 152.090000 ms
+16: time is 138.126000 ms
+16: time is 127.842000 ms
+
+query 16 geomean time is 143.988215 ms with deviation = 20.738478
+
+17: time is 136.131000 ms
+17: time is 126.739000 ms
+17: time is 171.779000 ms
+17: time is 205.596000 ms
+17: time is 138.311000 ms
+17: time is 120.307000 ms
+17: time is 193.308000 ms
+17: time is 177.671000 ms
+17: time is 137.010000 ms
+17: time is 148.681000 ms
+
+query 17 geomean time is 153.139554 ms with deviation = 28.068822
+
+18: time is 147.889000 ms
+18: time is 222.148000 ms
+18: time is 141.214000 ms
+18: time is 126.644000 ms
+18: time is 130.661000 ms
+18: time is 119.295000 ms
+18: time is 114.950000 ms
+18: time is 177.693000 ms
+18: time is 143.209000 ms
+18: time is 138.156000 ms
+
+query 18 geomean time is 143.493696 ms with deviation = 30.427109
+
+19: time is 122.155000 ms
+19: time is 119.809000 ms
+19: time is 123.731000 ms
+19: time is 146.451000 ms
+19: time is 120.834000 ms
+19: time is 120.521000 ms
+19: time is 257.536000 ms
+19: time is 201.357000 ms
+19: time is 135.010000 ms
+19: time is 130.970000 ms
+
+query 19 geomean time is 142.861955 ms with deviation = 43.701624
+
+20: time is 117.572000 ms
+20: time is 119.766000 ms
+20: time is 123.598000 ms
+20: time is 117.727000 ms
+20: time is 119.087000 ms
+20: time is 116.401000 ms
+20: time is 122.431000 ms
+20: time is 115.411000 ms
+20: time is 115.285000 ms
+20: time is 183.775000 ms
+
+query 20 geomean time is 123.866649 ms with deviation = 19.771193
+
+21: time is 140.441000 ms
+21: time is 122.324000 ms
+21: time is 118.502000 ms
+21: time is 122.813000 ms
+21: time is 116.792000 ms
+21: time is 123.102000 ms
+21: time is 127.625000 ms
+21: time is 121.318000 ms
+21: time is 120.295000 ms
+21: time is 229.848000 ms
+
+query 21 geomean time is 131.437809 ms with deviation = 32.581441
+
+22: time is 125.120000 ms
+22: time is 332.384000 ms
+22: time is 238.441000 ms
+22: time is 163.879000 ms
+22: time is 150.617000 ms
+22: time is 152.601000 ms
+22: time is 255.453000 ms
+22: time is 198.291000 ms
+22: time is 192.756000 ms
+22: time is 152.404000 ms
+
+query 22 geomean time is 188.144737 ms with deviation = 60.414670
+
