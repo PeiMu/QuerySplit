@@ -23,3 +23,10 @@
 # Potential Bugs
 * The local buffer would be released after the end of a session. We recommand execute one query each session for reproducing query split, as the local buffer consumpition is very huge in query split. Executing too many queries in one session may lead to some unfixed bugs. In future, we will improve this part.
 * Obviously, our work can be further improved. And there would be many potential bugs in our codes. If you meet these bugs, thank you for contacting us. Your contact will greatly help us fix these bugs.
+
+
+# Compile Command
+
+```bash
+g++ measure.cpp -O3 -std=c++17 -lpq -o measure
+```
