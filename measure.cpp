@@ -15,8 +15,14 @@
 #define N 33
 #define ITERATION_TIME 10
 
-#define ENABLE_QUERY_SPLIT false
+#define ENABLE_QUERY_SPLIT true
 
+enum Benchmark {
+	TPCH,
+	IMDB,
+};
+
+Benchmark benchmark = IMDB;
 
 /***************************************
  * Timer functions of the test framework
@@ -95,8 +101,19 @@ int main()
 	FILE* f_log = fopen(file, "w+");
 	fclose(f_log);
 
-//	std::string dir_path = "/home/pei/Project/benchmarks/imdb_job_postgres/queries/";
-	std::string dir_path = "/home/pei/Project/benchmarks/tpch-postgre/dbgen/out/pure_queries/";
+	std::string dir_path;
+	switch (benchmark) {
+		case TPCH:
+			dir_path = "/home/pei/Project/benchmarks/tpch-postgre/dbgen/out/pure_queries/";
+			break;
+		case IMDB:
+			dir_path = "/home/pei/Project/benchmarks/imdb_job_postgres/queries/";
+			break;
+		default:
+			std::cerr << "No such benchmark!" << std::endl;
+			return 1;
+	}
+
 	for (const auto& dir_entry : recursive_directory_iterator(dir_path))
 	{
 		std::string file_path = dir_entry.path().filename().string();
@@ -127,7 +144,18 @@ int main()
 		double time;
 		std::vector<double> time_vec;
 		for (int j = 0; j < ITERATION_TIME; j++) {
-			PGconn* conn = PQsetdbLogin("localhost", "5432", NULL, NULL, "pei", "pei", "");
+			PGconn* conn;
+			switch (benchmark) {
+				case TPCH:
+					conn = PQsetdbLogin("localhost", "5432", NULL, NULL, "pei", "pei", "");
+					break;
+				case IMDB:
+					conn = PQsetdbLogin("localhost", "5432", NULL, NULL, "imdb", "imdb", "");
+					break;
+				default:
+					std::cerr << "No such benchmark!" << std::endl;
+					return 1;
+			}
 			if (PQstatus(conn) == CONNECTION_BAD)
 			{
 				std::cout << PQerrorMessage(conn) << std::endl;
