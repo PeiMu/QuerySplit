@@ -15,7 +15,7 @@
 #define N 33
 #define ITERATION_TIME 10
 
-#define ENABLE_QUERY_SPLIT true
+#define ENABLE_QUERY_SPLIT false
 
 enum Benchmark {
 	TPCH,
@@ -174,9 +174,8 @@ int main()
 				return 0;
 			}
 			if (ENABLE_QUERY_SPLIT) {
-				std::string query_split_settings = "switch to c_r;\n"
-				                                   "switch to relationshipcenter;";
-				PQexec(conn, query_split_settings.c_str());
+				PQexec(conn, "switch to c_r;");
+				PQexec(conn, "switch to relationshipcenter;");
 			}
 
 
@@ -185,7 +184,8 @@ int main()
 			time = toc(&timer, (std::to_string(j) + ": time consumption").c_str());
 			time_vec.emplace_back(time);
 
-			switch (PQresultStatus(result))
+			auto status = PQresultStatus(result);
+			switch (status)
 			{
 				case PGRES_EMPTY_QUERY: {
 					std::cout << "An unexpected empty query;" << std::endl;
@@ -193,42 +193,35 @@ int main()
 					break;
 				}
 				case PGRES_COMMAND_OK: {
-					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
+					fprintf(f_log, "%s: PGRES_COMMAND_OK time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_TUPLES_OK: {
-					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
+					fprintf(f_log, "%s: PGRES_TUPLES_OK time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_COPY_OUT: {
-					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
+					fprintf(f_log, "%s: PGRES_COPY_OUT time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_COPY_IN: {
-					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
-					break;
-				}
-				case PGRES_BAD_RESPONSE: {
-					std::cout << PQresultErrorMessage(result);
-					fprintf(f_log, "%s\n", PQresultErrorMessage(result));
-					break;
-				}
-				case PGRES_NONFATAL_ERROR: {
-					std::cout << PQresultErrorMessage(result);
-					fprintf(f_log, "%s\n", PQresultErrorMessage(result));
-					break;
-				}
-				case PGRES_FATAL_ERROR: {
-					std::cout << PQresultErrorMessage(result);
-					fprintf(f_log, "%s\n", PQresultErrorMessage(result));
+					fprintf(f_log, "%s: PGRES_COPY_IN time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_COPY_BOTH: {
-					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
+					fprintf(f_log, "%s: PGRES_COPY_BOTH time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_SINGLE_TUPLE: {
-					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
+					fprintf(f_log, "%s: PGRES_SINGLE_TUPLE time is %f ms\n", file_path.c_str(), time);
+					break;
+				}
+				case PGRES_BAD_RESPONSE:
+				case PGRES_NONFATAL_ERROR:
+				case PGRES_FATAL_ERROR:
+				default: {
+					std::cout << PQresultErrorMessage(result);
+					fprintf(f_log, "%s\n", PQresultErrorMessage(result));
 					break;
 				}
 			}
