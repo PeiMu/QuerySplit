@@ -9,12 +9,13 @@
 #include <ctime>
 #include <vector>
 #include <cmath>
-//#include <windows.h>
+#include <filesystem>
+#include <iomanip>
 
-#define N 22
+#define N 33
 #define ITERATION_TIME 10
 
-#define ENABLE_QUERY_SPLIT true
+#define ENABLE_QUERY_SPLIT false
 
 
 /***************************************
@@ -85,23 +86,27 @@ double calculateDeviation(const std::vector<double>& numbers, double geometricMe
 	return std::sqrt(sum / numbers.size());
 }
 
+using recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
+
 
 int main()
 {
 	char file[100] = "log.txt";
 	FILE* f_log = fopen(file, "w+");
 	fclose(f_log);
-	for (int i = 1; i <= N; i++)
+
+//	std::string dir_path = "/home/pei/Project/benchmarks/imdb_job_postgres/queries/";
+	std::string dir_path = "/home/pei/Project/benchmarks/tpch-postgre/dbgen/out/pure_queries/";
+	for (const auto& dir_entry : recursive_directory_iterator(dir_path))
 	{
+		std::string file_path = dir_entry.path().filename().string();
 		f_log = fopen(file, "a");
 
-		char fpath[100];
-//		sprintf(fpath, "/home/pei/Project/benchmarks/imdb_job_postgres/out/queries/%da.sql", i);
-		sprintf(fpath, "/home/pei/Project/benchmarks/tpch-postgre/dbgen/out/pure_queries/%d.sql", i);
-//		sprintf(fpath, "/home/pei/Project/benchmarks/tpch-postgre/dbgen/out/pure_QuerySplit/%d.sql", i);
-		std::cout << i << " " << fpath << "   ";
+		if (!dir_entry.is_regular_file()) {
+			break;
+		}
 
-		std::ifstream input_file(fpath);
+		std::ifstream input_file(dir_path+file_path, std::ios::binary);
 		// Check if the file is opened successfully
 		if (!input_file.is_open()) {
 			std::cerr << "Error opening the file." << std::endl;
@@ -160,19 +165,19 @@ int main()
 					break;
 				}
 				case PGRES_COMMAND_OK: {
-					fprintf(f_log, "%d: time is %f ms\n", i, time);
+					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_TUPLES_OK: {
-					fprintf(f_log, "%d: time is %f ms\n", i, time);
+					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_COPY_OUT: {
-					fprintf(f_log, "%d: time is %f ms\n", i, time);
+					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_COPY_IN: {
-					fprintf(f_log, "%d: time is %f ms\n", i, time);
+					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_BAD_RESPONSE: {
@@ -191,11 +196,11 @@ int main()
 					break;
 				}
 				case PGRES_COPY_BOTH: {
-					fprintf(f_log, "%d: time is %f ms\n", i, time);
+					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 				case PGRES_SINGLE_TUPLE: {
-					fprintf(f_log, "%d: time is %f ms\n", i, time);
+					fprintf(f_log, "%s: time is %f ms\n", file_path.c_str(), time);
 					break;
 				}
 			}
@@ -204,7 +209,7 @@ int main()
 		}
 		double geomean_time = calculateGeometricMean(time_vec);
 		double deviation = calculateDeviation(time_vec, geomean_time);
-		fprintf(f_log, "\nquery %d geomean time is %f ms with deviation = %f\n\n", i, geomean_time, deviation);
+		fprintf(f_log, "\nquery %s geomean time is %f ms with deviation = %f\n\n", file_path.c_str(), geomean_time, deviation);
 
 		fclose(f_log);
 	}
