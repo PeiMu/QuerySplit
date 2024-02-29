@@ -1,1469 +1,1482 @@
-10a.sql: PGRES_COMMAND_OK time is 936.862000 ms
-10a.sql: PGRES_COMMAND_OK time is 588.017000 ms
-10a.sql: PGRES_COMMAND_OK time is 570.598000 ms
-10a.sql: PGRES_COMMAND_OK time is 577.041000 ms
-10a.sql: PGRES_COMMAND_OK time is 613.039000 ms
-10a.sql: PGRES_COMMAND_OK time is 617.295000 ms
-10a.sql: PGRES_COMMAND_OK time is 609.395000 ms
-10a.sql: PGRES_COMMAND_OK time is 652.413000 ms
-10a.sql: PGRES_COMMAND_OK time is 653.714000 ms
-10a.sql: PGRES_COMMAND_OK time is 704.218000 ms
-
-query 10a.sql geomean time is 645.520396 ms with deviation = 102.570061
-
-10b.sql: PGRES_COMMAND_OK time is 703.667000 ms
-10b.sql: PGRES_COMMAND_OK time is 754.001000 ms
-10b.sql: PGRES_COMMAND_OK time is 760.488000 ms
-10b.sql: PGRES_COMMAND_OK time is 775.186000 ms
-10b.sql: PGRES_COMMAND_OK time is 820.572000 ms
-10b.sql: PGRES_COMMAND_OK time is 838.912000 ms
-10b.sql: PGRES_COMMAND_OK time is 911.130000 ms
-10b.sql: PGRES_COMMAND_OK time is 1033.501000 ms
-10b.sql: PGRES_COMMAND_OK time is 1027.035000 ms
-10b.sql: PGRES_COMMAND_OK time is 1024.058000 ms
-
-query 10b.sql geomean time is 856.815183 ms with deviation = 119.463127
-
-10c.sql: PGRES_COMMAND_OK time is 1084.718000 ms
-10c.sql: PGRES_COMMAND_OK time is 1180.671000 ms
-10c.sql: PGRES_COMMAND_OK time is 1175.821000 ms
-10c.sql: PGRES_COMMAND_OK time is 1170.838000 ms
-10c.sql: PGRES_COMMAND_OK time is 1181.962000 ms
-10c.sql: PGRES_COMMAND_OK time is 1207.855000 ms
-10c.sql: PGRES_COMMAND_OK time is 1164.051000 ms
-10c.sql: PGRES_COMMAND_OK time is 1175.816000 ms
-10c.sql: PGRES_COMMAND_OK time is 1182.393000 ms
-10c.sql: PGRES_COMMAND_OK time is 1158.906000 ms
-
-query 10c.sql geomean time is 1167.891107 ms with deviation = 30.522695
-
-11a.sql: PGRES_COMMAND_OK time is 1406.072000 ms
-11a.sql: PGRES_COMMAND_OK time is 1349.987000 ms
-11a.sql: PGRES_COMMAND_OK time is 1360.344000 ms
-11a.sql: PGRES_COMMAND_OK time is 1345.308000 ms
-11a.sql: PGRES_COMMAND_OK time is 1353.503000 ms
-11a.sql: PGRES_COMMAND_OK time is 1292.357000 ms
-11a.sql: PGRES_COMMAND_OK time is 1360.647000 ms
-11a.sql: PGRES_COMMAND_OK time is 1394.213000 ms
-11a.sql: PGRES_COMMAND_OK time is 1406.257000 ms
-11a.sql: PGRES_COMMAND_OK time is 1355.818000 ms
-
-query 11a.sql geomean time is 1362.068668 ms with deviation = 32.134406
-
-11b.sql: PGRES_COMMAND_OK time is 1329.410000 ms
-11b.sql: PGRES_COMMAND_OK time is 1317.416000 ms
-11b.sql: PGRES_COMMAND_OK time is 1314.278000 ms
-11b.sql: PGRES_COMMAND_OK time is 1310.728000 ms
-11b.sql: PGRES_COMMAND_OK time is 1315.583000 ms
-11b.sql: PGRES_COMMAND_OK time is 1310.834000 ms
-11b.sql: PGRES_COMMAND_OK time is 1318.350000 ms
-11b.sql: PGRES_COMMAND_OK time is 1302.257000 ms
-11b.sql: PGRES_COMMAND_OK time is 1312.958000 ms
-11b.sql: PGRES_COMMAND_OK time is 1318.174000 ms
-
-query 11b.sql geomean time is 1314.982169 ms with deviation = 6.616685
-
-11c.sql: PGRES_COMMAND_OK time is 1394.414000 ms
-11c.sql: PGRES_COMMAND_OK time is 1307.195000 ms
-11c.sql: PGRES_COMMAND_OK time is 1353.367000 ms
-11c.sql: PGRES_COMMAND_OK time is 1392.989000 ms
-11c.sql: PGRES_COMMAND_OK time is 1360.248000 ms
-11c.sql: PGRES_COMMAND_OK time is 1366.671000 ms
-11c.sql: PGRES_COMMAND_OK time is 1354.479000 ms
-11c.sql: PGRES_COMMAND_OK time is 1343.818000 ms
-11c.sql: PGRES_COMMAND_OK time is 1354.806000 ms
-11c.sql: PGRES_COMMAND_OK time is 1359.713000 ms
-
-query 11c.sql geomean time is 1358.568231 ms with deviation = 23.354234
-
-11d.sql: PGRES_COMMAND_OK time is 1297.189000 ms
-11d.sql: PGRES_COMMAND_OK time is 1306.129000 ms
-11d.sql: PGRES_COMMAND_OK time is 1296.158000 ms
-11d.sql: PGRES_COMMAND_OK time is 1303.881000 ms
-11d.sql: PGRES_COMMAND_OK time is 1301.019000 ms
-11d.sql: PGRES_COMMAND_OK time is 1307.265000 ms
-11d.sql: PGRES_COMMAND_OK time is 1259.218000 ms
-11d.sql: PGRES_COMMAND_OK time is 1347.197000 ms
-11d.sql: PGRES_COMMAND_OK time is 1330.092000 ms
-11d.sql: PGRES_COMMAND_OK time is 1354.820000 ms
-
-query 11d.sql geomean time is 1310.034646 ms with deviation = 26.212676
-
-12a.sql: PGRES_COMMAND_OK time is 1461.599000 ms
-12a.sql: PGRES_COMMAND_OK time is 1335.060000 ms
-12a.sql: PGRES_COMMAND_OK time is 1335.935000 ms
-12a.sql: PGRES_COMMAND_OK time is 1341.358000 ms
-12a.sql: PGRES_COMMAND_OK time is 1330.458000 ms
-12a.sql: PGRES_COMMAND_OK time is 1326.134000 ms
-12a.sql: PGRES_COMMAND_OK time is 1329.686000 ms
-12a.sql: PGRES_COMMAND_OK time is 1350.235000 ms
-12a.sql: PGRES_COMMAND_OK time is 1336.210000 ms
-12a.sql: PGRES_COMMAND_OK time is 1332.530000 ms
-
-query 12a.sql geomean time is 1347.397634 ms with deviation = 38.430579
-
-12b.sql: PGRES_COMMAND_OK time is 1206.277000 ms
-12b.sql: PGRES_COMMAND_OK time is 1202.229000 ms
-12b.sql: PGRES_COMMAND_OK time is 1198.805000 ms
-12b.sql: PGRES_COMMAND_OK time is 1239.985000 ms
-12b.sql: PGRES_COMMAND_OK time is 1198.654000 ms
-12b.sql: PGRES_COMMAND_OK time is 1219.077000 ms
-12b.sql: PGRES_COMMAND_OK time is 1207.510000 ms
-12b.sql: PGRES_COMMAND_OK time is 1236.081000 ms
-12b.sql: PGRES_COMMAND_OK time is 1207.473000 ms
-12b.sql: PGRES_COMMAND_OK time is 1194.838000 ms
-
-query 12b.sql geomean time is 1211.001921 ms with deviation = 14.901779
-
-12c.sql: PGRES_COMMAND_OK time is 1347.174000 ms
-12c.sql: PGRES_COMMAND_OK time is 1336.819000 ms
-12c.sql: PGRES_COMMAND_OK time is 1328.432000 ms
-12c.sql: PGRES_COMMAND_OK time is 1305.805000 ms
-12c.sql: PGRES_COMMAND_OK time is 1327.262000 ms
-12c.sql: PGRES_COMMAND_OK time is 1358.504000 ms
-12c.sql: PGRES_COMMAND_OK time is 1351.856000 ms
-12c.sql: PGRES_COMMAND_OK time is 1358.430000 ms
-12c.sql: PGRES_COMMAND_OK time is 1329.371000 ms
-12c.sql: PGRES_COMMAND_OK time is 1339.742000 ms
-
-query 12c.sql geomean time is 1338.248179 ms with deviation = 15.604932
-
-13a.sql: PGRES_COMMAND_OK time is 1198.583000 ms
-13a.sql: PGRES_COMMAND_OK time is 1200.283000 ms
-13a.sql: PGRES_COMMAND_OK time is 1221.041000 ms
-13a.sql: PGRES_COMMAND_OK time is 1206.730000 ms
-13a.sql: PGRES_COMMAND_OK time is 1198.210000 ms
-13a.sql: PGRES_COMMAND_OK time is 1200.363000 ms
-13a.sql: PGRES_COMMAND_OK time is 1187.667000 ms
-13a.sql: PGRES_COMMAND_OK time is 1161.923000 ms
-13a.sql: PGRES_COMMAND_OK time is 1241.024000 ms
-13a.sql: PGRES_COMMAND_OK time is 1217.747000 ms
-
-query 13a.sql geomean time is 1203.191334 ms with deviation = 19.952191
-
-13b.sql: PGRES_COMMAND_OK time is 1352.875000 ms
-13b.sql: PGRES_COMMAND_OK time is 1325.421000 ms
-13b.sql: PGRES_COMMAND_OK time is 1312.900000 ms
-13b.sql: PGRES_COMMAND_OK time is 1326.338000 ms
-13b.sql: PGRES_COMMAND_OK time is 1329.954000 ms
-13b.sql: PGRES_COMMAND_OK time is 1304.892000 ms
-13b.sql: PGRES_COMMAND_OK time is 1325.440000 ms
-13b.sql: PGRES_COMMAND_OK time is 1317.452000 ms
-13b.sql: PGRES_COMMAND_OK time is 1309.870000 ms
-13b.sql: PGRES_COMMAND_OK time is 1314.571000 ms
-
-query 13b.sql geomean time is 1321.909028 ms with deviation = 12.874091
-
-13c.sql: PGRES_COMMAND_OK time is 1308.955000 ms
-13c.sql: PGRES_COMMAND_OK time is 1317.515000 ms
-13c.sql: PGRES_COMMAND_OK time is 1310.129000 ms
-13c.sql: PGRES_COMMAND_OK time is 1272.452000 ms
-13c.sql: PGRES_COMMAND_OK time is 1332.275000 ms
-13c.sql: PGRES_COMMAND_OK time is 1331.052000 ms
-13c.sql: PGRES_COMMAND_OK time is 1331.017000 ms
-13c.sql: PGRES_COMMAND_OK time is 1330.559000 ms
-13c.sql: PGRES_COMMAND_OK time is 1314.573000 ms
-13c.sql: PGRES_COMMAND_OK time is 1329.902000 ms
-
-query 13c.sql geomean time is 1317.724662 ms with deviation = 17.530591
-
-13d.sql: PGRES_COMMAND_OK time is 1201.582000 ms
-13d.sql: PGRES_COMMAND_OK time is 1201.145000 ms
-13d.sql: PGRES_COMMAND_OK time is 1198.883000 ms
-13d.sql: PGRES_COMMAND_OK time is 1202.576000 ms
-13d.sql: PGRES_COMMAND_OK time is 1191.163000 ms
-13d.sql: PGRES_COMMAND_OK time is 1202.396000 ms
-13d.sql: PGRES_COMMAND_OK time is 1181.672000 ms
-13d.sql: PGRES_COMMAND_OK time is 1185.791000 ms
-13d.sql: PGRES_COMMAND_OK time is 1207.623000 ms
-13d.sql: PGRES_COMMAND_OK time is 1237.921000 ms
-
-query 13d.sql geomean time is 1200.987896 ms with deviation = 14.553247
-
-14a.sql: PGRES_COMMAND_OK time is 1339.642000 ms
-14a.sql: PGRES_COMMAND_OK time is 1326.844000 ms
-14a.sql: PGRES_COMMAND_OK time is 1316.931000 ms
-14a.sql: PGRES_COMMAND_OK time is 1317.186000 ms
-14a.sql: PGRES_COMMAND_OK time is 1351.204000 ms
-14a.sql: PGRES_COMMAND_OK time is 1323.328000 ms
-14a.sql: PGRES_COMMAND_OK time is 1322.361000 ms
-14a.sql: PGRES_COMMAND_OK time is 1315.090000 ms
-14a.sql: PGRES_COMMAND_OK time is 1322.283000 ms
-14a.sql: PGRES_COMMAND_OK time is 1310.521000 ms
-
-query 14a.sql geomean time is 1324.488243 ms with deviation = 11.633991
-
-14b.sql: PGRES_COMMAND_OK time is 1362.716000 ms
-14b.sql: PGRES_COMMAND_OK time is 1336.829000 ms
-14b.sql: PGRES_COMMAND_OK time is 1356.459000 ms
-14b.sql: PGRES_COMMAND_OK time is 1305.058000 ms
-14b.sql: PGRES_COMMAND_OK time is 1337.277000 ms
-14b.sql: PGRES_COMMAND_OK time is 1388.711000 ms
-14b.sql: PGRES_COMMAND_OK time is 1367.012000 ms
-14b.sql: PGRES_COMMAND_OK time is 1362.067000 ms
-14b.sql: PGRES_COMMAND_OK time is 1368.985000 ms
-14b.sql: PGRES_COMMAND_OK time is 1352.670000 ms
-
-query 14b.sql geomean time is 1353.602754 ms with deviation = 21.719151
-
-14c.sql: PGRES_COMMAND_OK time is 1337.648000 ms
-14c.sql: PGRES_COMMAND_OK time is 1333.887000 ms
-14c.sql: PGRES_COMMAND_OK time is 1324.470000 ms
-14c.sql: PGRES_COMMAND_OK time is 1327.549000 ms
-14c.sql: PGRES_COMMAND_OK time is 1328.108000 ms
-14c.sql: PGRES_COMMAND_OK time is 1325.059000 ms
-14c.sql: PGRES_COMMAND_OK time is 1311.358000 ms
-14c.sql: PGRES_COMMAND_OK time is 1322.784000 ms
-14c.sql: PGRES_COMMAND_OK time is 1330.047000 ms
-14c.sql: PGRES_COMMAND_OK time is 1319.872000 ms
-
-query 14c.sql geomean time is 1326.059828 ms with deviation = 6.975341
-
-15a.sql: PGRES_COMMAND_OK time is 1317.815000 ms
-15a.sql: PGRES_COMMAND_OK time is 1215.812000 ms
-15a.sql: PGRES_COMMAND_OK time is 1283.551000 ms
-15a.sql: PGRES_COMMAND_OK time is 1308.000000 ms
-15a.sql: PGRES_COMMAND_OK time is 1313.210000 ms
-15a.sql: PGRES_COMMAND_OK time is 1265.786000 ms
-15a.sql: PGRES_COMMAND_OK time is 1267.358000 ms
-15a.sql: PGRES_COMMAND_OK time is 1260.810000 ms
-15a.sql: PGRES_COMMAND_OK time is 1277.605000 ms
-15a.sql: PGRES_COMMAND_OK time is 1272.939000 ms
-
-query 15a.sql geomean time is 1277.964931 ms with deviation = 28.647956
-
-15b.sql: PGRES_COMMAND_OK time is 1300.570000 ms
-15b.sql: PGRES_COMMAND_OK time is 1296.821000 ms
-15b.sql: PGRES_COMMAND_OK time is 1280.695000 ms
-15b.sql: PGRES_COMMAND_OK time is 1283.781000 ms
-15b.sql: PGRES_COMMAND_OK time is 1297.853000 ms
-15b.sql: PGRES_COMMAND_OK time is 1264.131000 ms
-15b.sql: PGRES_COMMAND_OK time is 1289.812000 ms
-15b.sql: PGRES_COMMAND_OK time is 1330.843000 ms
-15b.sql: PGRES_COMMAND_OK time is 1311.119000 ms
-15b.sql: PGRES_COMMAND_OK time is 1319.799000 ms
-
-query 15b.sql geomean time is 1297.409625 ms with deviation = 18.568418
-
-15c.sql: PGRES_COMMAND_OK time is 1270.234000 ms
-15c.sql: PGRES_COMMAND_OK time is 1262.524000 ms
-15c.sql: PGRES_COMMAND_OK time is 1265.591000 ms
-15c.sql: PGRES_COMMAND_OK time is 1269.464000 ms
-15c.sql: PGRES_COMMAND_OK time is 1271.285000 ms
-15c.sql: PGRES_COMMAND_OK time is 1268.178000 ms
-15c.sql: PGRES_COMMAND_OK time is 1264.725000 ms
-15c.sql: PGRES_COMMAND_OK time is 1263.463000 ms
-15c.sql: PGRES_COMMAND_OK time is 1269.744000 ms
-15c.sql: PGRES_COMMAND_OK time is 1265.371000 ms
-
-query 15c.sql geomean time is 1267.054501 ms with deviation = 2.934869
-
-15d.sql: PGRES_COMMAND_OK time is 1237.572000 ms
-15d.sql: PGRES_COMMAND_OK time is 1295.955000 ms
-15d.sql: PGRES_COMMAND_OK time is 1257.121000 ms
-15d.sql: PGRES_COMMAND_OK time is 1256.698000 ms
-15d.sql: PGRES_COMMAND_OK time is 1251.453000 ms
-15d.sql: PGRES_COMMAND_OK time is 1247.314000 ms
-15d.sql: PGRES_COMMAND_OK time is 1237.950000 ms
-15d.sql: PGRES_COMMAND_OK time is 1249.420000 ms
-15d.sql: PGRES_COMMAND_OK time is 1247.221000 ms
-15d.sql: PGRES_COMMAND_OK time is 1242.006000 ms
-
-query 15d.sql geomean time is 1252.171287 ms with deviation = 15.927667
-
-16a.sql: PGRES_COMMAND_OK time is 1219.286000 ms
-16a.sql: PGRES_COMMAND_OK time is 1215.247000 ms
-16a.sql: PGRES_COMMAND_OK time is 1208.611000 ms
-16a.sql: PGRES_COMMAND_OK time is 1201.237000 ms
-16a.sql: PGRES_COMMAND_OK time is 1229.187000 ms
-16a.sql: PGRES_COMMAND_OK time is 1219.690000 ms
-16a.sql: PGRES_COMMAND_OK time is 1204.299000 ms
-16a.sql: PGRES_COMMAND_OK time is 1206.856000 ms
-16a.sql: PGRES_COMMAND_OK time is 1204.705000 ms
-16a.sql: PGRES_COMMAND_OK time is 1213.866000 ms
-
-query 16a.sql geomean time is 1212.270131 ms with deviation = 8.288957
-
-16b.sql: PGRES_COMMAND_OK time is 1167.842000 ms
-16b.sql: PGRES_COMMAND_OK time is 1167.070000 ms
-16b.sql: PGRES_COMMAND_OK time is 1165.692000 ms
-16b.sql: PGRES_COMMAND_OK time is 1117.275000 ms
-16b.sql: PGRES_COMMAND_OK time is 1201.241000 ms
-16b.sql: PGRES_COMMAND_OK time is 1176.419000 ms
-16b.sql: PGRES_COMMAND_OK time is 1175.155000 ms
-16b.sql: PGRES_COMMAND_OK time is 1173.216000 ms
-16b.sql: PGRES_COMMAND_OK time is 1183.332000 ms
-16b.sql: PGRES_COMMAND_OK time is 1349.271000 ms
-
-query 16b.sql geomean time is 1186.341163 ms with deviation = 57.517963
-
-16c.sql: PGRES_COMMAND_OK time is 1648.203000 ms
-16c.sql: PGRES_COMMAND_OK time is 2131.512000 ms
-16c.sql: PGRES_COMMAND_OK time is 2088.104000 ms
-16c.sql: PGRES_COMMAND_OK time is 2080.641000 ms
-16c.sql: PGRES_COMMAND_OK time is 2131.492000 ms
-16c.sql: PGRES_COMMAND_OK time is 2096.429000 ms
-16c.sql: PGRES_COMMAND_OK time is 2086.176000 ms
-16c.sql: PGRES_COMMAND_OK time is 2097.063000 ms
-16c.sql: PGRES_COMMAND_OK time is 2072.920000 ms
-16c.sql: PGRES_COMMAND_OK time is 2115.308000 ms
-
-query 16c.sql geomean time is 2049.618442 ms with deviation = 136.976085
-
-16d.sql: PGRES_COMMAND_OK time is 2085.151000 ms
-16d.sql: PGRES_COMMAND_OK time is 2152.717000 ms
-16d.sql: PGRES_COMMAND_OK time is 2112.633000 ms
-16d.sql: PGRES_COMMAND_OK time is 2109.227000 ms
-16d.sql: PGRES_COMMAND_OK time is 2156.309000 ms
-16d.sql: PGRES_COMMAND_OK time is 2102.575000 ms
-16d.sql: PGRES_COMMAND_OK time is 2151.353000 ms
-16d.sql: PGRES_COMMAND_OK time is 2077.936000 ms
-16d.sql: PGRES_COMMAND_OK time is 2124.605000 ms
-16d.sql: PGRES_COMMAND_OK time is 2095.091000 ms
-
-query 16d.sql geomean time is 2116.586032 ms with deviation = 27.141335
-
-17a.sql: PGRES_COMMAND_OK time is 2001.447000 ms
-17a.sql: PGRES_COMMAND_OK time is 2023.471000 ms
-17a.sql: PGRES_COMMAND_OK time is 1999.670000 ms
-17a.sql: PGRES_COMMAND_OK time is 2010.872000 ms
-17a.sql: PGRES_COMMAND_OK time is 1990.489000 ms
-17a.sql: PGRES_COMMAND_OK time is 1998.935000 ms
-17a.sql: PGRES_COMMAND_OK time is 2046.252000 ms
-17a.sql: PGRES_COMMAND_OK time is 2009.318000 ms
-17a.sql: PGRES_COMMAND_OK time is 2017.672000 ms
-17a.sql: PGRES_COMMAND_OK time is 2009.028000 ms
-
-query 17a.sql geomean time is 2010.660119 ms with deviation = 14.948558
-
-17b.sql: PGRES_COMMAND_OK time is 1905.441000 ms
-17b.sql: PGRES_COMMAND_OK time is 1991.959000 ms
-17b.sql: PGRES_COMMAND_OK time is 1996.939000 ms
-17b.sql: PGRES_COMMAND_OK time is 2055.262000 ms
-17b.sql: PGRES_COMMAND_OK time is 1981.509000 ms
-17b.sql: PGRES_COMMAND_OK time is 2043.989000 ms
-17b.sql: PGRES_COMMAND_OK time is 1996.148000 ms
-17b.sql: PGRES_COMMAND_OK time is 2070.722000 ms
-17b.sql: PGRES_COMMAND_OK time is 1973.185000 ms
-17b.sql: PGRES_COMMAND_OK time is 1929.155000 ms
-
-query 17b.sql geomean time is 1993.807365 ms with deviation = 49.794082
-
-17c.sql: PGRES_COMMAND_OK time is 1993.936000 ms
-17c.sql: PGRES_COMMAND_OK time is 1996.102000 ms
-17c.sql: PGRES_COMMAND_OK time is 1991.941000 ms
-17c.sql: PGRES_COMMAND_OK time is 1976.252000 ms
-17c.sql: PGRES_COMMAND_OK time is 2059.962000 ms
-17c.sql: PGRES_COMMAND_OK time is 1975.758000 ms
-17c.sql: PGRES_COMMAND_OK time is 2059.776000 ms
-17c.sql: PGRES_COMMAND_OK time is 1989.992000 ms
-17c.sql: PGRES_COMMAND_OK time is 1942.700000 ms
-17c.sql: PGRES_COMMAND_OK time is 1976.843000 ms
-
-query 17c.sql geomean time is 1996.022782 ms with deviation = 34.961145
-
-17d.sql: PGRES_COMMAND_OK time is 1955.628000 ms
-17d.sql: PGRES_COMMAND_OK time is 1977.586000 ms
-17d.sql: PGRES_COMMAND_OK time is 1972.844000 ms
-17d.sql: PGRES_COMMAND_OK time is 2006.769000 ms
-17d.sql: PGRES_COMMAND_OK time is 1965.279000 ms
-17d.sql: PGRES_COMMAND_OK time is 1954.703000 ms
-17d.sql: PGRES_COMMAND_OK time is 1956.527000 ms
-17d.sql: PGRES_COMMAND_OK time is 2018.743000 ms
-17d.sql: PGRES_COMMAND_OK time is 1954.805000 ms
-17d.sql: PGRES_COMMAND_OK time is 1924.540000 ms
-
-query 17d.sql geomean time is 1968.572441 ms with deviation = 25.922597
-
-17e.sql: PGRES_COMMAND_OK time is 1940.452000 ms
-17e.sql: PGRES_COMMAND_OK time is 1923.207000 ms
-17e.sql: PGRES_COMMAND_OK time is 1959.540000 ms
-17e.sql: PGRES_COMMAND_OK time is 1922.112000 ms
-17e.sql: PGRES_COMMAND_OK time is 1962.634000 ms
-17e.sql: PGRES_COMMAND_OK time is 1928.654000 ms
-17e.sql: PGRES_COMMAND_OK time is 1951.103000 ms
-17e.sql: PGRES_COMMAND_OK time is 1923.590000 ms
-17e.sql: PGRES_COMMAND_OK time is 1953.586000 ms
-17e.sql: PGRES_COMMAND_OK time is 1914.106000 ms
-
-query 17e.sql geomean time is 1937.825482 ms with deviation = 16.818324
-
-17f.sql: PGRES_COMMAND_OK time is 1937.997000 ms
-17f.sql: PGRES_COMMAND_OK time is 1966.937000 ms
-17f.sql: PGRES_COMMAND_OK time is 1956.784000 ms
-17f.sql: PGRES_COMMAND_OK time is 1981.905000 ms
-17f.sql: PGRES_COMMAND_OK time is 1931.388000 ms
-17f.sql: PGRES_COMMAND_OK time is 1981.415000 ms
-17f.sql: PGRES_COMMAND_OK time is 1962.030000 ms
-17f.sql: PGRES_COMMAND_OK time is 1978.265000 ms
-17f.sql: PGRES_COMMAND_OK time is 1944.786000 ms
-17f.sql: PGRES_COMMAND_OK time is 1993.313000 ms
-
-query 17f.sql geomean time is 1963.383639 ms with deviation = 19.640471
-
-18a.sql: PGRES_COMMAND_OK time is 2136.022000 ms
-18a.sql: PGRES_COMMAND_OK time is 2132.562000 ms
-18a.sql: PGRES_COMMAND_OK time is 2175.265000 ms
-18a.sql: PGRES_COMMAND_OK time is 2141.151000 ms
-18a.sql: PGRES_COMMAND_OK time is 2126.408000 ms
-18a.sql: PGRES_COMMAND_OK time is 2121.147000 ms
-18a.sql: PGRES_COMMAND_OK time is 2062.067000 ms
-18a.sql: PGRES_COMMAND_OK time is 2154.832000 ms
-18a.sql: PGRES_COMMAND_OK time is 2115.588000 ms
-18a.sql: PGRES_COMMAND_OK time is 2163.750000 ms
-
-query 18a.sql geomean time is 2132.670975 ms with deviation = 29.670180
-
-18b.sql: PGRES_COMMAND_OK time is 2331.475000 ms
-18b.sql: PGRES_COMMAND_OK time is 2317.202000 ms
-18b.sql: PGRES_COMMAND_OK time is 2319.340000 ms
-18b.sql: PGRES_COMMAND_OK time is 2323.965000 ms
-18b.sql: PGRES_COMMAND_OK time is 2296.439000 ms
-18b.sql: PGRES_COMMAND_OK time is 2343.258000 ms
-18b.sql: PGRES_COMMAND_OK time is 2320.600000 ms
-18b.sql: PGRES_COMMAND_OK time is 2361.537000 ms
-18b.sql: PGRES_COMMAND_OK time is 2299.249000 ms
-18b.sql: PGRES_COMMAND_OK time is 2325.405000 ms
-
-query 18b.sql geomean time is 2323.776381 ms with deviation = 18.136352
-
-18c.sql: PGRES_COMMAND_OK time is 2120.143000 ms
-18c.sql: PGRES_COMMAND_OK time is 2108.812000 ms
-18c.sql: PGRES_COMMAND_OK time is 2064.740000 ms
-18c.sql: PGRES_COMMAND_OK time is 2094.245000 ms
-18c.sql: PGRES_COMMAND_OK time is 2077.871000 ms
-18c.sql: PGRES_COMMAND_OK time is 2128.855000 ms
-18c.sql: PGRES_COMMAND_OK time is 2097.035000 ms
-18c.sql: PGRES_COMMAND_OK time is 2110.252000 ms
-18c.sql: PGRES_COMMAND_OK time is 2103.679000 ms
-18c.sql: PGRES_COMMAND_OK time is 2039.891000 ms
-
-query 18c.sql geomean time is 2094.395506 ms with deviation = 25.546186
-
-19a.sql: PGRES_COMMAND_OK time is 2535.145000 ms
-19a.sql: PGRES_COMMAND_OK time is 2492.810000 ms
-19a.sql: PGRES_COMMAND_OK time is 2444.553000 ms
-19a.sql: PGRES_COMMAND_OK time is 2499.054000 ms
-19a.sql: PGRES_COMMAND_OK time is 2455.304000 ms
-19a.sql: PGRES_COMMAND_OK time is 2483.173000 ms
-19a.sql: PGRES_COMMAND_OK time is 2536.116000 ms
-19a.sql: PGRES_COMMAND_OK time is 2506.056000 ms
-19a.sql: PGRES_COMMAND_OK time is 2444.041000 ms
-19a.sql: PGRES_COMMAND_OK time is 2523.149000 ms
-
-query 19a.sql geomean time is 2491.718978 ms with deviation = 33.169576
-
-19b.sql: PGRES_COMMAND_OK time is 2396.949000 ms
-19b.sql: PGRES_COMMAND_OK time is 2349.032000 ms
-19b.sql: PGRES_COMMAND_OK time is 2390.075000 ms
-19b.sql: PGRES_COMMAND_OK time is 2412.304000 ms
-19b.sql: PGRES_COMMAND_OK time is 2365.537000 ms
-19b.sql: PGRES_COMMAND_OK time is 2448.407000 ms
-19b.sql: PGRES_COMMAND_OK time is 2376.924000 ms
-19b.sql: PGRES_COMMAND_OK time is 2435.805000 ms
-19b.sql: PGRES_COMMAND_OK time is 2434.052000 ms
-19b.sql: PGRES_COMMAND_OK time is 2376.269000 ms
-
-query 19b.sql geomean time is 2398.329182 ms with deviation = 31.470700
-
-19c.sql: PGRES_COMMAND_OK time is 2433.284000 ms
-19c.sql: PGRES_COMMAND_OK time is 2440.632000 ms
-19c.sql: PGRES_COMMAND_OK time is 2420.113000 ms
-19c.sql: PGRES_COMMAND_OK time is 2423.658000 ms
-19c.sql: PGRES_COMMAND_OK time is 2468.005000 ms
-19c.sql: PGRES_COMMAND_OK time is 2407.345000 ms
-19c.sql: PGRES_COMMAND_OK time is 2487.359000 ms
-19c.sql: PGRES_COMMAND_OK time is 2440.353000 ms
-19c.sql: PGRES_COMMAND_OK time is 2426.263000 ms
-19c.sql: PGRES_COMMAND_OK time is 2443.040000 ms
-
-query 19c.sql geomean time is 2438.903421 ms with deviation = 22.337951
-
-19d.sql: PGRES_COMMAND_OK time is 2369.411000 ms
-19d.sql: PGRES_COMMAND_OK time is 2318.864000 ms
-19d.sql: PGRES_COMMAND_OK time is 2358.587000 ms
-19d.sql: PGRES_COMMAND_OK time is 2362.817000 ms
-19d.sql: PGRES_COMMAND_OK time is 2335.322000 ms
-19d.sql: PGRES_COMMAND_OK time is 2338.863000 ms
-19d.sql: PGRES_COMMAND_OK time is 2339.395000 ms
-19d.sql: PGRES_COMMAND_OK time is 2337.109000 ms
-19d.sql: PGRES_COMMAND_OK time is 2368.569000 ms
-19d.sql: PGRES_COMMAND_OK time is 2348.333000 ms
-
-query 19d.sql geomean time is 2347.673765 ms with deviation = 15.806073
-
-1a.sql: PGRES_COMMAND_OK time is 1896.581000 ms
-1a.sql: PGRES_COMMAND_OK time is 1950.652000 ms
-1a.sql: PGRES_COMMAND_OK time is 1981.870000 ms
-1a.sql: PGRES_COMMAND_OK time is 2025.568000 ms
-1a.sql: PGRES_COMMAND_OK time is 1953.749000 ms
-1a.sql: PGRES_COMMAND_OK time is 1965.909000 ms
-1a.sql: PGRES_COMMAND_OK time is 1972.238000 ms
-1a.sql: PGRES_COMMAND_OK time is 1978.994000 ms
-1a.sql: PGRES_COMMAND_OK time is 1950.663000 ms
-1a.sql: PGRES_COMMAND_OK time is 1937.121000 ms
-
-query 1a.sql geomean time is 1961.077766 ms with deviation = 31.725108
-
-1b.sql: PGRES_COMMAND_OK time is 2000.150000 ms
-1b.sql: PGRES_COMMAND_OK time is 1982.938000 ms
-1b.sql: PGRES_COMMAND_OK time is 2026.752000 ms
-1b.sql: PGRES_COMMAND_OK time is 1983.857000 ms
-1b.sql: PGRES_COMMAND_OK time is 2003.427000 ms
-1b.sql: PGRES_COMMAND_OK time is 1987.256000 ms
-1b.sql: PGRES_COMMAND_OK time is 2013.518000 ms
-1b.sql: PGRES_COMMAND_OK time is 1996.115000 ms
-1b.sql: PGRES_COMMAND_OK time is 1955.321000 ms
-1b.sql: PGRES_COMMAND_OK time is 2006.526000 ms
-
-query 1b.sql geomean time is 1995.498449 ms with deviation = 18.663944
-
-1c.sql: PGRES_COMMAND_OK time is 2004.034000 ms
-1c.sql: PGRES_COMMAND_OK time is 2084.368000 ms
-1c.sql: PGRES_COMMAND_OK time is 2010.765000 ms
-1c.sql: PGRES_COMMAND_OK time is 2059.329000 ms
-1c.sql: PGRES_COMMAND_OK time is 1987.291000 ms
-1c.sql: PGRES_COMMAND_OK time is 2005.196000 ms
-1c.sql: PGRES_COMMAND_OK time is 2006.377000 ms
-1c.sql: PGRES_COMMAND_OK time is 1979.752000 ms
-1c.sql: PGRES_COMMAND_OK time is 2024.898000 ms
-1c.sql: PGRES_COMMAND_OK time is 2085.157000 ms
-
-query 1c.sql geomean time is 2024.393841 ms with deviation = 36.294252
-
-1d.sql: PGRES_COMMAND_OK time is 2083.261000 ms
-1d.sql: PGRES_COMMAND_OK time is 2148.940000 ms
-1d.sql: PGRES_COMMAND_OK time is 2110.149000 ms
-1d.sql: PGRES_COMMAND_OK time is 2097.326000 ms
-1d.sql: PGRES_COMMAND_OK time is 2132.983000 ms
-1d.sql: PGRES_COMMAND_OK time is 2104.735000 ms
-1d.sql: PGRES_COMMAND_OK time is 2108.403000 ms
-1d.sql: PGRES_COMMAND_OK time is 2133.098000 ms
-1d.sql: PGRES_COMMAND_OK time is 2107.802000 ms
-1d.sql: PGRES_COMMAND_OK time is 2111.913000 ms
-
-query 1d.sql geomean time is 2113.782083 ms with deviation = 18.285066
-
-20a.sql: PGRES_COMMAND_OK time is 2589.478000 ms
-20a.sql: PGRES_COMMAND_OK time is 2535.034000 ms
-20a.sql: PGRES_COMMAND_OK time is 2544.818000 ms
-20a.sql: PGRES_COMMAND_OK time is 2514.403000 ms
-20a.sql: PGRES_COMMAND_OK time is 2539.294000 ms
-20a.sql: PGRES_COMMAND_OK time is 2553.192000 ms
-20a.sql: PGRES_COMMAND_OK time is 2583.519000 ms
-20a.sql: PGRES_COMMAND_OK time is 2508.936000 ms
-20a.sql: PGRES_COMMAND_OK time is 2544.938000 ms
-20a.sql: PGRES_COMMAND_OK time is 2438.000000 ms
-
-query 20a.sql geomean time is 2534.834585 ms with deviation = 40.472048
-
-20b.sql: PGRES_COMMAND_OK time is 2596.278000 ms
-20b.sql: PGRES_COMMAND_OK time is 2566.148000 ms
-20b.sql: PGRES_COMMAND_OK time is 2646.863000 ms
-20b.sql: PGRES_COMMAND_OK time is 2531.083000 ms
-20b.sql: PGRES_COMMAND_OK time is 2563.109000 ms
-20b.sql: PGRES_COMMAND_OK time is 2614.827000 ms
-20b.sql: PGRES_COMMAND_OK time is 2577.306000 ms
-20b.sql: PGRES_COMMAND_OK time is 2556.396000 ms
-20b.sql: PGRES_COMMAND_OK time is 2545.501000 ms
-20b.sql: PGRES_COMMAND_OK time is 2526.920000 ms
-
-query 20b.sql geomean time is 2572.195451 ms with deviation = 35.805349
-
-20c.sql: PGRES_COMMAND_OK time is 2484.216000 ms
-20c.sql: PGRES_COMMAND_OK time is 2569.223000 ms
-20c.sql: PGRES_COMMAND_OK time is 2629.555000 ms
-20c.sql: PGRES_COMMAND_OK time is 2539.409000 ms
-20c.sql: PGRES_COMMAND_OK time is 2511.147000 ms
-20c.sql: PGRES_COMMAND_OK time is 2514.982000 ms
-20c.sql: PGRES_COMMAND_OK time is 2546.595000 ms
-20c.sql: PGRES_COMMAND_OK time is 2567.419000 ms
-20c.sql: PGRES_COMMAND_OK time is 2516.528000 ms
-20c.sql: PGRES_COMMAND_OK time is 2537.448000 ms
-
-query 20c.sql geomean time is 2541.363943 ms with deviation = 38.433004
-
-21a.sql: PGRES_COMMAND_OK time is 2739.311000 ms
-21a.sql: PGRES_COMMAND_OK time is 2820.723000 ms
-21a.sql: PGRES_COMMAND_OK time is 2771.755000 ms
-21a.sql: PGRES_COMMAND_OK time is 2795.498000 ms
-21a.sql: PGRES_COMMAND_OK time is 2825.231000 ms
-21a.sql: PGRES_COMMAND_OK time is 2769.815000 ms
-21a.sql: PGRES_COMMAND_OK time is 2742.019000 ms
-21a.sql: PGRES_COMMAND_OK time is 2785.429000 ms
-21a.sql: PGRES_COMMAND_OK time is 2786.432000 ms
-21a.sql: PGRES_COMMAND_OK time is 2825.954000 ms
-
-query 21a.sql geomean time is 2786.054850 ms with deviation = 30.017766
-
-21b.sql: PGRES_COMMAND_OK time is 2804.152000 ms
-21b.sql: PGRES_COMMAND_OK time is 2762.143000 ms
-21b.sql: PGRES_COMMAND_OK time is 2805.126000 ms
-21b.sql: PGRES_COMMAND_OK time is 2747.742000 ms
-21b.sql: PGRES_COMMAND_OK time is 2776.886000 ms
-21b.sql: PGRES_COMMAND_OK time is 2709.534000 ms
-21b.sql: PGRES_COMMAND_OK time is 2871.124000 ms
-21b.sql: PGRES_COMMAND_OK time is 2807.563000 ms
-21b.sql: PGRES_COMMAND_OK time is 2796.332000 ms
-21b.sql: PGRES_COMMAND_OK time is 2828.623000 ms
-
-query 21b.sql geomean time is 2790.598749 ms with deviation = 42.487070
-
-21c.sql: PGRES_COMMAND_OK time is 2798.723000 ms
-21c.sql: PGRES_COMMAND_OK time is 2787.028000 ms
-21c.sql: PGRES_COMMAND_OK time is 2773.913000 ms
-21c.sql: PGRES_COMMAND_OK time is 2744.146000 ms
-21c.sql: PGRES_COMMAND_OK time is 2794.605000 ms
-21c.sql: PGRES_COMMAND_OK time is 2799.136000 ms
-21c.sql: PGRES_COMMAND_OK time is 2790.085000 ms
-21c.sql: PGRES_COMMAND_OK time is 2803.803000 ms
-21c.sql: PGRES_COMMAND_OK time is 2772.310000 ms
-21c.sql: PGRES_COMMAND_OK time is 2790.801000 ms
-
-query 21c.sql geomean time is 2785.403598 ms with deviation = 16.877621
-
-22a.sql: PGRES_COMMAND_OK time is 3087.191000 ms
-22a.sql: PGRES_COMMAND_OK time is 2996.806000 ms
-22a.sql: PGRES_COMMAND_OK time is 3144.804000 ms
-22a.sql: PGRES_COMMAND_OK time is 3144.302000 ms
-22a.sql: PGRES_COMMAND_OK time is 3054.529000 ms
-22a.sql: PGRES_COMMAND_OK time is 3139.380000 ms
-22a.sql: PGRES_COMMAND_OK time is 3067.778000 ms
-22a.sql: PGRES_COMMAND_OK time is 1931.945000 ms
-22a.sql: PGRES_COMMAND_OK time is 749.915000 ms
-22a.sql: PGRES_COMMAND_OK time is 812.070000 ms
-
-query 22a.sql geomean time is 2239.005858 ms with deviation = 971.810126
-
-22b.sql: PGRES_COMMAND_OK time is 755.501000 ms
-22b.sql: PGRES_COMMAND_OK time is 804.852000 ms
-22b.sql: PGRES_COMMAND_OK time is 744.237000 ms
-22b.sql: PGRES_COMMAND_OK time is 808.311000 ms
-22b.sql: PGRES_COMMAND_OK time is 749.593000 ms
-22b.sql: PGRES_COMMAND_OK time is 756.214000 ms
-22b.sql: PGRES_COMMAND_OK time is 759.959000 ms
-22b.sql: PGRES_COMMAND_OK time is 746.876000 ms
-22b.sql: PGRES_COMMAND_OK time is 764.774000 ms
-22b.sql: PGRES_COMMAND_OK time is 762.317000 ms
-
-query 22b.sql geomean time is 764.965491 ms with deviation = 21.589955
-
-22c.sql: PGRES_COMMAND_OK time is 831.965000 ms
-22c.sql: PGRES_COMMAND_OK time is 842.998000 ms
-22c.sql: PGRES_COMMAND_OK time is 840.127000 ms
-22c.sql: PGRES_COMMAND_OK time is 908.467000 ms
-22c.sql: PGRES_COMMAND_OK time is 887.084000 ms
-22c.sql: PGRES_COMMAND_OK time is 930.945000 ms
-22c.sql: PGRES_COMMAND_OK time is 958.338000 ms
-22c.sql: PGRES_COMMAND_OK time is 1028.664000 ms
-22c.sql: PGRES_COMMAND_OK time is 1044.397000 ms
-22c.sql: PGRES_COMMAND_OK time is 1020.592000 ms
-
-query 22c.sql geomean time is 926.186506 ms with deviation = 77.130644
-
-22d.sql: PGRES_COMMAND_OK time is 963.909000 ms
-22d.sql: PGRES_COMMAND_OK time is 1068.135000 ms
-22d.sql: PGRES_COMMAND_OK time is 1058.549000 ms
-22d.sql: PGRES_COMMAND_OK time is 1071.894000 ms
-22d.sql: PGRES_COMMAND_OK time is 1158.864000 ms
-22d.sql: PGRES_COMMAND_OK time is 1168.130000 ms
-22d.sql: PGRES_COMMAND_OK time is 1168.922000 ms
-22d.sql: PGRES_COMMAND_OK time is 1162.019000 ms
-22d.sql: PGRES_COMMAND_OK time is 1220.230000 ms
-22d.sql: PGRES_COMMAND_OK time is 1153.861000 ms
-
-query 22d.sql geomean time is 1117.028513 ms with deviation = 72.373314
-
-23a.sql: PGRES_COMMAND_OK time is 1010.341000 ms
-23a.sql: PGRES_COMMAND_OK time is 1015.865000 ms
-23a.sql: PGRES_COMMAND_OK time is 1016.965000 ms
-23a.sql: PGRES_COMMAND_OK time is 1012.144000 ms
-23a.sql: PGRES_COMMAND_OK time is 1014.709000 ms
-23a.sql: PGRES_COMMAND_OK time is 995.709000 ms
-23a.sql: PGRES_COMMAND_OK time is 1024.997000 ms
-23a.sql: PGRES_COMMAND_OK time is 1010.582000 ms
-23a.sql: PGRES_COMMAND_OK time is 1012.346000 ms
-23a.sql: PGRES_COMMAND_OK time is 1044.347000 ms
-
-query 23a.sql geomean time is 1015.732662 ms with deviation = 11.781709
-
-23b.sql: PGRES_COMMAND_OK time is 1043.207000 ms
-23b.sql: PGRES_COMMAND_OK time is 1057.384000 ms
-23b.sql: PGRES_COMMAND_OK time is 1045.232000 ms
-23b.sql: PGRES_COMMAND_OK time is 1119.008000 ms
-23b.sql: PGRES_COMMAND_OK time is 1045.440000 ms
-23b.sql: PGRES_COMMAND_OK time is 1043.526000 ms
-23b.sql: PGRES_COMMAND_OK time is 1043.386000 ms
-23b.sql: PGRES_COMMAND_OK time is 1046.193000 ms
-23b.sql: PGRES_COMMAND_OK time is 1046.627000 ms
-23b.sql: PGRES_COMMAND_OK time is 1051.334000 ms
-
-query 23b.sql geomean time is 1053.911385 ms with deviation = 22.020960
-
-23c.sql: PGRES_COMMAND_OK time is 1058.752000 ms
-23c.sql: PGRES_COMMAND_OK time is 1052.533000 ms
-23c.sql: PGRES_COMMAND_OK time is 1049.298000 ms
-23c.sql: PGRES_COMMAND_OK time is 1037.390000 ms
-23c.sql: PGRES_COMMAND_OK time is 1049.116000 ms
-23c.sql: PGRES_COMMAND_OK time is 1034.633000 ms
-23c.sql: PGRES_COMMAND_OK time is 1053.094000 ms
-23c.sql: PGRES_COMMAND_OK time is 1165.356000 ms
-23c.sql: PGRES_COMMAND_OK time is 1170.163000 ms
-23c.sql: PGRES_COMMAND_OK time is 1158.707000 ms
-
-query 23c.sql geomean time is 1081.589955 ms with deviation = 54.076604
-
-24a.sql: PGRES_COMMAND_OK time is 1271.605000 ms
-24a.sql: PGRES_COMMAND_OK time is 1277.035000 ms
-24a.sql: PGRES_COMMAND_OK time is 1252.991000 ms
-24a.sql: PGRES_COMMAND_OK time is 1315.401000 ms
-24a.sql: PGRES_COMMAND_OK time is 1261.316000 ms
-24a.sql: PGRES_COMMAND_OK time is 1287.107000 ms
-24a.sql: PGRES_COMMAND_OK time is 1292.083000 ms
-24a.sql: PGRES_COMMAND_OK time is 1270.638000 ms
-24a.sql: PGRES_COMMAND_OK time is 1316.164000 ms
-24a.sql: PGRES_COMMAND_OK time is 1277.877000 ms
-
-query 24a.sql geomean time is 1282.068122 ms with deviation = 19.895853
-
-24b.sql: PGRES_COMMAND_OK time is 1292.657000 ms
-24b.sql: PGRES_COMMAND_OK time is 1282.993000 ms
-24b.sql: PGRES_COMMAND_OK time is 1292.270000 ms
-24b.sql: PGRES_COMMAND_OK time is 1296.041000 ms
-24b.sql: PGRES_COMMAND_OK time is 1273.202000 ms
-24b.sql: PGRES_COMMAND_OK time is 1342.840000 ms
-24b.sql: PGRES_COMMAND_OK time is 1275.804000 ms
-24b.sql: PGRES_COMMAND_OK time is 1296.915000 ms
-24b.sql: PGRES_COMMAND_OK time is 1293.574000 ms
-24b.sql: PGRES_COMMAND_OK time is 1285.032000 ms
-
-query 24b.sql geomean time is 1293.004948 ms with deviation = 18.332648
-
-25a.sql: PGRES_COMMAND_OK time is 1092.626000 ms
-25a.sql: PGRES_COMMAND_OK time is 1105.378000 ms
-25a.sql: PGRES_COMMAND_OK time is 1092.842000 ms
-25a.sql: PGRES_COMMAND_OK time is 1107.342000 ms
-25a.sql: PGRES_COMMAND_OK time is 1097.339000 ms
-25a.sql: PGRES_COMMAND_OK time is 1100.617000 ms
-25a.sql: PGRES_COMMAND_OK time is 1099.638000 ms
-25a.sql: PGRES_COMMAND_OK time is 1102.049000 ms
-25a.sql: PGRES_COMMAND_OK time is 1097.011000 ms
-25a.sql: PGRES_COMMAND_OK time is 1087.678000 ms
-
-query 25a.sql geomean time is 1098.236946 ms with deviation = 5.748433
-
-25b.sql: PGRES_COMMAND_OK time is 1152.976000 ms
-25b.sql: PGRES_COMMAND_OK time is 1122.380000 ms
-25b.sql: PGRES_COMMAND_OK time is 1138.100000 ms
-25b.sql: PGRES_COMMAND_OK time is 1141.816000 ms
-25b.sql: PGRES_COMMAND_OK time is 1130.483000 ms
-25b.sql: PGRES_COMMAND_OK time is 1185.833000 ms
-25b.sql: PGRES_COMMAND_OK time is 1125.035000 ms
-25b.sql: PGRES_COMMAND_OK time is 1139.435000 ms
-25b.sql: PGRES_COMMAND_OK time is 1131.193000 ms
-25b.sql: PGRES_COMMAND_OK time is 1108.302000 ms
-
-query 25b.sql geomean time is 1137.384935 ms with deviation = 19.809360
-
-25c.sql: PGRES_COMMAND_OK time is 1143.787000 ms
-25c.sql: PGRES_COMMAND_OK time is 1107.399000 ms
-25c.sql: PGRES_COMMAND_OK time is 1109.507000 ms
-25c.sql: PGRES_COMMAND_OK time is 1107.086000 ms
-25c.sql: PGRES_COMMAND_OK time is 1141.679000 ms
-25c.sql: PGRES_COMMAND_OK time is 1119.113000 ms
-25c.sql: PGRES_COMMAND_OK time is 1096.104000 ms
-25c.sql: PGRES_COMMAND_OK time is 1108.746000 ms
-25c.sql: PGRES_COMMAND_OK time is 1109.444000 ms
-25c.sql: PGRES_COMMAND_OK time is 1099.170000 ms
-
-query 25c.sql geomean time is 1114.097686 ms with deviation = 15.425155
-
-26a.sql: PGRES_COMMAND_OK time is 1321.549000 ms
-26a.sql: PGRES_COMMAND_OK time is 1298.480000 ms
-26a.sql: PGRES_COMMAND_OK time is 1301.928000 ms
-26a.sql: PGRES_COMMAND_OK time is 1313.922000 ms
-26a.sql: PGRES_COMMAND_OK time is 1299.664000 ms
-26a.sql: PGRES_COMMAND_OK time is 1331.555000 ms
-26a.sql: PGRES_COMMAND_OK time is 1318.707000 ms
-26a.sql: PGRES_COMMAND_OK time is 1316.507000 ms
-26a.sql: PGRES_COMMAND_OK time is 1316.483000 ms
-26a.sql: PGRES_COMMAND_OK time is 1313.300000 ms
-
-query 26a.sql geomean time is 1313.171949 ms with deviation = 9.930546
-
-26b.sql: PGRES_COMMAND_OK time is 1277.741000 ms
-26b.sql: PGRES_COMMAND_OK time is 1319.592000 ms
-26b.sql: PGRES_COMMAND_OK time is 1304.856000 ms
-26b.sql: PGRES_COMMAND_OK time is 1281.270000 ms
-26b.sql: PGRES_COMMAND_OK time is 1299.547000 ms
-26b.sql: PGRES_COMMAND_OK time is 1289.367000 ms
-26b.sql: PGRES_COMMAND_OK time is 1282.509000 ms
-26b.sql: PGRES_COMMAND_OK time is 1319.905000 ms
-26b.sql: PGRES_COMMAND_OK time is 1284.235000 ms
-26b.sql: PGRES_COMMAND_OK time is 1282.568000 ms
-
-query 26b.sql geomean time is 1294.071369 ms with deviation = 15.101083
-
-26c.sql: PGRES_COMMAND_OK time is 1223.961000 ms
-26c.sql: PGRES_COMMAND_OK time is 1213.407000 ms
-26c.sql: PGRES_COMMAND_OK time is 1213.479000 ms
-26c.sql: PGRES_COMMAND_OK time is 1220.261000 ms
-26c.sql: PGRES_COMMAND_OK time is 1213.401000 ms
-26c.sql: PGRES_COMMAND_OK time is 1211.927000 ms
-26c.sql: PGRES_COMMAND_OK time is 1227.071000 ms
-26c.sql: PGRES_COMMAND_OK time is 1208.122000 ms
-26c.sql: PGRES_COMMAND_OK time is 1242.865000 ms
-26c.sql: PGRES_COMMAND_OK time is 1253.600000 ms
-
-query 26c.sql geomean time is 1222.729333 ms with deviation = 14.051547
-
-27a.sql: PGRES_COMMAND_OK time is 1342.922000 ms
-27a.sql: PGRES_COMMAND_OK time is 1301.050000 ms
-27a.sql: PGRES_COMMAND_OK time is 1316.273000 ms
-27a.sql: PGRES_COMMAND_OK time is 1321.529000 ms
-27a.sql: PGRES_COMMAND_OK time is 1324.970000 ms
-27a.sql: PGRES_COMMAND_OK time is 1341.157000 ms
-27a.sql: PGRES_COMMAND_OK time is 1336.463000 ms
-27a.sql: PGRES_COMMAND_OK time is 1338.314000 ms
-27a.sql: PGRES_COMMAND_OK time is 1335.572000 ms
-27a.sql: PGRES_COMMAND_OK time is 1498.175000 ms
-
-query 27a.sql geomean time is 1344.682622 ms with deviation = 52.347068
-
-27b.sql: PGRES_COMMAND_OK time is 1714.666000 ms
-27b.sql: PGRES_COMMAND_OK time is 1995.052000 ms
-27b.sql: PGRES_COMMAND_OK time is 2034.487000 ms
-27b.sql: PGRES_COMMAND_OK time is 2023.049000 ms
-27b.sql: PGRES_COMMAND_OK time is 2019.537000 ms
-27b.sql: PGRES_COMMAND_OK time is 2001.711000 ms
-27b.sql: PGRES_COMMAND_OK time is 2048.435000 ms
-27b.sql: PGRES_COMMAND_OK time is 1950.382000 ms
-27b.sql: PGRES_COMMAND_OK time is 2022.531000 ms
-27b.sql: PGRES_COMMAND_OK time is 2029.575000 ms
-
-query 27b.sql geomean time is 1981.568285 ms with deviation = 93.388095
-
-27c.sql: PGRES_COMMAND_OK time is 2146.720000 ms
-27c.sql: PGRES_COMMAND_OK time is 2034.412000 ms
-27c.sql: PGRES_COMMAND_OK time is 2073.449000 ms
-27c.sql: PGRES_COMMAND_OK time is 2053.910000 ms
-27c.sql: PGRES_COMMAND_OK time is 2051.752000 ms
-27c.sql: PGRES_COMMAND_OK time is 2052.579000 ms
-27c.sql: PGRES_COMMAND_OK time is 2089.986000 ms
-27c.sql: PGRES_COMMAND_OK time is 2008.118000 ms
-27c.sql: PGRES_COMMAND_OK time is 2054.031000 ms
-27c.sql: PGRES_COMMAND_OK time is 2044.390000 ms
-
-query 27c.sql geomean time is 2060.638061 ms with deviation = 35.183114
-
-28a.sql: PGRES_COMMAND_OK time is 2314.561000 ms
-28a.sql: PGRES_COMMAND_OK time is 2282.756000 ms
-28a.sql: PGRES_COMMAND_OK time is 2265.142000 ms
-28a.sql: PGRES_COMMAND_OK time is 2352.091000 ms
-28a.sql: PGRES_COMMAND_OK time is 2253.520000 ms
-28a.sql: PGRES_COMMAND_OK time is 2331.020000 ms
-28a.sql: PGRES_COMMAND_OK time is 2208.495000 ms
-28a.sql: PGRES_COMMAND_OK time is 2283.200000 ms
-28a.sql: PGRES_COMMAND_OK time is 2320.137000 ms
-28a.sql: PGRES_COMMAND_OK time is 2282.646000 ms
-
-query 28a.sql geomean time is 2289.010403 ms with deviation = 39.737953
-
-28b.sql: PGRES_COMMAND_OK time is 2302.146000 ms
-28b.sql: PGRES_COMMAND_OK time is 2291.552000 ms
-28b.sql: PGRES_COMMAND_OK time is 2266.674000 ms
-28b.sql: PGRES_COMMAND_OK time is 2280.878000 ms
-28b.sql: PGRES_COMMAND_OK time is 2337.116000 ms
-28b.sql: PGRES_COMMAND_OK time is 2284.928000 ms
-28b.sql: PGRES_COMMAND_OK time is 2284.966000 ms
-28b.sql: PGRES_COMMAND_OK time is 2265.595000 ms
-28b.sql: PGRES_COMMAND_OK time is 2265.497000 ms
-28b.sql: PGRES_COMMAND_OK time is 2288.492000 ms
-
-query 28b.sql geomean time is 2286.694460 ms with deviation = 20.354818
-
-28c.sql: PGRES_COMMAND_OK time is 2266.423000 ms
-28c.sql: PGRES_COMMAND_OK time is 2290.948000 ms
-28c.sql: PGRES_COMMAND_OK time is 2349.397000 ms
-28c.sql: PGRES_COMMAND_OK time is 2278.733000 ms
-28c.sql: PGRES_COMMAND_OK time is 2285.397000 ms
-28c.sql: PGRES_COMMAND_OK time is 2294.989000 ms
-28c.sql: PGRES_COMMAND_OK time is 2274.952000 ms
-28c.sql: PGRES_COMMAND_OK time is 2312.007000 ms
-28c.sql: PGRES_COMMAND_OK time is 2326.121000 ms
-28c.sql: PGRES_COMMAND_OK time is 2294.310000 ms
-
-query 28c.sql geomean time is 2297.203184 ms with deviation = 23.989699
-
-29a.sql: PGRES_COMMAND_OK time is 2390.303000 ms
-29a.sql: PGRES_COMMAND_OK time is 2301.604000 ms
-29a.sql: PGRES_COMMAND_OK time is 2307.203000 ms
-29a.sql: PGRES_COMMAND_OK time is 2253.911000 ms
-29a.sql: PGRES_COMMAND_OK time is 827.421000 ms
-29a.sql: PGRES_COMMAND_OK time is 817.914000 ms
-29a.sql: PGRES_COMMAND_OK time is 815.485000 ms
-29a.sql: PGRES_COMMAND_OK time is 819.247000 ms
-29a.sql: PGRES_COMMAND_OK time is 811.809000 ms
-29a.sql: PGRES_COMMAND_OK time is 821.581000 ms
-
-query 29a.sql geomean time is 1240.473639 ms with deviation = 753.625423
-
-29b.sql: PGRES_COMMAND_OK time is 808.060000 ms
-29b.sql: PGRES_COMMAND_OK time is 811.688000 ms
-29b.sql: PGRES_COMMAND_OK time is 800.967000 ms
-29b.sql: PGRES_COMMAND_OK time is 835.474000 ms
-29b.sql: PGRES_COMMAND_OK time is 805.186000 ms
-29b.sql: PGRES_COMMAND_OK time is 812.415000 ms
-29b.sql: PGRES_COMMAND_OK time is 824.519000 ms
-29b.sql: PGRES_COMMAND_OK time is 817.630000 ms
-29b.sql: PGRES_COMMAND_OK time is 814.569000 ms
-29b.sql: PGRES_COMMAND_OK time is 855.588000 ms
-
-query 29b.sql geomean time is 818.465635 ms with deviation = 15.470147
-
-29c.sql: PGRES_COMMAND_OK time is 815.142000 ms
-29c.sql: PGRES_COMMAND_OK time is 834.725000 ms
-29c.sql: PGRES_COMMAND_OK time is 820.438000 ms
-29c.sql: PGRES_COMMAND_OK time is 852.774000 ms
-29c.sql: PGRES_COMMAND_OK time is 885.664000 ms
-29c.sql: PGRES_COMMAND_OK time is 877.237000 ms
-29c.sql: PGRES_COMMAND_OK time is 941.216000 ms
-29c.sql: PGRES_COMMAND_OK time is 948.958000 ms
-29c.sql: PGRES_COMMAND_OK time is 1020.136000 ms
-29c.sql: PGRES_COMMAND_OK time is 1012.222000 ms
-
-query 29c.sql geomean time is 898.030833 ms with deviation = 72.069527
-
-2a.sql: PGRES_COMMAND_OK time is 665.292000 ms
-2a.sql: PGRES_COMMAND_OK time is 653.778000 ms
-2a.sql: PGRES_COMMAND_OK time is 691.063000 ms
-2a.sql: PGRES_COMMAND_OK time is 709.157000 ms
-2a.sql: PGRES_COMMAND_OK time is 718.006000 ms
-2a.sql: PGRES_COMMAND_OK time is 810.718000 ms
-2a.sql: PGRES_COMMAND_OK time is 818.833000 ms
-2a.sql: PGRES_COMMAND_OK time is 874.073000 ms
-2a.sql: PGRES_COMMAND_OK time is 872.918000 ms
-2a.sql: PGRES_COMMAND_OK time is 884.126000 ms
-
-query 2a.sql geomean time is 764.879671 ms with deviation = 87.085939
-
-2b.sql: PGRES_COMMAND_OK time is 871.410000 ms
-2b.sql: PGRES_COMMAND_OK time is 876.907000 ms
-2b.sql: PGRES_COMMAND_OK time is 835.815000 ms
-2b.sql: PGRES_COMMAND_OK time is 880.282000 ms
-2b.sql: PGRES_COMMAND_OK time is 882.461000 ms
-2b.sql: PGRES_COMMAND_OK time is 874.747000 ms
-2b.sql: PGRES_COMMAND_OK time is 895.782000 ms
-2b.sql: PGRES_COMMAND_OK time is 875.558000 ms
-2b.sql: PGRES_COMMAND_OK time is 879.482000 ms
-2b.sql: PGRES_COMMAND_OK time is 873.260000 ms
-
-query 2b.sql geomean time is 874.448791 ms with deviation = 14.454204
-
-2c.sql: PGRES_COMMAND_OK time is 875.133000 ms
-2c.sql: PGRES_COMMAND_OK time is 876.769000 ms
-2c.sql: PGRES_COMMAND_OK time is 873.321000 ms
-2c.sql: PGRES_COMMAND_OK time is 848.259000 ms
-2c.sql: PGRES_COMMAND_OK time is 876.589000 ms
-2c.sql: PGRES_COMMAND_OK time is 883.314000 ms
-2c.sql: PGRES_COMMAND_OK time is 876.217000 ms
-2c.sql: PGRES_COMMAND_OK time is 867.913000 ms
-2c.sql: PGRES_COMMAND_OK time is 879.948000 ms
-2c.sql: PGRES_COMMAND_OK time is 870.945000 ms
-
-query 2c.sql geomean time is 872.792160 ms with deviation = 9.158216
-
-2d.sql: PGRES_COMMAND_OK time is 873.856000 ms
-2d.sql: PGRES_COMMAND_OK time is 906.782000 ms
-2d.sql: PGRES_COMMAND_OK time is 870.452000 ms
-2d.sql: PGRES_COMMAND_OK time is 874.911000 ms
-2d.sql: PGRES_COMMAND_OK time is 873.227000 ms
-2d.sql: PGRES_COMMAND_OK time is 877.992000 ms
-2d.sql: PGRES_COMMAND_OK time is 874.996000 ms
-2d.sql: PGRES_COMMAND_OK time is 869.351000 ms
-2d.sql: PGRES_COMMAND_OK time is 894.163000 ms
-2d.sql: PGRES_COMMAND_OK time is 872.395000 ms
-
-query 2d.sql geomean time is 878.739254 ms with deviation = 11.422837
-
-30a.sql: PGRES_COMMAND_OK time is 1222.364000 ms
-30a.sql: PGRES_COMMAND_OK time is 1220.255000 ms
-30a.sql: PGRES_COMMAND_OK time is 1225.805000 ms
-30a.sql: PGRES_COMMAND_OK time is 1238.852000 ms
-30a.sql: PGRES_COMMAND_OK time is 1218.189000 ms
-30a.sql: PGRES_COMMAND_OK time is 1215.661000 ms
-30a.sql: PGRES_COMMAND_OK time is 1219.554000 ms
-30a.sql: PGRES_COMMAND_OK time is 1226.214000 ms
-30a.sql: PGRES_COMMAND_OK time is 1186.179000 ms
-30a.sql: PGRES_COMMAND_OK time is 1240.425000 ms
-
-query 30a.sql geomean time is 1221.267266 ms with deviation = 14.137036
-
-30b.sql: PGRES_COMMAND_OK time is 1251.861000 ms
-30b.sql: PGRES_COMMAND_OK time is 1268.899000 ms
-30b.sql: PGRES_COMMAND_OK time is 1244.300000 ms
-30b.sql: PGRES_COMMAND_OK time is 1251.329000 ms
-30b.sql: PGRES_COMMAND_OK time is 1278.495000 ms
-30b.sql: PGRES_COMMAND_OK time is 1255.649000 ms
-30b.sql: PGRES_COMMAND_OK time is 1238.916000 ms
-30b.sql: PGRES_COMMAND_OK time is 1254.871000 ms
-30b.sql: PGRES_COMMAND_OK time is 1244.936000 ms
-30b.sql: PGRES_COMMAND_OK time is 1226.983000 ms
-
-query 30b.sql geomean time is 1251.547561 ms with deviation = 13.836415
-
-30c.sql: PGRES_COMMAND_OK time is 1220.115000 ms
-30c.sql: PGRES_COMMAND_OK time is 1207.606000 ms
-30c.sql: PGRES_COMMAND_OK time is 1193.349000 ms
-30c.sql: PGRES_COMMAND_OK time is 1214.995000 ms
-30c.sql: PGRES_COMMAND_OK time is 1196.536000 ms
-30c.sql: PGRES_COMMAND_OK time is 1223.542000 ms
-30c.sql: PGRES_COMMAND_OK time is 1222.529000 ms
-30c.sql: PGRES_COMMAND_OK time is 1206.225000 ms
-30c.sql: PGRES_COMMAND_OK time is 1219.476000 ms
-30c.sql: PGRES_COMMAND_OK time is 1217.405000 ms
-
-query 30c.sql geomean time is 1212.134599 ms with deviation = 10.214504
-
-31a.sql: PGRES_COMMAND_OK time is 1370.210000 ms
-31a.sql: PGRES_COMMAND_OK time is 1532.207000 ms
-31a.sql: PGRES_COMMAND_OK time is 1573.164000 ms
-31a.sql: PGRES_COMMAND_OK time is 1733.548000 ms
-31a.sql: PGRES_COMMAND_OK time is 1864.946000 ms
-31a.sql: PGRES_COMMAND_OK time is 1906.529000 ms
-31a.sql: PGRES_COMMAND_OK time is 1868.637000 ms
-31a.sql: PGRES_COMMAND_OK time is 1868.108000 ms
-31a.sql: PGRES_COMMAND_OK time is 1851.180000 ms
-31a.sql: PGRES_COMMAND_OK time is 1871.822000 ms
-
-query 31a.sql geomean time is 1734.348721 ms with deviation = 177.373750
-
-31b.sql: PGRES_COMMAND_OK time is 1990.172000 ms
-31b.sql: PGRES_COMMAND_OK time is 1910.245000 ms
-31b.sql: PGRES_COMMAND_OK time is 1935.895000 ms
-31b.sql: PGRES_COMMAND_OK time is 1989.154000 ms
-31b.sql: PGRES_COMMAND_OK time is 1966.675000 ms
-31b.sql: PGRES_COMMAND_OK time is 1914.281000 ms
-31b.sql: PGRES_COMMAND_OK time is 1927.391000 ms
-31b.sql: PGRES_COMMAND_OK time is 1962.950000 ms
-31b.sql: PGRES_COMMAND_OK time is 1921.770000 ms
-31b.sql: PGRES_COMMAND_OK time is 1935.377000 ms
-
-query 31b.sql geomean time is 1945.187287 ms with deviation = 28.209501
-
-31c.sql: PGRES_COMMAND_OK time is 1870.432000 ms
-31c.sql: PGRES_COMMAND_OK time is 1891.989000 ms
-31c.sql: PGRES_COMMAND_OK time is 1846.417000 ms
-31c.sql: PGRES_COMMAND_OK time is 1871.411000 ms
-31c.sql: PGRES_COMMAND_OK time is 1853.237000 ms
-31c.sql: PGRES_COMMAND_OK time is 1892.148000 ms
-31c.sql: PGRES_COMMAND_OK time is 1849.583000 ms
-31c.sql: PGRES_COMMAND_OK time is 1858.682000 ms
-31c.sql: PGRES_COMMAND_OK time is 1876.991000 ms
-31c.sql: PGRES_COMMAND_OK time is 1888.815000 ms
-
-query 31c.sql geomean time is 1869.896676 ms with deviation = 16.617036
-
-32a.sql: PGRES_COMMAND_OK time is 1389.869000 ms
-32a.sql: PGRES_COMMAND_OK time is 1387.107000 ms
-32a.sql: PGRES_COMMAND_OK time is 1378.881000 ms
-32a.sql: PGRES_COMMAND_OK time is 1391.927000 ms
-32a.sql: PGRES_COMMAND_OK time is 1378.661000 ms
-32a.sql: PGRES_COMMAND_OK time is 1429.648000 ms
-32a.sql: PGRES_COMMAND_OK time is 1434.448000 ms
-32a.sql: PGRES_COMMAND_OK time is 1404.540000 ms
-32a.sql: PGRES_COMMAND_OK time is 1379.725000 ms
-32a.sql: PGRES_COMMAND_OK time is 1403.797000 ms
-
-query 32a.sql geomean time is 1397.728902 ms with deviation = 19.239458
-
-32b.sql: PGRES_COMMAND_OK time is 1375.435000 ms
-32b.sql: PGRES_COMMAND_OK time is 1396.371000 ms
-32b.sql: PGRES_COMMAND_OK time is 1408.748000 ms
-32b.sql: PGRES_COMMAND_OK time is 1451.682000 ms
-32b.sql: PGRES_COMMAND_OK time is 1321.513000 ms
-32b.sql: PGRES_COMMAND_OK time is 1405.910000 ms
-32b.sql: PGRES_COMMAND_OK time is 1378.303000 ms
-32b.sql: PGRES_COMMAND_OK time is 1394.052000 ms
-32b.sql: PGRES_COMMAND_OK time is 1384.489000 ms
-32b.sql: PGRES_COMMAND_OK time is 1392.763000 ms
-
-query 32b.sql geomean time is 1390.581688 ms with deviation = 30.880949
-
-33a.sql: PGRES_COMMAND_OK time is 1970.472000 ms
-33a.sql: PGRES_COMMAND_OK time is 1947.726000 ms
-33a.sql: PGRES_COMMAND_OK time is 1918.357000 ms
-33a.sql: PGRES_COMMAND_OK time is 1991.017000 ms
-33a.sql: PGRES_COMMAND_OK time is 1942.494000 ms
-33a.sql: PGRES_COMMAND_OK time is 1943.993000 ms
-33a.sql: PGRES_COMMAND_OK time is 1917.430000 ms
-33a.sql: PGRES_COMMAND_OK time is 1984.000000 ms
-33a.sql: PGRES_COMMAND_OK time is 1872.884000 ms
-33a.sql: PGRES_COMMAND_OK time is 1942.164000 ms
-
-query 33a.sql geomean time is 1942.770444 ms with deviation = 33.081337
-
-33b.sql: PGRES_COMMAND_OK time is 1837.455000 ms
-33b.sql: PGRES_COMMAND_OK time is 1878.387000 ms
-33b.sql: PGRES_COMMAND_OK time is 1833.177000 ms
-33b.sql: PGRES_COMMAND_OK time is 1859.275000 ms
-33b.sql: PGRES_COMMAND_OK time is 1847.502000 ms
-33b.sql: PGRES_COMMAND_OK time is 1869.580000 ms
-33b.sql: PGRES_COMMAND_OK time is 1849.556000 ms
-33b.sql: PGRES_COMMAND_OK time is 1851.608000 ms
-33b.sql: PGRES_COMMAND_OK time is 1841.256000 ms
-33b.sql: PGRES_COMMAND_OK time is 1874.660000 ms
-
-query 33b.sql geomean time is 1854.185586 ms with deviation = 14.929819
-
-33c.sql: PGRES_COMMAND_OK time is 2043.065000 ms
-33c.sql: PGRES_COMMAND_OK time is 2067.622000 ms
-33c.sql: PGRES_COMMAND_OK time is 2069.777000 ms
-33c.sql: PGRES_COMMAND_OK time is 2047.330000 ms
-33c.sql: PGRES_COMMAND_OK time is 2054.192000 ms
-33c.sql: PGRES_COMMAND_OK time is 2061.454000 ms
-33c.sql: PGRES_COMMAND_OK time is 2073.829000 ms
-33c.sql: PGRES_COMMAND_OK time is 2079.471000 ms
-33c.sql: PGRES_COMMAND_OK time is 2078.162000 ms
-33c.sql: PGRES_COMMAND_OK time is 748.847000 ms
-
-query 33c.sql geomean time is 1864.866606 ms with deviation = 400.418693
-
-3a.sql: PGRES_COMMAND_OK time is 518.017000 ms
-3a.sql: PGRES_COMMAND_OK time is 518.284000 ms
-3a.sql: PGRES_COMMAND_OK time is 514.959000 ms
-3a.sql: PGRES_COMMAND_OK time is 521.155000 ms
-3a.sql: PGRES_COMMAND_OK time is 517.483000 ms
-3a.sql: PGRES_COMMAND_OK time is 522.034000 ms
-3a.sql: PGRES_COMMAND_OK time is 516.710000 ms
-3a.sql: PGRES_COMMAND_OK time is 521.620000 ms
-3a.sql: PGRES_COMMAND_OK time is 512.395000 ms
-3a.sql: PGRES_COMMAND_OK time is 514.654000 ms
-
-query 3a.sql geomean time is 517.722165 ms with deviation = 3.041070
-
-3b.sql: PGRES_COMMAND_OK time is 516.591000 ms
-3b.sql: PGRES_COMMAND_OK time is 503.342000 ms
-3b.sql: PGRES_COMMAND_OK time is 499.384000 ms
-3b.sql: PGRES_COMMAND_OK time is 502.030000 ms
-3b.sql: PGRES_COMMAND_OK time is 503.777000 ms
-3b.sql: PGRES_COMMAND_OK time is 503.689000 ms
-3b.sql: PGRES_COMMAND_OK time is 541.502000 ms
-3b.sql: PGRES_COMMAND_OK time is 591.487000 ms
-3b.sql: PGRES_COMMAND_OK time is 552.931000 ms
-3b.sql: PGRES_COMMAND_OK time is 569.316000 ms
-
-query 3b.sql geomean time is 527.490290 ms with deviation = 31.555463
-
-3c.sql: PGRES_COMMAND_OK time is 591.538000 ms
-3c.sql: PGRES_COMMAND_OK time is 582.737000 ms
-3c.sql: PGRES_COMMAND_OK time is 589.674000 ms
-3c.sql: PGRES_COMMAND_OK time is 588.839000 ms
-3c.sql: PGRES_COMMAND_OK time is 601.573000 ms
-3c.sql: PGRES_COMMAND_OK time is 596.186000 ms
-3c.sql: PGRES_COMMAND_OK time is 588.012000 ms
-3c.sql: PGRES_COMMAND_OK time is 592.063000 ms
-3c.sql: PGRES_COMMAND_OK time is 581.920000 ms
-3c.sql: PGRES_COMMAND_OK time is 586.771000 ms
-
-query 3c.sql geomean time is 589.904886 ms with deviation = 5.591534
-
-4a.sql: PGRES_COMMAND_OK time is 655.547000 ms
-4a.sql: PGRES_COMMAND_OK time is 637.073000 ms
-4a.sql: PGRES_COMMAND_OK time is 644.074000 ms
-4a.sql: PGRES_COMMAND_OK time is 642.033000 ms
-4a.sql: PGRES_COMMAND_OK time is 634.845000 ms
-4a.sql: PGRES_COMMAND_OK time is 637.907000 ms
-4a.sql: PGRES_COMMAND_OK time is 644.329000 ms
-4a.sql: PGRES_COMMAND_OK time is 685.824000 ms
-4a.sql: PGRES_COMMAND_OK time is 689.293000 ms
-4a.sql: PGRES_COMMAND_OK time is 687.426000 ms
-
-query 4a.sql geomean time is 655.490105 ms with deviation = 21.431875
-
-4b.sql: PGRES_COMMAND_OK time is 694.152000 ms
-4b.sql: PGRES_COMMAND_OK time is 685.532000 ms
-4b.sql: PGRES_COMMAND_OK time is 696.053000 ms
-4b.sql: PGRES_COMMAND_OK time is 683.957000 ms
-4b.sql: PGRES_COMMAND_OK time is 684.032000 ms
-4b.sql: PGRES_COMMAND_OK time is 688.302000 ms
-4b.sql: PGRES_COMMAND_OK time is 689.780000 ms
-4b.sql: PGRES_COMMAND_OK time is 696.500000 ms
-4b.sql: PGRES_COMMAND_OK time is 691.933000 ms
-4b.sql: PGRES_COMMAND_OK time is 689.847000 ms
-
-query 4b.sql geomean time is 689.994678 ms with deviation = 4.414958
-
-4c.sql: PGRES_COMMAND_OK time is 694.560000 ms
-4c.sql: PGRES_COMMAND_OK time is 703.399000 ms
-4c.sql: PGRES_COMMAND_OK time is 690.186000 ms
-4c.sql: PGRES_COMMAND_OK time is 698.829000 ms
-4c.sql: PGRES_COMMAND_OK time is 694.617000 ms
-4c.sql: PGRES_COMMAND_OK time is 672.094000 ms
-4c.sql: PGRES_COMMAND_OK time is 683.281000 ms
-4c.sql: PGRES_COMMAND_OK time is 653.301000 ms
-4c.sql: PGRES_COMMAND_OK time is 688.804000 ms
-4c.sql: PGRES_COMMAND_OK time is 687.577000 ms
-
-query 4c.sql geomean time is 686.523436 ms with deviation = 13.814779
-
-5a.sql: PGRES_COMMAND_OK time is 670.764000 ms
-5a.sql: PGRES_COMMAND_OK time is 665.848000 ms
-5a.sql: PGRES_COMMAND_OK time is 671.136000 ms
-5a.sql: PGRES_COMMAND_OK time is 665.673000 ms
-5a.sql: PGRES_COMMAND_OK time is 670.365000 ms
-5a.sql: PGRES_COMMAND_OK time is 666.656000 ms
-5a.sql: PGRES_COMMAND_OK time is 664.903000 ms
-5a.sql: PGRES_COMMAND_OK time is 662.459000 ms
-5a.sql: PGRES_COMMAND_OK time is 732.334000 ms
-5a.sql: PGRES_COMMAND_OK time is 720.131000 ms
-
-query 5a.sql geomean time is 678.620141 ms with deviation = 23.911185
-
-5b.sql: PGRES_COMMAND_OK time is 807.947000 ms
-5b.sql: PGRES_COMMAND_OK time is 778.743000 ms
-5b.sql: PGRES_COMMAND_OK time is 780.121000 ms
-5b.sql: PGRES_COMMAND_OK time is 775.835000 ms
-5b.sql: PGRES_COMMAND_OK time is 778.944000 ms
-5b.sql: PGRES_COMMAND_OK time is 792.078000 ms
-5b.sql: PGRES_COMMAND_OK time is 777.020000 ms
-5b.sql: PGRES_COMMAND_OK time is 778.867000 ms
-5b.sql: PGRES_COMMAND_OK time is 790.049000 ms
-5b.sql: PGRES_COMMAND_OK time is 773.801000 ms
-
-query 5b.sql geomean time is 783.278375 ms with deviation = 9.924682
-
-5c.sql: PGRES_COMMAND_OK time is 806.241000 ms
-5c.sql: PGRES_COMMAND_OK time is 801.227000 ms
-5c.sql: PGRES_COMMAND_OK time is 805.695000 ms
-5c.sql: PGRES_COMMAND_OK time is 816.936000 ms
-5c.sql: PGRES_COMMAND_OK time is 807.215000 ms
-5c.sql: PGRES_COMMAND_OK time is 806.514000 ms
-5c.sql: PGRES_COMMAND_OK time is 810.219000 ms
-5c.sql: PGRES_COMMAND_OK time is 802.320000 ms
-5c.sql: PGRES_COMMAND_OK time is 805.332000 ms
-5c.sql: PGRES_COMMAND_OK time is 806.641000 ms
-
-query 5c.sql geomean time is 806.823535 ms with deviation = 4.117210
-
-6a.sql: PGRES_COMMAND_OK time is 767.874000 ms
-6a.sql: PGRES_COMMAND_OK time is 764.722000 ms
-6a.sql: PGRES_COMMAND_OK time is 755.889000 ms
-6a.sql: PGRES_COMMAND_OK time is 725.553000 ms
-6a.sql: PGRES_COMMAND_OK time is 772.011000 ms
-6a.sql: PGRES_COMMAND_OK time is 763.177000 ms
-6a.sql: PGRES_COMMAND_OK time is 772.098000 ms
-6a.sql: PGRES_COMMAND_OK time is 760.175000 ms
-6a.sql: PGRES_COMMAND_OK time is 752.092000 ms
-6a.sql: PGRES_COMMAND_OK time is 757.942000 ms
-
-query 6a.sql geomean time is 759.042761 ms with deviation = 12.838489
-
-6b.sql: PGRES_COMMAND_OK time is 788.540000 ms
-6b.sql: PGRES_COMMAND_OK time is 795.706000 ms
-6b.sql: PGRES_COMMAND_OK time is 778.091000 ms
-6b.sql: PGRES_COMMAND_OK time is 785.137000 ms
-6b.sql: PGRES_COMMAND_OK time is 783.982000 ms
-6b.sql: PGRES_COMMAND_OK time is 779.714000 ms
-6b.sql: PGRES_COMMAND_OK time is 821.791000 ms
-6b.sql: PGRES_COMMAND_OK time is 776.412000 ms
-6b.sql: PGRES_COMMAND_OK time is 785.308000 ms
-6b.sql: PGRES_COMMAND_OK time is 781.024000 ms
-
-query 6b.sql geomean time is 787.472079 ms with deviation = 12.574332
-
-6c.sql: PGRES_COMMAND_OK time is 759.008000 ms
-6c.sql: PGRES_COMMAND_OK time is 753.791000 ms
-6c.sql: PGRES_COMMAND_OK time is 777.919000 ms
-6c.sql: PGRES_COMMAND_OK time is 770.163000 ms
-6c.sql: PGRES_COMMAND_OK time is 752.804000 ms
-6c.sql: PGRES_COMMAND_OK time is 762.158000 ms
-6c.sql: PGRES_COMMAND_OK time is 754.602000 ms
-6c.sql: PGRES_COMMAND_OK time is 758.679000 ms
-6c.sql: PGRES_COMMAND_OK time is 762.577000 ms
-6c.sql: PGRES_COMMAND_OK time is 771.865000 ms
-
-query 6c.sql geomean time is 762.314592 ms with deviation = 8.019581
-
-6d.sql: PGRES_COMMAND_OK time is 784.640000 ms
-6d.sql: PGRES_COMMAND_OK time is 796.891000 ms
-6d.sql: PGRES_COMMAND_OK time is 785.350000 ms
-6d.sql: PGRES_COMMAND_OK time is 778.829000 ms
-6d.sql: PGRES_COMMAND_OK time is 788.587000 ms
-6d.sql: PGRES_COMMAND_OK time is 784.802000 ms
-6d.sql: PGRES_COMMAND_OK time is 744.294000 ms
-6d.sql: PGRES_COMMAND_OK time is 790.041000 ms
-6d.sql: PGRES_COMMAND_OK time is 777.262000 ms
-6d.sql: PGRES_COMMAND_OK time is 831.480000 ms
-
-query 6d.sql geomean time is 785.958805 ms with deviation = 20.201823
-
-6e.sql: PGRES_COMMAND_OK time is 765.584000 ms
-6e.sql: PGRES_COMMAND_OK time is 759.598000 ms
-6e.sql: PGRES_COMMAND_OK time is 769.265000 ms
-6e.sql: PGRES_COMMAND_OK time is 761.171000 ms
-6e.sql: PGRES_COMMAND_OK time is 811.069000 ms
-6e.sql: PGRES_COMMAND_OK time is 752.861000 ms
-6e.sql: PGRES_COMMAND_OK time is 769.349000 ms
-6e.sql: PGRES_COMMAND_OK time is 762.515000 ms
-6e.sql: PGRES_COMMAND_OK time is 780.547000 ms
-6e.sql: PGRES_COMMAND_OK time is 775.491000 ms
-
-query 6e.sql geomean time is 770.593795 ms with deviation = 15.424396
-
-6f.sql: PGRES_COMMAND_OK time is 767.645000 ms
-6f.sql: PGRES_COMMAND_OK time is 767.595000 ms
-6f.sql: PGRES_COMMAND_OK time is 769.197000 ms
-6f.sql: PGRES_COMMAND_OK time is 763.380000 ms
-6f.sql: PGRES_COMMAND_OK time is 744.529000 ms
-6f.sql: PGRES_COMMAND_OK time is 759.212000 ms
-6f.sql: PGRES_COMMAND_OK time is 760.944000 ms
-6f.sql: PGRES_COMMAND_OK time is 786.823000 ms
-6f.sql: PGRES_COMMAND_OK time is 760.137000 ms
-6f.sql: PGRES_COMMAND_OK time is 729.250000 ms
-
-query 6f.sql geomean time is 760.731441 ms with deviation = 14.528122
-
-7a.sql: PGRES_COMMAND_OK time is 995.587000 ms
-7a.sql: PGRES_COMMAND_OK time is 987.437000 ms
-7a.sql: PGRES_COMMAND_OK time is 1001.491000 ms
-7a.sql: PGRES_COMMAND_OK time is 983.993000 ms
-7a.sql: PGRES_COMMAND_OK time is 982.116000 ms
-7a.sql: PGRES_COMMAND_OK time is 1020.411000 ms
-7a.sql: PGRES_COMMAND_OK time is 983.288000 ms
-7a.sql: PGRES_COMMAND_OK time is 976.508000 ms
-7a.sql: PGRES_COMMAND_OK time is 1027.337000 ms
-7a.sql: PGRES_COMMAND_OK time is 977.736000 ms
-
-query 7a.sql geomean time is 993.449206 ms with deviation = 16.839623
-
-7b.sql: PGRES_COMMAND_OK time is 864.385000 ms
-7b.sql: PGRES_COMMAND_OK time is 871.481000 ms
-7b.sql: PGRES_COMMAND_OK time is 869.932000 ms
-7b.sql: PGRES_COMMAND_OK time is 851.720000 ms
-7b.sql: PGRES_COMMAND_OK time is 875.706000 ms
-7b.sql: PGRES_COMMAND_OK time is 854.499000 ms
-7b.sql: PGRES_COMMAND_OK time is 855.771000 ms
-7b.sql: PGRES_COMMAND_OK time is 879.611000 ms
-7b.sql: PGRES_COMMAND_OK time is 863.117000 ms
-7b.sql: PGRES_COMMAND_OK time is 879.114000 ms
-
-query 7b.sql geomean time is 866.478970 ms with deviation = 9.725590
-
-7c.sql: PGRES_COMMAND_OK time is 1022.226000 ms
-7c.sql: PGRES_COMMAND_OK time is 1020.788000 ms
-7c.sql: PGRES_COMMAND_OK time is 1039.404000 ms
-7c.sql: PGRES_COMMAND_OK time is 1022.375000 ms
-7c.sql: PGRES_COMMAND_OK time is 1026.788000 ms
-7c.sql: PGRES_COMMAND_OK time is 1039.730000 ms
-7c.sql: PGRES_COMMAND_OK time is 1024.668000 ms
-7c.sql: PGRES_COMMAND_OK time is 1022.519000 ms
-7c.sql: PGRES_COMMAND_OK time is 1048.406000 ms
-7c.sql: PGRES_COMMAND_OK time is 1036.402000 ms
-
-query 7c.sql geomean time is 1030.289027 ms with deviation = 9.273338
-
-8a.sql: PGRES_COMMAND_OK time is 847.291000 ms
-8a.sql: PGRES_COMMAND_OK time is 851.491000 ms
-8a.sql: PGRES_COMMAND_OK time is 833.962000 ms
-8a.sql: PGRES_COMMAND_OK time is 918.969000 ms
-8a.sql: PGRES_COMMAND_OK time is 924.686000 ms
-8a.sql: PGRES_COMMAND_OK time is 912.720000 ms
-8a.sql: PGRES_COMMAND_OK time is 908.834000 ms
-8a.sql: PGRES_COMMAND_OK time is 966.901000 ms
-8a.sql: PGRES_COMMAND_OK time is 918.946000 ms
-8a.sql: PGRES_COMMAND_OK time is 916.742000 ms
-
-query 8a.sql geomean time is 899.165287 ms with deviation = 39.779769
-
-8b.sql: PGRES_COMMAND_OK time is 953.058000 ms
-8b.sql: PGRES_COMMAND_OK time is 975.727000 ms
-8b.sql: PGRES_COMMAND_OK time is 956.364000 ms
-8b.sql: PGRES_COMMAND_OK time is 959.821000 ms
-8b.sql: PGRES_COMMAND_OK time is 967.789000 ms
-8b.sql: PGRES_COMMAND_OK time is 958.245000 ms
-8b.sql: PGRES_COMMAND_OK time is 958.727000 ms
-8b.sql: PGRES_COMMAND_OK time is 984.837000 ms
-8b.sql: PGRES_COMMAND_OK time is 962.520000 ms
-8b.sql: PGRES_COMMAND_OK time is 955.697000 ms
-
-query 8b.sql geomean time is 963.231699 ms with deviation = 9.531162
-
-8c.sql: PGRES_COMMAND_OK time is 873.178000 ms
-8c.sql: PGRES_COMMAND_OK time is 863.502000 ms
-8c.sql: PGRES_COMMAND_OK time is 855.575000 ms
-8c.sql: PGRES_COMMAND_OK time is 865.226000 ms
-8c.sql: PGRES_COMMAND_OK time is 859.431000 ms
-8c.sql: PGRES_COMMAND_OK time is 864.120000 ms
-8c.sql: PGRES_COMMAND_OK time is 882.742000 ms
-8c.sql: PGRES_COMMAND_OK time is 860.243000 ms
-8c.sql: PGRES_COMMAND_OK time is 951.691000 ms
-8c.sql: PGRES_COMMAND_OK time is 949.315000 ms
-
-query 8c.sql geomean time is 881.840437 ms with deviation = 34.774452
-
-8d.sql: PGRES_COMMAND_OK time is 973.485000 ms
-8d.sql: PGRES_COMMAND_OK time is 955.338000 ms
-8d.sql: PGRES_COMMAND_OK time is 963.783000 ms
-8d.sql: PGRES_COMMAND_OK time is 962.639000 ms
-8d.sql: PGRES_COMMAND_OK time is 980.906000 ms
-8d.sql: PGRES_COMMAND_OK time is 954.482000 ms
-8d.sql: PGRES_COMMAND_OK time is 959.055000 ms
-8d.sql: PGRES_COMMAND_OK time is 960.641000 ms
-8d.sql: PGRES_COMMAND_OK time is 1106.740000 ms
-8d.sql: PGRES_COMMAND_OK time is 1079.502000 ms
-
-query 8d.sql geomean time is 988.325010 ms with deviation = 52.658648
-
-9a.sql: PGRES_COMMAND_OK time is 1488.454000 ms
-9a.sql: PGRES_COMMAND_OK time is 1756.627000 ms
-9a.sql: PGRES_COMMAND_OK time is 1776.325000 ms
-9a.sql: PGRES_COMMAND_OK time is 1741.397000 ms
-9a.sql: PGRES_COMMAND_OK time is 1757.407000 ms
-9a.sql: PGRES_COMMAND_OK time is 1765.786000 ms
-9a.sql: PGRES_COMMAND_OK time is 1781.575000 ms
-9a.sql: PGRES_COMMAND_OK time is 1751.852000 ms
-9a.sql: PGRES_COMMAND_OK time is 1749.434000 ms
-9a.sql: PGRES_COMMAND_OK time is 1748.187000 ms
-
-query 9a.sql geomean time is 1729.590370 ms with deviation = 81.989466
-
-9b.sql: PGRES_COMMAND_OK time is 1722.862000 ms
-9b.sql: PGRES_COMMAND_OK time is 1644.484000 ms
-9b.sql: PGRES_COMMAND_OK time is 1708.480000 ms
-9b.sql: PGRES_COMMAND_OK time is 1701.964000 ms
-9b.sql: PGRES_COMMAND_OK time is 1728.922000 ms
-9b.sql: PGRES_COMMAND_OK time is 1748.964000 ms
-9b.sql: PGRES_COMMAND_OK time is 1713.664000 ms
-9b.sql: PGRES_COMMAND_OK time is 1702.604000 ms
-9b.sql: PGRES_COMMAND_OK time is 1711.044000 ms
-9b.sql: PGRES_COMMAND_OK time is 1719.623000 ms
-
-query 9b.sql geomean time is 1710.066672 ms with deviation = 25.617210
-
-9c.sql: PGRES_COMMAND_OK time is 1729.067000 ms
-9c.sql: PGRES_COMMAND_OK time is 1696.170000 ms
-9c.sql: PGRES_COMMAND_OK time is 1703.466000 ms
-9c.sql: PGRES_COMMAND_OK time is 1694.268000 ms
-9c.sql: PGRES_COMMAND_OK time is 1713.780000 ms
-9c.sql: PGRES_COMMAND_OK time is 1686.177000 ms
-9c.sql: PGRES_COMMAND_OK time is 1702.752000 ms
-9c.sql: PGRES_COMMAND_OK time is 1688.282000 ms
-9c.sql: PGRES_COMMAND_OK time is 1745.749000 ms
-9c.sql: PGRES_COMMAND_OK time is 1705.388000 ms
-
-query 9c.sql geomean time is 1706.418852 ms with deviation = 17.687774
-
-9d.sql: PGRES_COMMAND_OK time is 1660.685000 ms
-9d.sql: PGRES_COMMAND_OK time is 1646.101000 ms
-9d.sql: PGRES_COMMAND_OK time is 1658.990000 ms
-9d.sql: PGRES_COMMAND_OK time is 1687.207000 ms
-9d.sql: PGRES_COMMAND_OK time is 1645.074000 ms
-9d.sql: PGRES_COMMAND_OK time is 1657.904000 ms
-9d.sql: PGRES_COMMAND_OK time is 1661.853000 ms
-9d.sql: PGRES_COMMAND_OK time is 1657.653000 ms
-9d.sql: PGRES_COMMAND_OK time is 1671.651000 ms
-9d.sql: PGRES_COMMAND_OK time is 1719.246000 ms
-
-query 9d.sql geomean time is 1666.506669 ms with deviation = 20.920319
+10a.sql: PGRES_COMMAND_OK time is 962.463000 ms
+10a.sql: PGRES_COMMAND_OK time is 630.444000 ms
+10a.sql: PGRES_COMMAND_OK time is 573.674000 ms
+10a.sql: PGRES_COMMAND_OK time is 582.397000 ms
+10a.sql: PGRES_COMMAND_OK time is 618.281000 ms
+10a.sql: PGRES_COMMAND_OK time is 612.550000 ms
+10a.sql: PGRES_COMMAND_OK time is 610.115000 ms
+10a.sql: PGRES_COMMAND_OK time is 646.306000 ms
+10a.sql: PGRES_COMMAND_OK time is 649.523000 ms
+10a.sql: PGRES_COMMAND_OK time is 674.120000 ms
+
+query 10a.sql geomean time is 648.996558 ms with deviation = 106.365724
+
+10b.sql: PGRES_COMMAND_OK time is 701.358000 ms
+10b.sql: PGRES_COMMAND_OK time is 696.242000 ms
+10b.sql: PGRES_COMMAND_OK time is 759.004000 ms
+10b.sql: PGRES_COMMAND_OK time is 765.937000 ms
+10b.sql: PGRES_COMMAND_OK time is 811.379000 ms
+10b.sql: PGRES_COMMAND_OK time is 822.784000 ms
+10b.sql: PGRES_COMMAND_OK time is 909.833000 ms
+10b.sql: PGRES_COMMAND_OK time is 904.699000 ms
+10b.sql: PGRES_COMMAND_OK time is 1036.319000 ms
+10b.sql: PGRES_COMMAND_OK time is 1148.045000 ms
+
+query 10b.sql geomean time is 844.999565 ms with deviation = 139.369570
+
+10c.sql: PGRES_COMMAND_OK time is 1158.459000 ms
+10c.sql: PGRES_COMMAND_OK time is 1392.205000 ms
+10c.sql: PGRES_COMMAND_OK time is 1341.489000 ms
+10c.sql: PGRES_COMMAND_OK time is 1300.866000 ms
+10c.sql: PGRES_COMMAND_OK time is 1288.885000 ms
+10c.sql: PGRES_COMMAND_OK time is 1331.256000 ms
+10c.sql: PGRES_COMMAND_OK time is 1332.991000 ms
+10c.sql: PGRES_COMMAND_OK time is 1342.665000 ms
+10c.sql: PGRES_COMMAND_OK time is 1586.087000 ms
+10c.sql: PGRES_COMMAND_OK time is 1603.143000 ms
+
+query 10c.sql geomean time is 1362.063465 ms with deviation = 127.421863
+
+11a.sql: PGRES_COMMAND_OK time is 1995.654000 ms
+11a.sql: PGRES_COMMAND_OK time is 1896.436000 ms
+11a.sql: PGRES_COMMAND_OK time is 1886.205000 ms
+11a.sql: PGRES_COMMAND_OK time is 1904.874000 ms
+11a.sql: PGRES_COMMAND_OK time is 1876.562000 ms
+11a.sql: PGRES_COMMAND_OK time is 1884.020000 ms
+11a.sql: PGRES_COMMAND_OK time is 1889.654000 ms
+11a.sql: PGRES_COMMAND_OK time is 1879.388000 ms
+11a.sql: PGRES_COMMAND_OK time is 1918.420000 ms
+11a.sql: PGRES_COMMAND_OK time is 1912.506000 ms
+
+query 11a.sql geomean time is 1904.088916 ms with deviation = 33.193982
+
+11b.sql: PGRES_COMMAND_OK time is 1788.327000 ms
+11b.sql: PGRES_COMMAND_OK time is 1865.747000 ms
+11b.sql: PGRES_COMMAND_OK time is 1878.988000 ms
+11b.sql: PGRES_COMMAND_OK time is 1901.172000 ms
+11b.sql: PGRES_COMMAND_OK time is 1828.901000 ms
+11b.sql: PGRES_COMMAND_OK time is 1863.840000 ms
+11b.sql: PGRES_COMMAND_OK time is 1856.408000 ms
+11b.sql: PGRES_COMMAND_OK time is 1850.805000 ms
+11b.sql: PGRES_COMMAND_OK time is 1839.399000 ms
+11b.sql: PGRES_COMMAND_OK time is 1862.344000 ms
+
+query 11b.sql geomean time is 1853.366835 ms with deviation = 28.853063
+
+11c.sql: PGRES_COMMAND_OK time is 1930.861000 ms
+11c.sql: PGRES_COMMAND_OK time is 1901.930000 ms
+11c.sql: PGRES_COMMAND_OK time is 1896.397000 ms
+11c.sql: PGRES_COMMAND_OK time is 1889.416000 ms
+11c.sql: PGRES_COMMAND_OK time is 1879.093000 ms
+11c.sql: PGRES_COMMAND_OK time is 1930.728000 ms
+11c.sql: PGRES_COMMAND_OK time is 1827.501000 ms
+11c.sql: PGRES_COMMAND_OK time is 1895.323000 ms
+11c.sql: PGRES_COMMAND_OK time is 1925.547000 ms
+11c.sql: PGRES_COMMAND_OK time is 1869.786000 ms
+
+query 11c.sql geomean time is 1894.418229 ms with deviation = 30.035285
+
+11d.sql: PGRES_COMMAND_OK time is 1820.924000 ms
+11d.sql: PGRES_COMMAND_OK time is 1895.276000 ms
+11d.sql: PGRES_COMMAND_OK time is 1861.846000 ms
+11d.sql: PGRES_COMMAND_OK time is 1821.315000 ms
+11d.sql: PGRES_COMMAND_OK time is 1817.664000 ms
+11d.sql: PGRES_COMMAND_OK time is 1835.220000 ms
+11d.sql: PGRES_COMMAND_OK time is 1820.982000 ms
+11d.sql: PGRES_COMMAND_OK time is 1821.417000 ms
+11d.sql: PGRES_COMMAND_OK time is 1889.170000 ms
+11d.sql: PGRES_COMMAND_OK time is 1838.515000 ms
+
+query 11d.sql geomean time is 1842.021988 ms with deviation = 28.008829
+
+12a.sql: PGRES_COMMAND_OK time is 1948.026000 ms
+12a.sql: PGRES_COMMAND_OK time is 1934.957000 ms
+12a.sql: PGRES_COMMAND_OK time is 1855.452000 ms
+12a.sql: PGRES_COMMAND_OK time is 1902.076000 ms
+12a.sql: PGRES_COMMAND_OK time is 1884.790000 ms
+12a.sql: PGRES_COMMAND_OK time is 1881.357000 ms
+12a.sql: PGRES_COMMAND_OK time is 1865.728000 ms
+12a.sql: PGRES_COMMAND_OK time is 1871.593000 ms
+12a.sql: PGRES_COMMAND_OK time is 1880.648000 ms
+12a.sql: PGRES_COMMAND_OK time is 1867.904000 ms
+
+query 12a.sql geomean time is 1889.034828 ms with deviation = 28.858147
+
+12b.sql: PGRES_COMMAND_OK time is 1680.587000 ms
+12b.sql: PGRES_COMMAND_OK time is 1698.824000 ms
+12b.sql: PGRES_COMMAND_OK time is 1673.495000 ms
+12b.sql: PGRES_COMMAND_OK time is 1681.160000 ms
+12b.sql: PGRES_COMMAND_OK time is 1682.914000 ms
+12b.sql: PGRES_COMMAND_OK time is 1699.006000 ms
+12b.sql: PGRES_COMMAND_OK time is 1664.411000 ms
+12b.sql: PGRES_COMMAND_OK time is 1680.346000 ms
+12b.sql: PGRES_COMMAND_OK time is 1677.802000 ms
+12b.sql: PGRES_COMMAND_OK time is 1700.629000 ms
+
+query 12b.sql geomean time is 1683.879180 ms with deviation = 11.349650
+
+12c.sql: PGRES_COMMAND_OK time is 1893.368000 ms
+12c.sql: PGRES_COMMAND_OK time is 1872.162000 ms
+12c.sql: PGRES_COMMAND_OK time is 1935.464000 ms
+12c.sql: PGRES_COMMAND_OK time is 1887.887000 ms
+12c.sql: PGRES_COMMAND_OK time is 1867.107000 ms
+12c.sql: PGRES_COMMAND_OK time is 1871.035000 ms
+12c.sql: PGRES_COMMAND_OK time is 1897.779000 ms
+12c.sql: PGRES_COMMAND_OK time is 1866.799000 ms
+12c.sql: PGRES_COMMAND_OK time is 1875.181000 ms
+12c.sql: PGRES_COMMAND_OK time is 1879.481000 ms
+
+query 12c.sql geomean time is 1884.523251 ms with deviation = 19.811939
+
+13a.sql: PGRES_COMMAND_OK time is 1672.174000 ms
+13a.sql: PGRES_COMMAND_OK time is 1661.173000 ms
+13a.sql: PGRES_COMMAND_OK time is 1680.042000 ms
+13a.sql: PGRES_COMMAND_OK time is 1684.530000 ms
+13a.sql: PGRES_COMMAND_OK time is 1676.799000 ms
+13a.sql: PGRES_COMMAND_OK time is 1676.946000 ms
+13a.sql: PGRES_COMMAND_OK time is 1684.603000 ms
+13a.sql: PGRES_COMMAND_OK time is 1727.531000 ms
+13a.sql: PGRES_COMMAND_OK time is 1672.043000 ms
+13a.sql: PGRES_COMMAND_OK time is 1664.269000 ms
+
+query 13a.sql geomean time is 1679.921424 ms with deviation = 17.455770
+
+13b.sql: PGRES_COMMAND_OK time is 1880.094000 ms
+13b.sql: PGRES_COMMAND_OK time is 1828.843000 ms
+13b.sql: PGRES_COMMAND_OK time is 1854.575000 ms
+13b.sql: PGRES_COMMAND_OK time is 1843.960000 ms
+13b.sql: PGRES_COMMAND_OK time is 1858.435000 ms
+13b.sql: PGRES_COMMAND_OK time is 1838.841000 ms
+13b.sql: PGRES_COMMAND_OK time is 1839.387000 ms
+13b.sql: PGRES_COMMAND_OK time is 1864.063000 ms
+13b.sql: PGRES_COMMAND_OK time is 1791.236000 ms
+13b.sql: PGRES_COMMAND_OK time is 1828.710000 ms
+
+query 13b.sql geomean time is 1842.669633 ms with deviation = 23.037163
+
+13c.sql: PGRES_COMMAND_OK time is 1848.148000 ms
+13c.sql: PGRES_COMMAND_OK time is 1878.075000 ms
+13c.sql: PGRES_COMMAND_OK time is 1840.153000 ms
+13c.sql: PGRES_COMMAND_OK time is 1832.779000 ms
+13c.sql: PGRES_COMMAND_OK time is 1846.146000 ms
+13c.sql: PGRES_COMMAND_OK time is 1842.357000 ms
+13c.sql: PGRES_COMMAND_OK time is 1833.289000 ms
+13c.sql: PGRES_COMMAND_OK time is 1910.654000 ms
+13c.sql: PGRES_COMMAND_OK time is 1789.119000 ms
+13c.sql: PGRES_COMMAND_OK time is 1876.161000 ms
+
+query 13c.sql geomean time is 1849.428670 ms with deviation = 30.995468
+
+13d.sql: PGRES_COMMAND_OK time is 1685.180000 ms
+13d.sql: PGRES_COMMAND_OK time is 1720.023000 ms
+13d.sql: PGRES_COMMAND_OK time is 1667.858000 ms
+13d.sql: PGRES_COMMAND_OK time is 1669.048000 ms
+13d.sql: PGRES_COMMAND_OK time is 1688.210000 ms
+13d.sql: PGRES_COMMAND_OK time is 1716.633000 ms
+13d.sql: PGRES_COMMAND_OK time is 1666.774000 ms
+13d.sql: PGRES_COMMAND_OK time is 1675.177000 ms
+13d.sql: PGRES_COMMAND_OK time is 1760.297000 ms
+13d.sql: PGRES_COMMAND_OK time is 1694.020000 ms
+
+query 13d.sql geomean time is 1694.085899 ms with deviation = 28.455484
+
+14a.sql: PGRES_COMMAND_OK time is 1911.106000 ms
+14a.sql: PGRES_COMMAND_OK time is 1835.754000 ms
+14a.sql: PGRES_COMMAND_OK time is 1856.710000 ms
+14a.sql: PGRES_COMMAND_OK time is 1837.075000 ms
+14a.sql: PGRES_COMMAND_OK time is 1848.850000 ms
+14a.sql: PGRES_COMMAND_OK time is 1845.456000 ms
+14a.sql: PGRES_COMMAND_OK time is 1846.645000 ms
+14a.sql: PGRES_COMMAND_OK time is 1868.861000 ms
+14a.sql: PGRES_COMMAND_OK time is 1916.090000 ms
+14a.sql: PGRES_COMMAND_OK time is 1801.533000 ms
+
+query 14a.sql geomean time is 1856.519066 ms with deviation = 32.851514
+
+14b.sql: PGRES_COMMAND_OK time is 1895.105000 ms
+14b.sql: PGRES_COMMAND_OK time is 1910.982000 ms
+14b.sql: PGRES_COMMAND_OK time is 1905.335000 ms
+14b.sql: PGRES_COMMAND_OK time is 1887.308000 ms
+14b.sql: PGRES_COMMAND_OK time is 1885.508000 ms
+14b.sql: PGRES_COMMAND_OK time is 1902.354000 ms
+14b.sql: PGRES_COMMAND_OK time is 1885.455000 ms
+14b.sql: PGRES_COMMAND_OK time is 1887.873000 ms
+14b.sql: PGRES_COMMAND_OK time is 1904.654000 ms
+14b.sql: PGRES_COMMAND_OK time is 1879.094000 ms
+
+query 14b.sql geomean time is 1894.339112 ms with deviation = 10.245456
+
+14c.sql: PGRES_COMMAND_OK time is 1840.297000 ms
+14c.sql: PGRES_COMMAND_OK time is 1860.893000 ms
+14c.sql: PGRES_COMMAND_OK time is 1847.322000 ms
+14c.sql: PGRES_COMMAND_OK time is 1843.775000 ms
+14c.sql: PGRES_COMMAND_OK time is 1862.405000 ms
+14c.sql: PGRES_COMMAND_OK time is 1864.410000 ms
+14c.sql: PGRES_COMMAND_OK time is 1845.596000 ms
+14c.sql: PGRES_COMMAND_OK time is 1843.256000 ms
+14c.sql: PGRES_COMMAND_OK time is 1907.795000 ms
+14c.sql: PGRES_COMMAND_OK time is 1837.810000 ms
+
+query 14c.sql geomean time is 1855.252396 ms with deviation = 19.716099
+
+15a.sql: PGRES_COMMAND_OK time is 1825.904000 ms
+15a.sql: PGRES_COMMAND_OK time is 1804.731000 ms
+15a.sql: PGRES_COMMAND_OK time is 1718.867000 ms
+15a.sql: PGRES_COMMAND_OK time is 1772.124000 ms
+15a.sql: PGRES_COMMAND_OK time is 1768.725000 ms
+15a.sql: PGRES_COMMAND_OK time is 1782.009000 ms
+15a.sql: PGRES_COMMAND_OK time is 1764.602000 ms
+15a.sql: PGRES_COMMAND_OK time is 1773.380000 ms
+15a.sql: PGRES_COMMAND_OK time is 1829.135000 ms
+15a.sql: PGRES_COMMAND_OK time is 1782.564000 ms
+
+query 15a.sql geomean time is 1781.942340 ms with deviation = 30.500961
+
+15b.sql: PGRES_COMMAND_OK time is 1803.054000 ms
+15b.sql: PGRES_COMMAND_OK time is 1828.345000 ms
+15b.sql: PGRES_COMMAND_OK time is 1819.805000 ms
+15b.sql: PGRES_COMMAND_OK time is 1809.153000 ms
+15b.sql: PGRES_COMMAND_OK time is 1802.054000 ms
+15b.sql: PGRES_COMMAND_OK time is 1838.839000 ms
+15b.sql: PGRES_COMMAND_OK time is 620.222000 ms
+15b.sql: PGRES_COMMAND_OK time is 621.573000 ms
+15b.sql: PGRES_COMMAND_OK time is 623.000000 ms
+15b.sql: PGRES_COMMAND_OK time is 620.911000 ms
+
+query 15b.sql geomean time is 1182.887724 ms with deviation = 606.109817
+
+15c.sql: PGRES_COMMAND_OK time is 611.720000 ms
+15c.sql: PGRES_COMMAND_OK time is 574.403000 ms
+15c.sql: PGRES_COMMAND_OK time is 618.199000 ms
+15c.sql: PGRES_COMMAND_OK time is 611.799000 ms
+15c.sql: PGRES_COMMAND_OK time is 609.301000 ms
+15c.sql: PGRES_COMMAND_OK time is 613.779000 ms
+15c.sql: PGRES_COMMAND_OK time is 612.188000 ms
+15c.sql: PGRES_COMMAND_OK time is 610.933000 ms
+15c.sql: PGRES_COMMAND_OK time is 608.659000 ms
+15c.sql: PGRES_COMMAND_OK time is 606.062000 ms
+
+query 15c.sql geomean time is 607.591914 ms with deviation = 11.514001
+
+15d.sql: PGRES_COMMAND_OK time is 670.027000 ms
+15d.sql: PGRES_COMMAND_OK time is 614.170000 ms
+15d.sql: PGRES_COMMAND_OK time is 643.123000 ms
+15d.sql: PGRES_COMMAND_OK time is 612.412000 ms
+15d.sql: PGRES_COMMAND_OK time is 615.733000 ms
+15d.sql: PGRES_COMMAND_OK time is 619.520000 ms
+15d.sql: PGRES_COMMAND_OK time is 616.453000 ms
+15d.sql: PGRES_COMMAND_OK time is 619.343000 ms
+15d.sql: PGRES_COMMAND_OK time is 614.362000 ms
+15d.sql: PGRES_COMMAND_OK time is 581.366000 ms
+
+query 15d.sql geomean time is 620.279114 ms with deviation = 21.637721
+
+16a.sql: PGRES_COMMAND_OK time is 597.815000 ms
+16a.sql: PGRES_COMMAND_OK time is 627.983000 ms
+16a.sql: PGRES_COMMAND_OK time is 599.483000 ms
+16a.sql: PGRES_COMMAND_OK time is 593.503000 ms
+16a.sql: PGRES_COMMAND_OK time is 606.063000 ms
+16a.sql: PGRES_COMMAND_OK time is 603.269000 ms
+16a.sql: PGRES_COMMAND_OK time is 594.267000 ms
+16a.sql: PGRES_COMMAND_OK time is 597.986000 ms
+16a.sql: PGRES_COMMAND_OK time is 583.737000 ms
+16a.sql: PGRES_COMMAND_OK time is 593.121000 ms
+
+query 16a.sql geomean time is 599.622115 ms with deviation = 11.071624
+
+16b.sql: PGRES_COMMAND_OK time is 626.367000 ms
+16b.sql: PGRES_COMMAND_OK time is 611.809000 ms
+16b.sql: PGRES_COMMAND_OK time is 628.754000 ms
+16b.sql: PGRES_COMMAND_OK time is 611.925000 ms
+16b.sql: PGRES_COMMAND_OK time is 625.336000 ms
+16b.sql: PGRES_COMMAND_OK time is 656.634000 ms
+16b.sql: PGRES_COMMAND_OK time is 655.297000 ms
+16b.sql: PGRES_COMMAND_OK time is 661.584000 ms
+16b.sql: PGRES_COMMAND_OK time is 703.030000 ms
+16b.sql: PGRES_COMMAND_OK time is 702.345000 ms
+
+query 16b.sql geomean time is 647.531353 ms with deviation = 32.034868
+
+16c.sql: PGRES_COMMAND_OK time is 724.990000 ms
+16c.sql: PGRES_COMMAND_OK time is 715.079000 ms
+16c.sql: PGRES_COMMAND_OK time is 711.796000 ms
+16c.sql: PGRES_COMMAND_OK time is 720.968000 ms
+16c.sql: PGRES_COMMAND_OK time is 695.990000 ms
+16c.sql: PGRES_COMMAND_OK time is 778.682000 ms
+16c.sql: PGRES_COMMAND_OK time is 774.621000 ms
+16c.sql: PGRES_COMMAND_OK time is 775.332000 ms
+16c.sql: PGRES_COMMAND_OK time is 793.329000 ms
+16c.sql: PGRES_COMMAND_OK time is 785.086000 ms
+
+query 16c.sql geomean time is 746.769935 ms with deviation = 34.916929
+
+16d.sql: PGRES_COMMAND_OK time is 795.362000 ms
+16d.sql: PGRES_COMMAND_OK time is 794.083000 ms
+16d.sql: PGRES_COMMAND_OK time is 794.191000 ms
+16d.sql: PGRES_COMMAND_OK time is 799.320000 ms
+16d.sql: PGRES_COMMAND_OK time is 761.971000 ms
+16d.sql: PGRES_COMMAND_OK time is 789.916000 ms
+16d.sql: PGRES_COMMAND_OK time is 763.459000 ms
+16d.sql: PGRES_COMMAND_OK time is 796.292000 ms
+16d.sql: PGRES_COMMAND_OK time is 865.742000 ms
+16d.sql: PGRES_COMMAND_OK time is 870.267000 ms
+
+query 16d.sql geomean time is 802.323440 ms with deviation = 34.869545
+
+17a.sql: PGRES_COMMAND_OK time is 810.684000 ms
+17a.sql: PGRES_COMMAND_OK time is 827.394000 ms
+17a.sql: PGRES_COMMAND_OK time is 805.131000 ms
+17a.sql: PGRES_COMMAND_OK time is 804.981000 ms
+17a.sql: PGRES_COMMAND_OK time is 810.803000 ms
+17a.sql: PGRES_COMMAND_OK time is 812.571000 ms
+17a.sql: PGRES_COMMAND_OK time is 810.395000 ms
+17a.sql: PGRES_COMMAND_OK time is 899.856000 ms
+17a.sql: PGRES_COMMAND_OK time is 888.259000 ms
+17a.sql: PGRES_COMMAND_OK time is 1001.858000 ms
+
+query 17a.sql geomean time is 845.124782 ms with deviation = 61.299946
+
+17b.sql: PGRES_COMMAND_OK time is 996.242000 ms
+17b.sql: PGRES_COMMAND_OK time is 1145.714000 ms
+17b.sql: PGRES_COMMAND_OK time is 1122.084000 ms
+17b.sql: PGRES_COMMAND_OK time is 1128.647000 ms
+17b.sql: PGRES_COMMAND_OK time is 1113.731000 ms
+17b.sql: PGRES_COMMAND_OK time is 1149.268000 ms
+17b.sql: PGRES_COMMAND_OK time is 1124.892000 ms
+17b.sql: PGRES_COMMAND_OK time is 1135.684000 ms
+17b.sql: PGRES_COMMAND_OK time is 1122.844000 ms
+17b.sql: PGRES_COMMAND_OK time is 1095.584000 ms
+
+query 17b.sql geomean time is 1112.643315 ms with deviation = 41.721348
+
+17c.sql: PGRES_COMMAND_OK time is 1162.140000 ms
+17c.sql: PGRES_COMMAND_OK time is 1134.247000 ms
+17c.sql: PGRES_COMMAND_OK time is 1125.023000 ms
+17c.sql: PGRES_COMMAND_OK time is 1124.046000 ms
+17c.sql: PGRES_COMMAND_OK time is 1125.744000 ms
+17c.sql: PGRES_COMMAND_OK time is 1126.876000 ms
+17c.sql: PGRES_COMMAND_OK time is 1126.785000 ms
+17c.sql: PGRES_COMMAND_OK time is 1119.854000 ms
+17c.sql: PGRES_COMMAND_OK time is 1134.076000 ms
+17c.sql: PGRES_COMMAND_OK time is 1129.916000 ms
+
+query 17c.sql geomean time is 1130.815656 ms with deviation = 11.231463
+
+17d.sql: PGRES_COMMAND_OK time is 1113.392000 ms
+17d.sql: PGRES_COMMAND_OK time is 1114.408000 ms
+17d.sql: PGRES_COMMAND_OK time is 1118.040000 ms
+17d.sql: PGRES_COMMAND_OK time is 1122.901000 ms
+17d.sql: PGRES_COMMAND_OK time is 1118.626000 ms
+17d.sql: PGRES_COMMAND_OK time is 1118.550000 ms
+17d.sql: PGRES_COMMAND_OK time is 1211.655000 ms
+17d.sql: PGRES_COMMAND_OK time is 1273.439000 ms
+17d.sql: PGRES_COMMAND_OK time is 1546.194000 ms
+17d.sql: PGRES_COMMAND_OK time is 1543.408000 ms
+
+query 17d.sql geomean time is 1217.848679 ms with deviation = 166.499712
+
+17e.sql: PGRES_COMMAND_OK time is 1520.991000 ms
+17e.sql: PGRES_COMMAND_OK time is 1543.772000 ms
+17e.sql: PGRES_COMMAND_OK time is 1508.639000 ms
+17e.sql: PGRES_COMMAND_OK time is 1522.501000 ms
+17e.sql: PGRES_COMMAND_OK time is 1514.724000 ms
+17e.sql: PGRES_COMMAND_OK time is 1572.903000 ms
+17e.sql: PGRES_COMMAND_OK time is 1501.755000 ms
+17e.sql: PGRES_COMMAND_OK time is 1517.735000 ms
+17e.sql: PGRES_COMMAND_OK time is 1520.022000 ms
+17e.sql: PGRES_COMMAND_OK time is 1521.709000 ms
+
+query 17e.sql geomean time is 1524.356225 ms with deviation = 19.154082
+
+17f.sql: PGRES_COMMAND_OK time is 1545.388000 ms
+17f.sql: PGRES_COMMAND_OK time is 1552.435000 ms
+17f.sql: PGRES_COMMAND_OK time is 1539.311000 ms
+17f.sql: PGRES_COMMAND_OK time is 1540.406000 ms
+17f.sql: PGRES_COMMAND_OK time is 1562.445000 ms
+17f.sql: PGRES_COMMAND_OK time is 1594.588000 ms
+17f.sql: PGRES_COMMAND_OK time is 1535.499000 ms
+17f.sql: PGRES_COMMAND_OK time is 1547.027000 ms
+17f.sql: PGRES_COMMAND_OK time is 1538.500000 ms
+17f.sql: PGRES_COMMAND_OK time is 1555.404000 ms
+
+query 17f.sql geomean time is 1551.012832 ms with deviation = 16.568066
+
+18a.sql: PGRES_COMMAND_OK time is 1690.411000 ms
+18a.sql: PGRES_COMMAND_OK time is 1690.854000 ms
+18a.sql: PGRES_COMMAND_OK time is 1690.050000 ms
+18a.sql: PGRES_COMMAND_OK time is 1710.840000 ms
+18a.sql: PGRES_COMMAND_OK time is 1694.302000 ms
+18a.sql: PGRES_COMMAND_OK time is 1695.656000 ms
+18a.sql: PGRES_COMMAND_OK time is 1692.798000 ms
+18a.sql: PGRES_COMMAND_OK time is 1737.952000 ms
+18a.sql: PGRES_COMMAND_OK time is 1692.106000 ms
+18a.sql: PGRES_COMMAND_OK time is 1707.409000 ms
+
+query 18a.sql geomean time is 1700.178026 ms with deviation = 14.326010
+
+18b.sql: PGRES_COMMAND_OK time is 1934.028000 ms
+18b.sql: PGRES_COMMAND_OK time is 1865.842000 ms
+18b.sql: PGRES_COMMAND_OK time is 1855.695000 ms
+18b.sql: PGRES_COMMAND_OK time is 1886.285000 ms
+18b.sql: PGRES_COMMAND_OK time is 1841.331000 ms
+18b.sql: PGRES_COMMAND_OK time is 1872.988000 ms
+18b.sql: PGRES_COMMAND_OK time is 1887.019000 ms
+18b.sql: PGRES_COMMAND_OK time is 1878.547000 ms
+18b.sql: PGRES_COMMAND_OK time is 1851.989000 ms
+18b.sql: PGRES_COMMAND_OK time is 1866.126000 ms
+
+query 18b.sql geomean time is 1873.827505 ms with deviation = 24.415354
+
+18c.sql: PGRES_COMMAND_OK time is 1736.886000 ms
+18c.sql: PGRES_COMMAND_OK time is 1684.933000 ms
+18c.sql: PGRES_COMMAND_OK time is 1680.047000 ms
+18c.sql: PGRES_COMMAND_OK time is 1696.525000 ms
+18c.sql: PGRES_COMMAND_OK time is 1734.356000 ms
+18c.sql: PGRES_COMMAND_OK time is 1693.789000 ms
+18c.sql: PGRES_COMMAND_OK time is 1681.639000 ms
+18c.sql: PGRES_COMMAND_OK time is 1743.696000 ms
+18c.sql: PGRES_COMMAND_OK time is 1663.617000 ms
+18c.sql: PGRES_COMMAND_OK time is 1689.552000 ms
+
+query 18c.sql geomean time is 1700.302391 ms with deviation = 26.256270
+
+19a.sql: PGRES_COMMAND_OK time is 1971.087000 ms
+19a.sql: PGRES_COMMAND_OK time is 1998.621000 ms
+19a.sql: PGRES_COMMAND_OK time is 1969.647000 ms
+19a.sql: PGRES_COMMAND_OK time is 1979.008000 ms
+19a.sql: PGRES_COMMAND_OK time is 1985.417000 ms
+19a.sql: PGRES_COMMAND_OK time is 1986.356000 ms
+19a.sql: PGRES_COMMAND_OK time is 1986.092000 ms
+19a.sql: PGRES_COMMAND_OK time is 1997.430000 ms
+19a.sql: PGRES_COMMAND_OK time is 1976.279000 ms
+19a.sql: PGRES_COMMAND_OK time is 1992.288000 ms
+
+query 19a.sql geomean time is 1984.199024 ms with deviation = 9.651752
+
+19b.sql: PGRES_COMMAND_OK time is 1916.982000 ms
+19b.sql: PGRES_COMMAND_OK time is 1925.753000 ms
+19b.sql: PGRES_COMMAND_OK time is 1904.138000 ms
+19b.sql: PGRES_COMMAND_OK time is 1937.158000 ms
+19b.sql: PGRES_COMMAND_OK time is 1906.459000 ms
+19b.sql: PGRES_COMMAND_OK time is 1922.367000 ms
+19b.sql: PGRES_COMMAND_OK time is 1930.114000 ms
+19b.sql: PGRES_COMMAND_OK time is 1922.251000 ms
+19b.sql: PGRES_COMMAND_OK time is 1913.874000 ms
+19b.sql: PGRES_COMMAND_OK time is 1979.239000 ms
+
+query 19b.sql geomean time is 1925.728463 ms with deviation = 20.226534
+
+19c.sql: PGRES_COMMAND_OK time is 1927.368000 ms
+19c.sql: PGRES_COMMAND_OK time is 1937.744000 ms
+19c.sql: PGRES_COMMAND_OK time is 1943.765000 ms
+19c.sql: PGRES_COMMAND_OK time is 1939.020000 ms
+19c.sql: PGRES_COMMAND_OK time is 1923.645000 ms
+19c.sql: PGRES_COMMAND_OK time is 1985.669000 ms
+19c.sql: PGRES_COMMAND_OK time is 1918.528000 ms
+19c.sql: PGRES_COMMAND_OK time is 1941.822000 ms
+19c.sql: PGRES_COMMAND_OK time is 1940.992000 ms
+19c.sql: PGRES_COMMAND_OK time is 1926.545000 ms
+
+query 19c.sql geomean time is 1938.429157 ms with deviation = 17.768460
+
+19d.sql: PGRES_COMMAND_OK time is 1868.106000 ms
+19d.sql: PGRES_COMMAND_OK time is 1890.429000 ms
+19d.sql: PGRES_COMMAND_OK time is 1840.695000 ms
+19d.sql: PGRES_COMMAND_OK time is 1868.272000 ms
+19d.sql: PGRES_COMMAND_OK time is 1864.293000 ms
+19d.sql: PGRES_COMMAND_OK time is 1879.741000 ms
+19d.sql: PGRES_COMMAND_OK time is 635.680000 ms
+19d.sql: PGRES_COMMAND_OK time is 641.239000 ms
+19d.sql: PGRES_COMMAND_OK time is 641.652000 ms
+19d.sql: PGRES_COMMAND_OK time is 654.492000 ms
+
+query 19d.sql geomean time is 1219.679818 ms with deviation = 621.055760
+
+1a.sql: PGRES_COMMAND_OK time is 532.623000 ms
+1a.sql: PGRES_COMMAND_OK time is 535.425000 ms
+1a.sql: PGRES_COMMAND_OK time is 530.873000 ms
+1a.sql: PGRES_COMMAND_OK time is 533.844000 ms
+1a.sql: PGRES_COMMAND_OK time is 530.615000 ms
+1a.sql: PGRES_COMMAND_OK time is 541.437000 ms
+1a.sql: PGRES_COMMAND_OK time is 533.325000 ms
+1a.sql: PGRES_COMMAND_OK time is 537.615000 ms
+1a.sql: PGRES_COMMAND_OK time is 530.503000 ms
+1a.sql: PGRES_COMMAND_OK time is 530.986000 ms
+
+query 1a.sql geomean time is 533.713914 ms with deviation = 3.384910
+
+1b.sql: PGRES_COMMAND_OK time is 535.114000 ms
+1b.sql: PGRES_COMMAND_OK time is 539.087000 ms
+1b.sql: PGRES_COMMAND_OK time is 531.280000 ms
+1b.sql: PGRES_COMMAND_OK time is 532.670000 ms
+1b.sql: PGRES_COMMAND_OK time is 530.734000 ms
+1b.sql: PGRES_COMMAND_OK time is 602.055000 ms
+1b.sql: PGRES_COMMAND_OK time is 534.632000 ms
+1b.sql: PGRES_COMMAND_OK time is 540.473000 ms
+1b.sql: PGRES_COMMAND_OK time is 538.449000 ms
+1b.sql: PGRES_COMMAND_OK time is 532.368000 ms
+
+query 1b.sql geomean time is 541.325571 ms with deviation = 20.380666
+
+1c.sql: PGRES_COMMAND_OK time is 541.706000 ms
+1c.sql: PGRES_COMMAND_OK time is 538.817000 ms
+1c.sql: PGRES_COMMAND_OK time is 585.823000 ms
+1c.sql: PGRES_COMMAND_OK time is 535.443000 ms
+1c.sql: PGRES_COMMAND_OK time is 539.458000 ms
+1c.sql: PGRES_COMMAND_OK time is 526.972000 ms
+1c.sql: PGRES_COMMAND_OK time is 514.654000 ms
+1c.sql: PGRES_COMMAND_OK time is 538.494000 ms
+1c.sql: PGRES_COMMAND_OK time is 540.745000 ms
+1c.sql: PGRES_COMMAND_OK time is 541.046000 ms
+
+query 1c.sql geomean time is 540.051616 ms with deviation = 17.149005
+
+1d.sql: PGRES_COMMAND_OK time is 527.881000 ms
+1d.sql: PGRES_COMMAND_OK time is 532.959000 ms
+1d.sql: PGRES_COMMAND_OK time is 534.041000 ms
+1d.sql: PGRES_COMMAND_OK time is 529.654000 ms
+1d.sql: PGRES_COMMAND_OK time is 526.519000 ms
+1d.sql: PGRES_COMMAND_OK time is 536.290000 ms
+1d.sql: PGRES_COMMAND_OK time is 532.104000 ms
+1d.sql: PGRES_COMMAND_OK time is 524.759000 ms
+1d.sql: PGRES_COMMAND_OK time is 525.312000 ms
+1d.sql: PGRES_COMMAND_OK time is 531.414000 ms
+
+query 1d.sql geomean time is 530.080364 ms with deviation = 3.703552
+
+20a.sql: PGRES_COMMAND_OK time is 655.309000 ms
+20a.sql: PGRES_COMMAND_OK time is 647.002000 ms
+20a.sql: PGRES_COMMAND_OK time is 644.109000 ms
+20a.sql: PGRES_COMMAND_OK time is 672.835000 ms
+20a.sql: PGRES_COMMAND_OK time is 643.308000 ms
+20a.sql: PGRES_COMMAND_OK time is 643.863000 ms
+20a.sql: PGRES_COMMAND_OK time is 683.863000 ms
+20a.sql: PGRES_COMMAND_OK time is 685.596000 ms
+20a.sql: PGRES_COMMAND_OK time is 677.961000 ms
+20a.sql: PGRES_COMMAND_OK time is 711.350000 ms
+
+query 20a.sql geomean time is 666.155710 ms with deviation = 22.152947
+
+20b.sql: PGRES_COMMAND_OK time is 735.791000 ms
+20b.sql: PGRES_COMMAND_OK time is 763.227000 ms
+20b.sql: PGRES_COMMAND_OK time is 796.215000 ms
+20b.sql: PGRES_COMMAND_OK time is 795.863000 ms
+20b.sql: PGRES_COMMAND_OK time is 839.307000 ms
+20b.sql: PGRES_COMMAND_OK time is 830.663000 ms
+20b.sql: PGRES_COMMAND_OK time is 934.720000 ms
+20b.sql: PGRES_COMMAND_OK time is 927.984000 ms
+20b.sql: PGRES_COMMAND_OK time is 1007.677000 ms
+20b.sql: PGRES_COMMAND_OK time is 1022.518000 ms
+
+query 20b.sql geomean time is 860.168810 ms with deviation = 96.265983
+
+20c.sql: PGRES_COMMAND_OK time is 1029.676000 ms
+20c.sql: PGRES_COMMAND_OK time is 1018.630000 ms
+20c.sql: PGRES_COMMAND_OK time is 1057.173000 ms
+20c.sql: PGRES_COMMAND_OK time is 1018.780000 ms
+20c.sql: PGRES_COMMAND_OK time is 1016.020000 ms
+20c.sql: PGRES_COMMAND_OK time is 1084.900000 ms
+20c.sql: PGRES_COMMAND_OK time is 1133.259000 ms
+20c.sql: PGRES_COMMAND_OK time is 1136.075000 ms
+20c.sql: PGRES_COMMAND_OK time is 1133.426000 ms
+20c.sql: PGRES_COMMAND_OK time is 1127.981000 ms
+
+query 20c.sql geomean time is 1074.401640 ms with deviation = 50.638422
+
+21a.sql: PGRES_COMMAND_OK time is 1256.703000 ms
+21a.sql: PGRES_COMMAND_OK time is 1242.332000 ms
+21a.sql: PGRES_COMMAND_OK time is 1234.520000 ms
+21a.sql: PGRES_COMMAND_OK time is 1241.726000 ms
+21a.sql: PGRES_COMMAND_OK time is 1233.845000 ms
+21a.sql: PGRES_COMMAND_OK time is 1249.253000 ms
+21a.sql: PGRES_COMMAND_OK time is 1261.812000 ms
+21a.sql: PGRES_COMMAND_OK time is 1237.202000 ms
+21a.sql: PGRES_COMMAND_OK time is 1238.477000 ms
+21a.sql: PGRES_COMMAND_OK time is 1252.420000 ms
+
+query 21a.sql geomean time is 1244.795026 ms with deviation = 9.208296
+
+21b.sql: PGRES_COMMAND_OK time is 1230.147000 ms
+21b.sql: PGRES_COMMAND_OK time is 1225.659000 ms
+21b.sql: PGRES_COMMAND_OK time is 1235.533000 ms
+21b.sql: PGRES_COMMAND_OK time is 1230.875000 ms
+21b.sql: PGRES_COMMAND_OK time is 1224.463000 ms
+21b.sql: PGRES_COMMAND_OK time is 1227.588000 ms
+21b.sql: PGRES_COMMAND_OK time is 1236.415000 ms
+21b.sql: PGRES_COMMAND_OK time is 1268.902000 ms
+21b.sql: PGRES_COMMAND_OK time is 1241.238000 ms
+21b.sql: PGRES_COMMAND_OK time is 1228.796000 ms
+
+query 21b.sql geomean time is 1234.900729 ms with deviation = 12.340357
+
+21c.sql: PGRES_COMMAND_OK time is 1243.529000 ms
+21c.sql: PGRES_COMMAND_OK time is 1233.359000 ms
+21c.sql: PGRES_COMMAND_OK time is 1198.195000 ms
+21c.sql: PGRES_COMMAND_OK time is 1239.845000 ms
+21c.sql: PGRES_COMMAND_OK time is 1234.115000 ms
+21c.sql: PGRES_COMMAND_OK time is 1240.592000 ms
+21c.sql: PGRES_COMMAND_OK time is 1240.481000 ms
+21c.sql: PGRES_COMMAND_OK time is 1241.318000 ms
+21c.sql: PGRES_COMMAND_OK time is 1227.204000 ms
+21c.sql: PGRES_COMMAND_OK time is 1254.422000 ms
+
+query 21c.sql geomean time is 1235.224373 ms with deviation = 14.116136
+
+22a.sql: PGRES_COMMAND_OK time is 1338.490000 ms
+22a.sql: PGRES_COMMAND_OK time is 1353.622000 ms
+22a.sql: PGRES_COMMAND_OK time is 1344.463000 ms
+22a.sql: PGRES_COMMAND_OK time is 1337.509000 ms
+22a.sql: PGRES_COMMAND_OK time is 1296.042000 ms
+22a.sql: PGRES_COMMAND_OK time is 1352.437000 ms
+22a.sql: PGRES_COMMAND_OK time is 1331.475000 ms
+22a.sql: PGRES_COMMAND_OK time is 1350.817000 ms
+22a.sql: PGRES_COMMAND_OK time is 1341.792000 ms
+22a.sql: PGRES_COMMAND_OK time is 1332.170000 ms
+
+query 22a.sql geomean time is 1337.786658 ms with deviation = 15.844143
+
+22b.sql: PGRES_COMMAND_OK time is 1349.185000 ms
+22b.sql: PGRES_COMMAND_OK time is 1350.065000 ms
+22b.sql: PGRES_COMMAND_OK time is 1351.563000 ms
+22b.sql: PGRES_COMMAND_OK time is 1335.056000 ms
+22b.sql: PGRES_COMMAND_OK time is 1352.314000 ms
+22b.sql: PGRES_COMMAND_OK time is 1342.104000 ms
+22b.sql: PGRES_COMMAND_OK time is 1336.753000 ms
+22b.sql: PGRES_COMMAND_OK time is 1336.852000 ms
+22b.sql: PGRES_COMMAND_OK time is 1333.032000 ms
+22b.sql: PGRES_COMMAND_OK time is 1352.065000 ms
+
+query 22b.sql geomean time is 1343.877961 ms with deviation = 7.499575
+
+22c.sql: PGRES_COMMAND_OK time is 1345.417000 ms
+22c.sql: PGRES_COMMAND_OK time is 1352.145000 ms
+22c.sql: PGRES_COMMAND_OK time is 1344.705000 ms
+22c.sql: PGRES_COMMAND_OK time is 1355.140000 ms
+22c.sql: PGRES_COMMAND_OK time is 1329.483000 ms
+22c.sql: PGRES_COMMAND_OK time is 1391.688000 ms
+22c.sql: PGRES_COMMAND_OK time is 1347.088000 ms
+22c.sql: PGRES_COMMAND_OK time is 1356.699000 ms
+22c.sql: PGRES_COMMAND_OK time is 1354.147000 ms
+22c.sql: PGRES_COMMAND_OK time is 1356.258000 ms
+
+query 22c.sql geomean time is 1353.194933 ms with deviation = 14.970954
+
+22d.sql: PGRES_COMMAND_OK time is 1318.579000 ms
+22d.sql: PGRES_COMMAND_OK time is 1323.314000 ms
+22d.sql: PGRES_COMMAND_OK time is 1316.393000 ms
+22d.sql: PGRES_COMMAND_OK time is 1316.237000 ms
+22d.sql: PGRES_COMMAND_OK time is 1309.421000 ms
+22d.sql: PGRES_COMMAND_OK time is 1313.590000 ms
+22d.sql: PGRES_COMMAND_OK time is 1302.051000 ms
+22d.sql: PGRES_COMMAND_OK time is 1471.165000 ms
+22d.sql: PGRES_COMMAND_OK time is 1478.465000 ms
+22d.sql: PGRES_COMMAND_OK time is 1491.156000 ms
+
+query 22d.sql geomean time is 1361.962458 ms with deviation = 76.434359
+
+23a.sql: PGRES_COMMAND_OK time is 1316.798000 ms
+23a.sql: PGRES_COMMAND_OK time is 1290.702000 ms
+23a.sql: PGRES_COMMAND_OK time is 1273.939000 ms
+23a.sql: PGRES_COMMAND_OK time is 1296.951000 ms
+23a.sql: PGRES_COMMAND_OK time is 1283.167000 ms
+23a.sql: PGRES_COMMAND_OK time is 1297.630000 ms
+23a.sql: PGRES_COMMAND_OK time is 1277.961000 ms
+23a.sql: PGRES_COMMAND_OK time is 1293.294000 ms
+23a.sql: PGRES_COMMAND_OK time is 1238.665000 ms
+23a.sql: PGRES_COMMAND_OK time is 1301.726000 ms
+
+query 23a.sql geomean time is 1286.927173 ms with deviation = 19.933756
+
+23b.sql: PGRES_COMMAND_OK time is 1338.804000 ms
+23b.sql: PGRES_COMMAND_OK time is 1359.002000 ms
+23b.sql: PGRES_COMMAND_OK time is 1319.327000 ms
+23b.sql: PGRES_COMMAND_OK time is 1332.892000 ms
+23b.sql: PGRES_COMMAND_OK time is 1334.796000 ms
+23b.sql: PGRES_COMMAND_OK time is 1317.970000 ms
+23b.sql: PGRES_COMMAND_OK time is 1338.191000 ms
+23b.sql: PGRES_COMMAND_OK time is 1327.990000 ms
+23b.sql: PGRES_COMMAND_OK time is 1332.307000 ms
+23b.sql: PGRES_COMMAND_OK time is 1288.456000 ms
+
+query 23b.sql geomean time is 1328.859832 ms with deviation = 17.322172
+
+23c.sql: PGRES_COMMAND_OK time is 1379.834000 ms
+23c.sql: PGRES_COMMAND_OK time is 1357.286000 ms
+23c.sql: PGRES_COMMAND_OK time is 1337.653000 ms
+23c.sql: PGRES_COMMAND_OK time is 1331.110000 ms
+23c.sql: PGRES_COMMAND_OK time is 1329.149000 ms
+23c.sql: PGRES_COMMAND_OK time is 1350.330000 ms
+23c.sql: PGRES_COMMAND_OK time is 1329.007000 ms
+23c.sql: PGRES_COMMAND_OK time is 1344.937000 ms
+23c.sql: PGRES_COMMAND_OK time is 1332.935000 ms
+23c.sql: PGRES_COMMAND_OK time is 1324.067000 ms
+
+query 23c.sql geomean time is 1341.534159 ms with deviation = 16.177268
+
+24a.sql: PGRES_COMMAND_OK time is 1400.027000 ms
+24a.sql: PGRES_COMMAND_OK time is 1614.622000 ms
+24a.sql: PGRES_COMMAND_OK time is 1632.292000 ms
+24a.sql: PGRES_COMMAND_OK time is 1644.573000 ms
+24a.sql: PGRES_COMMAND_OK time is 1628.778000 ms
+24a.sql: PGRES_COMMAND_OK time is 1653.851000 ms
+24a.sql: PGRES_COMMAND_OK time is 1658.541000 ms
+24a.sql: PGRES_COMMAND_OK time is 1669.832000 ms
+24a.sql: PGRES_COMMAND_OK time is 1640.538000 ms
+24a.sql: PGRES_COMMAND_OK time is 1667.513000 ms
+
+query 24a.sql geomean time is 1619.150087 ms with deviation = 75.543385
+
+24b.sql: PGRES_COMMAND_OK time is 1658.606000 ms
+24b.sql: PGRES_COMMAND_OK time is 1657.191000 ms
+24b.sql: PGRES_COMMAND_OK time is 1651.775000 ms
+24b.sql: PGRES_COMMAND_OK time is 1659.236000 ms
+24b.sql: PGRES_COMMAND_OK time is 1666.835000 ms
+24b.sql: PGRES_COMMAND_OK time is 1651.119000 ms
+24b.sql: PGRES_COMMAND_OK time is 1649.618000 ms
+24b.sql: PGRES_COMMAND_OK time is 1645.329000 ms
+24b.sql: PGRES_COMMAND_OK time is 1649.150000 ms
+24b.sql: PGRES_COMMAND_OK time is 1649.727000 ms
+
+query 24b.sql geomean time is 1653.847349 ms with deviation = 6.105505
+
+25a.sql: PGRES_COMMAND_OK time is 1534.983000 ms
+25a.sql: PGRES_COMMAND_OK time is 1426.777000 ms
+25a.sql: PGRES_COMMAND_OK time is 1412.652000 ms
+25a.sql: PGRES_COMMAND_OK time is 1423.045000 ms
+25a.sql: PGRES_COMMAND_OK time is 1420.648000 ms
+25a.sql: PGRES_COMMAND_OK time is 1426.647000 ms
+25a.sql: PGRES_COMMAND_OK time is 1423.700000 ms
+25a.sql: PGRES_COMMAND_OK time is 1422.832000 ms
+25a.sql: PGRES_COMMAND_OK time is 1415.035000 ms
+25a.sql: PGRES_COMMAND_OK time is 1419.447000 ms
+
+query 25a.sql geomean time is 1432.179647 ms with deviation = 34.411364
+
+25b.sql: PGRES_COMMAND_OK time is 1473.771000 ms
+25b.sql: PGRES_COMMAND_OK time is 1469.096000 ms
+25b.sql: PGRES_COMMAND_OK time is 1474.168000 ms
+25b.sql: PGRES_COMMAND_OK time is 1473.376000 ms
+25b.sql: PGRES_COMMAND_OK time is 1468.100000 ms
+25b.sql: PGRES_COMMAND_OK time is 1470.304000 ms
+25b.sql: PGRES_COMMAND_OK time is 1460.725000 ms
+25b.sql: PGRES_COMMAND_OK time is 1487.156000 ms
+25b.sql: PGRES_COMMAND_OK time is 1465.185000 ms
+25b.sql: PGRES_COMMAND_OK time is 1468.604000 ms
+
+query 25b.sql geomean time is 1471.033521 ms with deviation = 6.648349
+
+25c.sql: PGRES_COMMAND_OK time is 1434.941000 ms
+25c.sql: PGRES_COMMAND_OK time is 1452.757000 ms
+25c.sql: PGRES_COMMAND_OK time is 1446.808000 ms
+25c.sql: PGRES_COMMAND_OK time is 1467.214000 ms
+25c.sql: PGRES_COMMAND_OK time is 1468.399000 ms
+25c.sql: PGRES_COMMAND_OK time is 1454.744000 ms
+25c.sql: PGRES_COMMAND_OK time is 1443.551000 ms
+25c.sql: PGRES_COMMAND_OK time is 1451.867000 ms
+25c.sql: PGRES_COMMAND_OK time is 1472.362000 ms
+25c.sql: PGRES_COMMAND_OK time is 1501.388000 ms
+
+query 25c.sql geomean time is 1459.294194 ms with deviation = 17.898912
+
+26a.sql: PGRES_COMMAND_OK time is 1685.712000 ms
+26a.sql: PGRES_COMMAND_OK time is 1672.772000 ms
+26a.sql: PGRES_COMMAND_OK time is 1662.697000 ms
+26a.sql: PGRES_COMMAND_OK time is 1677.675000 ms
+26a.sql: PGRES_COMMAND_OK time is 1672.758000 ms
+26a.sql: PGRES_COMMAND_OK time is 1673.011000 ms
+26a.sql: PGRES_COMMAND_OK time is 1672.695000 ms
+26a.sql: PGRES_COMMAND_OK time is 1666.333000 ms
+26a.sql: PGRES_COMMAND_OK time is 1662.085000 ms
+26a.sql: PGRES_COMMAND_OK time is 1712.542000 ms
+
+query 26a.sql geomean time is 1675.770729 ms with deviation = 13.917683
+
+26b.sql: PGRES_COMMAND_OK time is 1660.483000 ms
+26b.sql: PGRES_COMMAND_OK time is 1697.422000 ms
+26b.sql: PGRES_COMMAND_OK time is 1696.377000 ms
+26b.sql: PGRES_COMMAND_OK time is 1666.338000 ms
+26b.sql: PGRES_COMMAND_OK time is 1649.033000 ms
+26b.sql: PGRES_COMMAND_OK time is 1653.700000 ms
+26b.sql: PGRES_COMMAND_OK time is 1638.655000 ms
+26b.sql: PGRES_COMMAND_OK time is 1648.809000 ms
+26b.sql: PGRES_COMMAND_OK time is 1645.209000 ms
+26b.sql: PGRES_COMMAND_OK time is 1648.736000 ms
+
+query 26b.sql geomean time is 1660.361246 ms with deviation = 19.617401
+
+26c.sql: PGRES_COMMAND_OK time is 1562.301000 ms
+26c.sql: PGRES_COMMAND_OK time is 1580.045000 ms
+26c.sql: PGRES_COMMAND_OK time is 1568.071000 ms
+26c.sql: PGRES_COMMAND_OK time is 1563.574000 ms
+26c.sql: PGRES_COMMAND_OK time is 1602.389000 ms
+26c.sql: PGRES_COMMAND_OK time is 1567.927000 ms
+26c.sql: PGRES_COMMAND_OK time is 1568.111000 ms
+26c.sql: PGRES_COMMAND_OK time is 1590.343000 ms
+26c.sql: PGRES_COMMAND_OK time is 1537.822000 ms
+26c.sql: PGRES_COMMAND_OK time is 1522.900000 ms
+
+query 26c.sql geomean time is 1566.194586 ms with deviation = 21.901284
+
+27a.sql: PGRES_COMMAND_OK time is 1729.389000 ms
+27a.sql: PGRES_COMMAND_OK time is 1694.960000 ms
+27a.sql: PGRES_COMMAND_OK time is 1705.247000 ms
+27a.sql: PGRES_COMMAND_OK time is 1715.282000 ms
+27a.sql: PGRES_COMMAND_OK time is 1699.098000 ms
+27a.sql: PGRES_COMMAND_OK time is 1704.439000 ms
+27a.sql: PGRES_COMMAND_OK time is 1743.273000 ms
+27a.sql: PGRES_COMMAND_OK time is 1714.225000 ms
+27a.sql: PGRES_COMMAND_OK time is 1743.662000 ms
+27a.sql: PGRES_COMMAND_OK time is 1711.198000 ms
+
+query 27a.sql geomean time is 1715.999139 ms with deviation = 16.409259
+
+27b.sql: PGRES_COMMAND_OK time is 1634.678000 ms
+27b.sql: PGRES_COMMAND_OK time is 1669.633000 ms
+27b.sql: PGRES_COMMAND_OK time is 1670.720000 ms
+27b.sql: PGRES_COMMAND_OK time is 1686.481000 ms
+27b.sql: PGRES_COMMAND_OK time is 1662.477000 ms
+27b.sql: PGRES_COMMAND_OK time is 1665.658000 ms
+27b.sql: PGRES_COMMAND_OK time is 1678.742000 ms
+27b.sql: PGRES_COMMAND_OK time is 1669.356000 ms
+27b.sql: PGRES_COMMAND_OK time is 1681.419000 ms
+27b.sql: PGRES_COMMAND_OK time is 1703.935000 ms
+
+query 27b.sql geomean time is 1672.222927 ms with deviation = 17.032037
+
+27c.sql: PGRES_COMMAND_OK time is 1722.367000 ms
+27c.sql: PGRES_COMMAND_OK time is 1681.335000 ms
+27c.sql: PGRES_COMMAND_OK time is 1682.010000 ms
+27c.sql: PGRES_COMMAND_OK time is 1721.532000 ms
+27c.sql: PGRES_COMMAND_OK time is 1712.909000 ms
+27c.sql: PGRES_COMMAND_OK time is 1696.374000 ms
+27c.sql: PGRES_COMMAND_OK time is 1704.811000 ms
+27c.sql: PGRES_COMMAND_OK time is 1696.596000 ms
+27c.sql: PGRES_COMMAND_OK time is 1713.794000 ms
+27c.sql: PGRES_COMMAND_OK time is 1707.557000 ms
+
+query 27c.sql geomean time is 1703.871359 ms with deviation = 13.941088
+
+28a.sql: PGRES_COMMAND_OK time is 1912.987000 ms
+28a.sql: PGRES_COMMAND_OK time is 1928.242000 ms
+28a.sql: PGRES_COMMAND_OK time is 1896.474000 ms
+28a.sql: PGRES_COMMAND_OK time is 1886.539000 ms
+28a.sql: PGRES_COMMAND_OK time is 1888.494000 ms
+28a.sql: PGRES_COMMAND_OK time is 1902.118000 ms
+28a.sql: PGRES_COMMAND_OK time is 1900.177000 ms
+28a.sql: PGRES_COMMAND_OK time is 1898.274000 ms
+28a.sql: PGRES_COMMAND_OK time is 1920.900000 ms
+28a.sql: PGRES_COMMAND_OK time is 1859.971000 ms
+
+query 28a.sql geomean time is 1899.329523 ms with deviation = 18.263638
+
+28b.sql: PGRES_COMMAND_OK time is 1852.859000 ms
+28b.sql: PGRES_COMMAND_OK time is 1864.010000 ms
+28b.sql: PGRES_COMMAND_OK time is 1855.335000 ms
+28b.sql: PGRES_COMMAND_OK time is 1853.954000 ms
+28b.sql: PGRES_COMMAND_OK time is 1859.041000 ms
+28b.sql: PGRES_COMMAND_OK time is 1871.507000 ms
+28b.sql: PGRES_COMMAND_OK time is 1846.622000 ms
+28b.sql: PGRES_COMMAND_OK time is 1854.354000 ms
+28b.sql: PGRES_COMMAND_OK time is 1860.008000 ms
+28b.sql: PGRES_COMMAND_OK time is 1858.060000 ms
+
+query 28b.sql geomean time is 1857.563856 ms with deviation = 6.438384
+
+28c.sql: PGRES_COMMAND_OK time is 1881.656000 ms
+28c.sql: PGRES_COMMAND_OK time is 1918.223000 ms
+28c.sql: PGRES_COMMAND_OK time is 1889.698000 ms
+28c.sql: PGRES_COMMAND_OK time is 1887.977000 ms
+28c.sql: PGRES_COMMAND_OK time is 1846.457000 ms
+28c.sql: PGRES_COMMAND_OK time is 1888.526000 ms
+28c.sql: PGRES_COMMAND_OK time is 1880.053000 ms
+28c.sql: PGRES_COMMAND_OK time is 1877.596000 ms
+28c.sql: PGRES_COMMAND_OK time is 1907.800000 ms
+28c.sql: PGRES_COMMAND_OK time is 1891.769000 ms
+
+query 28c.sql geomean time is 1886.889113 ms with deviation = 18.027422
+
+29a.sql: PGRES_COMMAND_OK time is 1986.502000 ms
+29a.sql: PGRES_COMMAND_OK time is 1871.315000 ms
+29a.sql: PGRES_COMMAND_OK time is 1921.143000 ms
+29a.sql: PGRES_COMMAND_OK time is 1936.268000 ms
+29a.sql: PGRES_COMMAND_OK time is 1910.222000 ms
+29a.sql: PGRES_COMMAND_OK time is 1913.498000 ms
+29a.sql: PGRES_COMMAND_OK time is 1922.278000 ms
+29a.sql: PGRES_COMMAND_OK time is 1979.279000 ms
+29a.sql: PGRES_COMMAND_OK time is 1918.246000 ms
+29a.sql: PGRES_COMMAND_OK time is 1932.845000 ms
+
+query 29a.sql geomean time is 1928.900148 ms with deviation = 31.694692
+
+29b.sql: PGRES_COMMAND_OK time is 1907.063000 ms
+29b.sql: PGRES_COMMAND_OK time is 1914.199000 ms
+29b.sql: PGRES_COMMAND_OK time is 1968.069000 ms
+29b.sql: PGRES_COMMAND_OK time is 1935.123000 ms
+29b.sql: PGRES_COMMAND_OK time is 1923.032000 ms
+29b.sql: PGRES_COMMAND_OK time is 1975.804000 ms
+29b.sql: PGRES_COMMAND_OK time is 1910.982000 ms
+29b.sql: PGRES_COMMAND_OK time is 1902.256000 ms
+29b.sql: PGRES_COMMAND_OK time is 1928.304000 ms
+29b.sql: PGRES_COMMAND_OK time is 1914.358000 ms
+
+query 29b.sql geomean time is 1927.771525 ms with deviation = 23.945157
+
+29c.sql: PGRES_COMMAND_OK time is 1938.574000 ms
+29c.sql: PGRES_COMMAND_OK time is 1905.907000 ms
+29c.sql: PGRES_COMMAND_OK time is 1922.190000 ms
+29c.sql: PGRES_COMMAND_OK time is 1911.445000 ms
+29c.sql: PGRES_COMMAND_OK time is 1931.700000 ms
+29c.sql: PGRES_COMMAND_OK time is 1912.942000 ms
+29c.sql: PGRES_COMMAND_OK time is 1935.946000 ms
+29c.sql: PGRES_COMMAND_OK time is 1918.391000 ms
+29c.sql: PGRES_COMMAND_OK time is 1893.869000 ms
+29c.sql: PGRES_COMMAND_OK time is 1924.873000 ms
+
+query 29c.sql geomean time is 1919.537529 ms with deviation = 13.304221
+
+2a.sql: PGRES_COMMAND_OK time is 1114.306000 ms
+2a.sql: PGRES_COMMAND_OK time is 1115.365000 ms
+2a.sql: PGRES_COMMAND_OK time is 1126.746000 ms
+2a.sql: PGRES_COMMAND_OK time is 1115.013000 ms
+2a.sql: PGRES_COMMAND_OK time is 1108.229000 ms
+2a.sql: PGRES_COMMAND_OK time is 1108.865000 ms
+2a.sql: PGRES_COMMAND_OK time is 1128.156000 ms
+2a.sql: PGRES_COMMAND_OK time is 1131.576000 ms
+2a.sql: PGRES_COMMAND_OK time is 1146.932000 ms
+2a.sql: PGRES_COMMAND_OK time is 1114.549000 ms
+
+query 2a.sql geomean time is 1120.914622 ms with deviation = 11.545355
+
+2b.sql: PGRES_COMMAND_OK time is 1115.888000 ms
+2b.sql: PGRES_COMMAND_OK time is 1136.715000 ms
+2b.sql: PGRES_COMMAND_OK time is 1129.009000 ms
+2b.sql: PGRES_COMMAND_OK time is 1130.290000 ms
+2b.sql: PGRES_COMMAND_OK time is 1122.063000 ms
+2b.sql: PGRES_COMMAND_OK time is 1122.503000 ms
+2b.sql: PGRES_COMMAND_OK time is 1117.752000 ms
+2b.sql: PGRES_COMMAND_OK time is 1115.383000 ms
+2b.sql: PGRES_COMMAND_OK time is 1110.797000 ms
+2b.sql: PGRES_COMMAND_OK time is 1117.999000 ms
+
+query 2b.sql geomean time is 1121.814329 ms with deviation = 7.583472
+
+2c.sql: PGRES_COMMAND_OK time is 1124.368000 ms
+2c.sql: PGRES_COMMAND_OK time is 1112.752000 ms
+2c.sql: PGRES_COMMAND_OK time is 1106.550000 ms
+2c.sql: PGRES_COMMAND_OK time is 1097.850000 ms
+2c.sql: PGRES_COMMAND_OK time is 1130.276000 ms
+2c.sql: PGRES_COMMAND_OK time is 1120.130000 ms
+2c.sql: PGRES_COMMAND_OK time is 1125.677000 ms
+2c.sql: PGRES_COMMAND_OK time is 1119.120000 ms
+2c.sql: PGRES_COMMAND_OK time is 1124.968000 ms
+2c.sql: PGRES_COMMAND_OK time is 1116.491000 ms
+
+query 2c.sql geomean time is 1117.779059 ms with deviation = 9.333599
+
+2d.sql: PGRES_COMMAND_OK time is 1123.163000 ms
+2d.sql: PGRES_COMMAND_OK time is 1126.081000 ms
+2d.sql: PGRES_COMMAND_OK time is 1115.401000 ms
+2d.sql: PGRES_COMMAND_OK time is 1116.129000 ms
+2d.sql: PGRES_COMMAND_OK time is 1123.484000 ms
+2d.sql: PGRES_COMMAND_OK time is 1119.200000 ms
+2d.sql: PGRES_COMMAND_OK time is 1113.914000 ms
+2d.sql: PGRES_COMMAND_OK time is 1125.054000 ms
+2d.sql: PGRES_COMMAND_OK time is 1110.155000 ms
+2d.sql: PGRES_COMMAND_OK time is 1116.291000 ms
+
+query 2d.sql geomean time is 1118.875723 ms with deviation = 5.067326
+
+30a.sql: PGRES_COMMAND_OK time is 1586.897000 ms
+30a.sql: PGRES_COMMAND_OK time is 1559.766000 ms
+30a.sql: PGRES_COMMAND_OK time is 1559.229000 ms
+30a.sql: PGRES_COMMAND_OK time is 1569.944000 ms
+30a.sql: PGRES_COMMAND_OK time is 1558.882000 ms
+30a.sql: PGRES_COMMAND_OK time is 1566.976000 ms
+30a.sql: PGRES_COMMAND_OK time is 1572.298000 ms
+30a.sql: PGRES_COMMAND_OK time is 1566.944000 ms
+30a.sql: PGRES_COMMAND_OK time is 1572.161000 ms
+30a.sql: PGRES_COMMAND_OK time is 1565.701000 ms
+
+query 30a.sql geomean time is 1567.859719 ms with deviation = 7.948825
+
+30b.sql: PGRES_COMMAND_OK time is 1643.360000 ms
+30b.sql: PGRES_COMMAND_OK time is 1615.445000 ms
+30b.sql: PGRES_COMMAND_OK time is 1614.579000 ms
+30b.sql: PGRES_COMMAND_OK time is 1605.390000 ms
+30b.sql: PGRES_COMMAND_OK time is 1619.603000 ms
+30b.sql: PGRES_COMMAND_OK time is 1596.947000 ms
+30b.sql: PGRES_COMMAND_OK time is 1560.133000 ms
+30b.sql: PGRES_COMMAND_OK time is 1600.505000 ms
+30b.sql: PGRES_COMMAND_OK time is 1599.351000 ms
+30b.sql: PGRES_COMMAND_OK time is 1602.590000 ms
+
+query 30b.sql geomean time is 1605.664734 ms with deviation = 20.038661
+
+30c.sql: PGRES_COMMAND_OK time is 1548.267000 ms
+30c.sql: PGRES_COMMAND_OK time is 1535.120000 ms
+30c.sql: PGRES_COMMAND_OK time is 1537.606000 ms
+30c.sql: PGRES_COMMAND_OK time is 1547.830000 ms
+30c.sql: PGRES_COMMAND_OK time is 1542.484000 ms
+30c.sql: PGRES_COMMAND_OK time is 1542.020000 ms
+30c.sql: PGRES_COMMAND_OK time is 1549.497000 ms
+30c.sql: PGRES_COMMAND_OK time is 1533.805000 ms
+30c.sql: PGRES_COMMAND_OK time is 1589.200000 ms
+30c.sql: PGRES_COMMAND_OK time is 1561.090000 ms
+
+query 30c.sql geomean time is 1548.614985 ms with deviation = 15.517782
+
+31a.sql: PGRES_COMMAND_OK time is 1560.286000 ms
+31a.sql: PGRES_COMMAND_OK time is 1604.356000 ms
+31a.sql: PGRES_COMMAND_OK time is 1550.470000 ms
+31a.sql: PGRES_COMMAND_OK time is 1529.781000 ms
+31a.sql: PGRES_COMMAND_OK time is 1521.896000 ms
+31a.sql: PGRES_COMMAND_OK time is 1568.109000 ms
+31a.sql: PGRES_COMMAND_OK time is 1534.311000 ms
+31a.sql: PGRES_COMMAND_OK time is 1558.848000 ms
+31a.sql: PGRES_COMMAND_OK time is 1532.366000 ms
+31a.sql: PGRES_COMMAND_OK time is 1552.843000 ms
+
+query 31a.sql geomean time is 1551.160022 ms with deviation = 22.832712
+
+31b.sql: PGRES_COMMAND_OK time is 1593.989000 ms
+31b.sql: PGRES_COMMAND_OK time is 1605.227000 ms
+31b.sql: PGRES_COMMAND_OK time is 1593.230000 ms
+31b.sql: PGRES_COMMAND_OK time is 1599.861000 ms
+31b.sql: PGRES_COMMAND_OK time is 1586.267000 ms
+31b.sql: PGRES_COMMAND_OK time is 1604.269000 ms
+31b.sql: PGRES_COMMAND_OK time is 1592.767000 ms
+31b.sql: PGRES_COMMAND_OK time is 1651.519000 ms
+31b.sql: PGRES_COMMAND_OK time is 1597.213000 ms
+31b.sql: PGRES_COMMAND_OK time is 1610.703000 ms
+
+query 31b.sql geomean time is 1603.411563 ms with deviation = 17.384596
+
+31c.sql: PGRES_COMMAND_OK time is 1583.931000 ms
+31c.sql: PGRES_COMMAND_OK time is 1522.489000 ms
+31c.sql: PGRES_COMMAND_OK time is 1552.464000 ms
+31c.sql: PGRES_COMMAND_OK time is 1555.860000 ms
+31c.sql: PGRES_COMMAND_OK time is 1532.374000 ms
+31c.sql: PGRES_COMMAND_OK time is 1550.800000 ms
+31c.sql: PGRES_COMMAND_OK time is 1557.899000 ms
+31c.sql: PGRES_COMMAND_OK time is 1529.943000 ms
+31c.sql: PGRES_COMMAND_OK time is 1549.887000 ms
+31c.sql: PGRES_COMMAND_OK time is 1553.566000 ms
+
+query 31c.sql geomean time is 1548.833500 ms with deviation = 16.509822
+
+32a.sql: PGRES_COMMAND_OK time is 1140.978000 ms
+32a.sql: PGRES_COMMAND_OK time is 1151.962000 ms
+32a.sql: PGRES_COMMAND_OK time is 1150.353000 ms
+32a.sql: PGRES_COMMAND_OK time is 1154.469000 ms
+32a.sql: PGRES_COMMAND_OK time is 1141.093000 ms
+32a.sql: PGRES_COMMAND_OK time is 1149.405000 ms
+32a.sql: PGRES_COMMAND_OK time is 1143.520000 ms
+32a.sql: PGRES_COMMAND_OK time is 1167.341000 ms
+32a.sql: PGRES_COMMAND_OK time is 1141.003000 ms
+32a.sql: PGRES_COMMAND_OK time is 1158.135000 ms
+
+query 32a.sql geomean time is 1149.796660 ms with deviation = 8.213169
+
+32b.sql: PGRES_COMMAND_OK time is 1133.353000 ms
+32b.sql: PGRES_COMMAND_OK time is 1125.591000 ms
+32b.sql: PGRES_COMMAND_OK time is 1172.883000 ms
+32b.sql: PGRES_COMMAND_OK time is 1172.038000 ms
+32b.sql: PGRES_COMMAND_OK time is 1176.248000 ms
+32b.sql: PGRES_COMMAND_OK time is 1137.371000 ms
+32b.sql: PGRES_COMMAND_OK time is 1153.431000 ms
+32b.sql: PGRES_COMMAND_OK time is 1140.176000 ms
+32b.sql: PGRES_COMMAND_OK time is 1168.498000 ms
+32b.sql: PGRES_COMMAND_OK time is 1159.886000 ms
+
+query 32b.sql geomean time is 1153.811873 ms with deviation = 17.672646
+
+33a.sql: PGRES_COMMAND_OK time is 1619.110000 ms
+33a.sql: PGRES_COMMAND_OK time is 1634.031000 ms
+33a.sql: PGRES_COMMAND_OK time is 1624.595000 ms
+33a.sql: PGRES_COMMAND_OK time is 1680.859000 ms
+33a.sql: PGRES_COMMAND_OK time is 1619.521000 ms
+33a.sql: PGRES_COMMAND_OK time is 1628.623000 ms
+33a.sql: PGRES_COMMAND_OK time is 1632.646000 ms
+33a.sql: PGRES_COMMAND_OK time is 1584.858000 ms
+33a.sql: PGRES_COMMAND_OK time is 1609.183000 ms
+33a.sql: PGRES_COMMAND_OK time is 1624.405000 ms
+
+query 33a.sql geomean time is 1625.624488 ms with deviation = 22.790965
+
+33b.sql: PGRES_COMMAND_OK time is 1542.556000 ms
+33b.sql: PGRES_COMMAND_OK time is 1558.135000 ms
+33b.sql: PGRES_COMMAND_OK time is 1541.876000 ms
+33b.sql: PGRES_COMMAND_OK time is 1557.501000 ms
+33b.sql: PGRES_COMMAND_OK time is 1539.975000 ms
+33b.sql: PGRES_COMMAND_OK time is 1549.994000 ms
+33b.sql: PGRES_COMMAND_OK time is 1537.579000 ms
+33b.sql: PGRES_COMMAND_OK time is 1574.336000 ms
+33b.sql: PGRES_COMMAND_OK time is 1569.548000 ms
+33b.sql: PGRES_COMMAND_OK time is 1594.816000 ms
+
+query 33b.sql geomean time is 1556.534512 ms with deviation = 17.440728
+
+33c.sql: PGRES_COMMAND_OK time is 1783.821000 ms
+33c.sql: PGRES_COMMAND_OK time is 1718.418000 ms
+33c.sql: PGRES_COMMAND_OK time is 1706.204000 ms
+33c.sql: PGRES_COMMAND_OK time is 1715.273000 ms
+33c.sql: PGRES_COMMAND_OK time is 1728.149000 ms
+33c.sql: PGRES_COMMAND_OK time is 1720.746000 ms
+33c.sql: PGRES_COMMAND_OK time is 1758.402000 ms
+33c.sql: PGRES_COMMAND_OK time is 1723.783000 ms
+33c.sql: PGRES_COMMAND_OK time is 1711.569000 ms
+33c.sql: PGRES_COMMAND_OK time is 1729.274000 ms
+
+query 33c.sql geomean time is 1729.418591 ms with deviation = 22.554163
+
+3a.sql: PGRES_COMMAND_OK time is 1167.287000 ms
+3a.sql: PGRES_COMMAND_OK time is 1164.983000 ms
+3a.sql: PGRES_COMMAND_OK time is 1147.899000 ms
+3a.sql: PGRES_COMMAND_OK time is 1159.019000 ms
+3a.sql: PGRES_COMMAND_OK time is 1178.678000 ms
+3a.sql: PGRES_COMMAND_OK time is 1148.885000 ms
+3a.sql: PGRES_COMMAND_OK time is 1155.838000 ms
+3a.sql: PGRES_COMMAND_OK time is 1150.153000 ms
+3a.sql: PGRES_COMMAND_OK time is 1161.278000 ms
+3a.sql: PGRES_COMMAND_OK time is 1146.782000 ms
+
+query 3a.sql geomean time is 1158.039267 ms with deviation = 9.754655
+
+3b.sql: PGRES_COMMAND_OK time is 1129.795000 ms
+3b.sql: PGRES_COMMAND_OK time is 1118.315000 ms
+3b.sql: PGRES_COMMAND_OK time is 1124.037000 ms
+3b.sql: PGRES_COMMAND_OK time is 1121.164000 ms
+3b.sql: PGRES_COMMAND_OK time is 1134.871000 ms
+3b.sql: PGRES_COMMAND_OK time is 1086.008000 ms
+3b.sql: PGRES_COMMAND_OK time is 1143.780000 ms
+3b.sql: PGRES_COMMAND_OK time is 1179.517000 ms
+3b.sql: PGRES_COMMAND_OK time is 1139.387000 ms
+3b.sql: PGRES_COMMAND_OK time is 1127.433000 ms
+
+query 3b.sql geomean time is 1130.212686 ms with deviation = 22.235970
+
+3c.sql: PGRES_COMMAND_OK time is 1162.458000 ms
+3c.sql: PGRES_COMMAND_OK time is 1148.811000 ms
+3c.sql: PGRES_COMMAND_OK time is 1154.841000 ms
+3c.sql: PGRES_COMMAND_OK time is 1182.423000 ms
+3c.sql: PGRES_COMMAND_OK time is 1148.845000 ms
+3c.sql: PGRES_COMMAND_OK time is 1157.300000 ms
+3c.sql: PGRES_COMMAND_OK time is 1151.513000 ms
+3c.sql: PGRES_COMMAND_OK time is 1157.645000 ms
+3c.sql: PGRES_COMMAND_OK time is 1189.549000 ms
+3c.sql: PGRES_COMMAND_OK time is 1152.538000 ms
+
+query 3c.sql geomean time is 1160.515685 ms with deviation = 13.398941
+
+4a.sql: PGRES_COMMAND_OK time is 1289.187000 ms
+4a.sql: PGRES_COMMAND_OK time is 1315.741000 ms
+4a.sql: PGRES_COMMAND_OK time is 1284.691000 ms
+4a.sql: PGRES_COMMAND_OK time is 1311.838000 ms
+4a.sql: PGRES_COMMAND_OK time is 1281.448000 ms
+4a.sql: PGRES_COMMAND_OK time is 1316.691000 ms
+4a.sql: PGRES_COMMAND_OK time is 1284.010000 ms
+4a.sql: PGRES_COMMAND_OK time is 1308.041000 ms
+4a.sql: PGRES_COMMAND_OK time is 1284.788000 ms
+4a.sql: PGRES_COMMAND_OK time is 1300.345000 ms
+
+query 4a.sql geomean time is 1297.606432 ms with deviation = 13.638057
+
+4b.sql: PGRES_COMMAND_OK time is 1283.469000 ms
+4b.sql: PGRES_COMMAND_OK time is 1304.044000 ms
+4b.sql: PGRES_COMMAND_OK time is 1282.162000 ms
+4b.sql: PGRES_COMMAND_OK time is 1301.710000 ms
+4b.sql: PGRES_COMMAND_OK time is 1278.819000 ms
+4b.sql: PGRES_COMMAND_OK time is 1296.212000 ms
+4b.sql: PGRES_COMMAND_OK time is 1279.044000 ms
+4b.sql: PGRES_COMMAND_OK time is 1304.112000 ms
+4b.sql: PGRES_COMMAND_OK time is 1286.359000 ms
+4b.sql: PGRES_COMMAND_OK time is 1302.970000 ms
+
+query 4b.sql geomean time is 1291.848803 ms with deviation = 10.329581
+
+4c.sql: PGRES_COMMAND_OK time is 1278.100000 ms
+4c.sql: PGRES_COMMAND_OK time is 1302.120000 ms
+4c.sql: PGRES_COMMAND_OK time is 1245.453000 ms
+4c.sql: PGRES_COMMAND_OK time is 1290.475000 ms
+4c.sql: PGRES_COMMAND_OK time is 1298.085000 ms
+4c.sql: PGRES_COMMAND_OK time is 1284.340000 ms
+4c.sql: PGRES_COMMAND_OK time is 1282.649000 ms
+4c.sql: PGRES_COMMAND_OK time is 1302.249000 ms
+4c.sql: PGRES_COMMAND_OK time is 1331.910000 ms
+4c.sql: PGRES_COMMAND_OK time is 1323.291000 ms
+
+query 4c.sql geomean time is 1293.661943 ms with deviation = 23.000546
+
+5a.sql: PGRES_COMMAND_OK time is 1236.852000 ms
+5a.sql: PGRES_COMMAND_OK time is 1234.242000 ms
+5a.sql: PGRES_COMMAND_OK time is 1236.193000 ms
+5a.sql: PGRES_COMMAND_OK time is 1280.170000 ms
+5a.sql: PGRES_COMMAND_OK time is 1259.843000 ms
+5a.sql: PGRES_COMMAND_OK time is 1239.957000 ms
+5a.sql: PGRES_COMMAND_OK time is 1216.293000 ms
+5a.sql: PGRES_COMMAND_OK time is 1225.273000 ms
+5a.sql: PGRES_COMMAND_OK time is 1217.930000 ms
+5a.sql: PGRES_COMMAND_OK time is 1228.350000 ms
+
+query 5a.sql geomean time is 1237.374200 ms with deviation = 18.452225
+
+5b.sql: PGRES_COMMAND_OK time is 1257.915000 ms
+5b.sql: PGRES_COMMAND_OK time is 1217.526000 ms
+5b.sql: PGRES_COMMAND_OK time is 1234.537000 ms
+5b.sql: PGRES_COMMAND_OK time is 1226.594000 ms
+5b.sql: PGRES_COMMAND_OK time is 1221.461000 ms
+5b.sql: PGRES_COMMAND_OK time is 1238.322000 ms
+5b.sql: PGRES_COMMAND_OK time is 1219.317000 ms
+5b.sql: PGRES_COMMAND_OK time is 1230.608000 ms
+5b.sql: PGRES_COMMAND_OK time is 1218.881000 ms
+5b.sql: PGRES_COMMAND_OK time is 1234.595000 ms
+
+query 5b.sql geomean time is 1229.920348 ms with deviation = 11.698163
+
+5c.sql: PGRES_COMMAND_OK time is 1267.328000 ms
+5c.sql: PGRES_COMMAND_OK time is 1277.199000 ms
+5c.sql: PGRES_COMMAND_OK time is 1285.149000 ms
+5c.sql: PGRES_COMMAND_OK time is 1272.303000 ms
+5c.sql: PGRES_COMMAND_OK time is 1283.953000 ms
+5c.sql: PGRES_COMMAND_OK time is 1278.742000 ms
+5c.sql: PGRES_COMMAND_OK time is 1288.671000 ms
+5c.sql: PGRES_COMMAND_OK time is 1268.385000 ms
+5c.sql: PGRES_COMMAND_OK time is 1267.465000 ms
+5c.sql: PGRES_COMMAND_OK time is 1291.365000 ms
+
+query 5c.sql geomean time is 1278.027453 ms with deviation = 8.543949
+
+6a.sql: PGRES_COMMAND_OK time is 1195.535000 ms
+6a.sql: PGRES_COMMAND_OK time is 1185.906000 ms
+6a.sql: PGRES_COMMAND_OK time is 1205.671000 ms
+6a.sql: PGRES_COMMAND_OK time is 1166.735000 ms
+6a.sql: PGRES_COMMAND_OK time is 1175.898000 ms
+6a.sql: PGRES_COMMAND_OK time is 1207.276000 ms
+6a.sql: PGRES_COMMAND_OK time is 1194.911000 ms
+6a.sql: PGRES_COMMAND_OK time is 1213.886000 ms
+6a.sql: PGRES_COMMAND_OK time is 1196.986000 ms
+6a.sql: PGRES_COMMAND_OK time is 1197.233000 ms
+
+query 6a.sql geomean time is 1193.925157 ms with deviation = 13.664220
+
+6b.sql: PGRES_COMMAND_OK time is 1248.335000 ms
+6b.sql: PGRES_COMMAND_OK time is 1262.975000 ms
+6b.sql: PGRES_COMMAND_OK time is 1246.779000 ms
+6b.sql: PGRES_COMMAND_OK time is 1256.346000 ms
+6b.sql: PGRES_COMMAND_OK time is 1245.805000 ms
+6b.sql: PGRES_COMMAND_OK time is 1207.682000 ms
+6b.sql: PGRES_COMMAND_OK time is 1295.808000 ms
+6b.sql: PGRES_COMMAND_OK time is 1252.403000 ms
+6b.sql: PGRES_COMMAND_OK time is 1202.354000 ms
+6b.sql: PGRES_COMMAND_OK time is 1270.563000 ms
+
+query 6b.sql geomean time is 1248.630852 ms with deviation = 26.107599
+
+6c.sql: PGRES_COMMAND_OK time is 1204.027000 ms
+6c.sql: PGRES_COMMAND_OK time is 1204.364000 ms
+6c.sql: PGRES_COMMAND_OK time is 1203.518000 ms
+6c.sql: PGRES_COMMAND_OK time is 1193.654000 ms
+6c.sql: PGRES_COMMAND_OK time is 1192.479000 ms
+6c.sql: PGRES_COMMAND_OK time is 1201.944000 ms
+6c.sql: PGRES_COMMAND_OK time is 1193.856000 ms
+6c.sql: PGRES_COMMAND_OK time is 1201.156000 ms
+6c.sql: PGRES_COMMAND_OK time is 1204.595000 ms
+6c.sql: PGRES_COMMAND_OK time is 1194.354000 ms
+
+query 6c.sql geomean time is 1199.384825 ms with deviation = 4.864847
+
+6d.sql: PGRES_COMMAND_OK time is 1260.445000 ms
+6d.sql: PGRES_COMMAND_OK time is 1249.607000 ms
+6d.sql: PGRES_COMMAND_OK time is 1248.511000 ms
+6d.sql: PGRES_COMMAND_OK time is 1257.195000 ms
+6d.sql: PGRES_COMMAND_OK time is 1241.977000 ms
+6d.sql: PGRES_COMMAND_OK time is 1231.763000 ms
+6d.sql: PGRES_COMMAND_OK time is 1248.985000 ms
+6d.sql: PGRES_COMMAND_OK time is 1229.996000 ms
+6d.sql: PGRES_COMMAND_OK time is 1256.422000 ms
+6d.sql: PGRES_COMMAND_OK time is 1265.615000 ms
+
+query 6d.sql geomean time is 1249.001944 ms with deviation = 11.124230
+
+6e.sql: PGRES_COMMAND_OK time is 1232.095000 ms
+6e.sql: PGRES_COMMAND_OK time is 1208.083000 ms
+6e.sql: PGRES_COMMAND_OK time is 1206.910000 ms
+6e.sql: PGRES_COMMAND_OK time is 1233.222000 ms
+6e.sql: PGRES_COMMAND_OK time is 1208.627000 ms
+6e.sql: PGRES_COMMAND_OK time is 1201.495000 ms
+6e.sql: PGRES_COMMAND_OK time is 1193.090000 ms
+6e.sql: PGRES_COMMAND_OK time is 1193.787000 ms
+6e.sql: PGRES_COMMAND_OK time is 1215.534000 ms
+6e.sql: PGRES_COMMAND_OK time is 1192.732000 ms
+
+query 6e.sql geomean time is 1208.476309 ms with deviation = 14.041972
+
+6f.sql: PGRES_COMMAND_OK time is 1194.917000 ms
+6f.sql: PGRES_COMMAND_OK time is 1213.967000 ms
+6f.sql: PGRES_COMMAND_OK time is 1196.994000 ms
+6f.sql: PGRES_COMMAND_OK time is 1206.603000 ms
+6f.sql: PGRES_COMMAND_OK time is 1196.752000 ms
+6f.sql: PGRES_COMMAND_OK time is 1207.013000 ms
+6f.sql: PGRES_COMMAND_OK time is 1207.234000 ms
+6f.sql: PGRES_COMMAND_OK time is 1211.950000 ms
+6f.sql: PGRES_COMMAND_OK time is 1197.990000 ms
+6f.sql: PGRES_COMMAND_OK time is 1201.956000 ms
+
+query 6f.sql geomean time is 1203.520530 ms with deviation = 6.411999
+
+7a.sql: PGRES_COMMAND_OK time is 1599.448000 ms
+7a.sql: PGRES_COMMAND_OK time is 1599.071000 ms
+7a.sql: PGRES_COMMAND_OK time is 1581.372000 ms
+7a.sql: PGRES_COMMAND_OK time is 1579.968000 ms
+7a.sql: PGRES_COMMAND_OK time is 1598.868000 ms
+7a.sql: PGRES_COMMAND_OK time is 1576.155000 ms
+7a.sql: PGRES_COMMAND_OK time is 1579.000000 ms
+7a.sql: PGRES_COMMAND_OK time is 1603.471000 ms
+7a.sql: PGRES_COMMAND_OK time is 1595.328000 ms
+7a.sql: PGRES_COMMAND_OK time is 1613.902000 ms
+
+query 7a.sql geomean time is 1592.612841 ms with deviation = 12.035251
+
+7b.sql: PGRES_COMMAND_OK time is 1403.950000 ms
+7b.sql: PGRES_COMMAND_OK time is 1415.455000 ms
+7b.sql: PGRES_COMMAND_OK time is 1419.524000 ms
+7b.sql: PGRES_COMMAND_OK time is 1404.782000 ms
+7b.sql: PGRES_COMMAND_OK time is 1436.137000 ms
+7b.sql: PGRES_COMMAND_OK time is 1416.060000 ms
+7b.sql: PGRES_COMMAND_OK time is 1396.781000 ms
+7b.sql: PGRES_COMMAND_OK time is 1399.251000 ms
+7b.sql: PGRES_COMMAND_OK time is 1404.649000 ms
+7b.sql: PGRES_COMMAND_OK time is 1373.906000 ms
+
+query 7b.sql geomean time is 1406.962651 ms with deviation = 15.616894
+
+7c.sql: PGRES_COMMAND_OK time is 1689.168000 ms
+7c.sql: PGRES_COMMAND_OK time is 1623.052000 ms
+7c.sql: PGRES_COMMAND_OK time is 1655.088000 ms
+7c.sql: PGRES_COMMAND_OK time is 1663.980000 ms
+7c.sql: PGRES_COMMAND_OK time is 1651.476000 ms
+7c.sql: PGRES_COMMAND_OK time is 1660.213000 ms
+7c.sql: PGRES_COMMAND_OK time is 1650.377000 ms
+7c.sql: PGRES_COMMAND_OK time is 1662.211000 ms
+7c.sql: PGRES_COMMAND_OK time is 1657.622000 ms
+7c.sql: PGRES_COMMAND_OK time is 1694.448000 ms
+
+query 7c.sql geomean time is 1660.654784 ms with deviation = 19.007099
+
+8a.sql: PGRES_COMMAND_OK time is 1322.976000 ms
+8a.sql: PGRES_COMMAND_OK time is 1378.988000 ms
+8a.sql: PGRES_COMMAND_OK time is 1332.479000 ms
+8a.sql: PGRES_COMMAND_OK time is 1340.375000 ms
+8a.sql: PGRES_COMMAND_OK time is 1360.420000 ms
+8a.sql: PGRES_COMMAND_OK time is 1342.539000 ms
+8a.sql: PGRES_COMMAND_OK time is 1352.912000 ms
+8a.sql: PGRES_COMMAND_OK time is 1590.066000 ms
+8a.sql: PGRES_COMMAND_OK time is 1971.284000 ms
+8a.sql: PGRES_COMMAND_OK time is 1930.140000 ms
+
+query 8a.sql geomean time is 1474.898647 ms with deviation = 241.468656
+
+8b.sql: PGRES_COMMAND_OK time is 2062.284000 ms
+8b.sql: PGRES_COMMAND_OK time is 2025.646000 ms
+8b.sql: PGRES_COMMAND_OK time is 2062.670000 ms
+8b.sql: PGRES_COMMAND_OK time is 2041.038000 ms
+8b.sql: PGRES_COMMAND_OK time is 2072.522000 ms
+8b.sql: PGRES_COMMAND_OK time is 2037.619000 ms
+8b.sql: PGRES_COMMAND_OK time is 2080.099000 ms
+8b.sql: PGRES_COMMAND_OK time is 608.474000 ms
+8b.sql: PGRES_COMMAND_OK time is 610.130000 ms
+8b.sql: PGRES_COMMAND_OK time is 601.876000 ms
+
+query 8b.sql geomean time is 1424.974338 ms with deviation = 691.746702
+
+8c.sql: PGRES_COMMAND_OK time is 585.578000 ms
+8c.sql: PGRES_COMMAND_OK time is 536.338000 ms
+8c.sql: PGRES_COMMAND_OK time is 543.255000 ms
+8c.sql: PGRES_COMMAND_OK time is 487.584000 ms
+8c.sql: PGRES_COMMAND_OK time is 536.874000 ms
+8c.sql: PGRES_COMMAND_OK time is 552.302000 ms
+8c.sql: PGRES_COMMAND_OK time is 546.702000 ms
+8c.sql: PGRES_COMMAND_OK time is 572.168000 ms
+8c.sql: PGRES_COMMAND_OK time is 546.372000 ms
+8c.sql: PGRES_COMMAND_OK time is 556.173000 ms
+
+query 8c.sql geomean time is 545.770183 ms with deviation = 24.482008
+
+8d.sql: PGRES_COMMAND_OK time is 562.396000 ms
+8d.sql: PGRES_COMMAND_OK time is 500.826000 ms
+8d.sql: PGRES_COMMAND_OK time is 554.389000 ms
+8d.sql: PGRES_COMMAND_OK time is 557.755000 ms
+8d.sql: PGRES_COMMAND_OK time is 526.952000 ms
+8d.sql: PGRES_COMMAND_OK time is 546.819000 ms
+8d.sql: PGRES_COMMAND_OK time is 552.865000 ms
+8d.sql: PGRES_COMMAND_OK time is 553.232000 ms
+8d.sql: PGRES_COMMAND_OK time is 553.480000 ms
+8d.sql: PGRES_COMMAND_OK time is 498.290000 ms
+
+query 8d.sql geomean time is 540.220713 ms with deviation = 22.438002
+
+9a.sql: PGRES_COMMAND_OK time is 662.124000 ms
+9a.sql: PGRES_COMMAND_OK time is 652.816000 ms
+9a.sql: PGRES_COMMAND_OK time is 664.045000 ms
+9a.sql: PGRES_COMMAND_OK time is 657.156000 ms
+9a.sql: PGRES_COMMAND_OK time is 653.128000 ms
+9a.sql: PGRES_COMMAND_OK time is 670.515000 ms
+9a.sql: PGRES_COMMAND_OK time is 660.187000 ms
+9a.sql: PGRES_COMMAND_OK time is 650.172000 ms
+9a.sql: PGRES_COMMAND_OK time is 667.540000 ms
+9a.sql: PGRES_COMMAND_OK time is 650.677000 ms
+
+query 9a.sql geomean time is 658.800756 ms with deviation = 6.820698
+
+9b.sql: PGRES_COMMAND_OK time is 647.363000 ms
+9b.sql: PGRES_COMMAND_OK time is 636.426000 ms
+9b.sql: PGRES_COMMAND_OK time is 633.705000 ms
+9b.sql: PGRES_COMMAND_OK time is 643.444000 ms
+9b.sql: PGRES_COMMAND_OK time is 626.043000 ms
+9b.sql: PGRES_COMMAND_OK time is 633.604000 ms
+9b.sql: PGRES_COMMAND_OK time is 683.071000 ms
+9b.sql: PGRES_COMMAND_OK time is 672.752000 ms
+9b.sql: PGRES_COMMAND_OK time is 714.979000 ms
+9b.sql: PGRES_COMMAND_OK time is 726.090000 ms
+
+query 9b.sql geomean time is 660.894342 ms with deviation = 34.048470
+
+9c.sql: PGRES_COMMAND_OK time is 735.299000 ms
+9c.sql: PGRES_COMMAND_OK time is 781.594000 ms
+9c.sql: PGRES_COMMAND_OK time is 787.237000 ms
+9c.sql: PGRES_COMMAND_OK time is 838.787000 ms
+9c.sql: PGRES_COMMAND_OK time is 840.585000 ms
+9c.sql: PGRES_COMMAND_OK time is 928.726000 ms
+9c.sql: PGRES_COMMAND_OK time is 918.347000 ms
+9c.sql: PGRES_COMMAND_OK time is 912.005000 ms
+9c.sql: PGRES_COMMAND_OK time is 976.932000 ms
+9c.sql: PGRES_COMMAND_OK time is 1005.569000 ms
+
+query 9c.sql geomean time is 868.350755 ms with deviation = 84.925332
+
+9d.sql: PGRES_COMMAND_OK time is 994.347000 ms
+9d.sql: PGRES_COMMAND_OK time is 1006.901000 ms
+9d.sql: PGRES_COMMAND_OK time is 993.685000 ms
+9d.sql: PGRES_COMMAND_OK time is 989.681000 ms
+9d.sql: PGRES_COMMAND_OK time is 993.462000 ms
+9d.sql: PGRES_COMMAND_OK time is 1023.565000 ms
+9d.sql: PGRES_COMMAND_OK time is 983.100000 ms
+9d.sql: PGRES_COMMAND_OK time is 1001.771000 ms
+9d.sql: PGRES_COMMAND_OK time is 992.916000 ms
+9d.sql: PGRES_COMMAND_OK time is 1001.866000 ms
+
+query 9d.sql geomean time is 998.073143 ms with deviation = 10.636952
+
+test.sql: PGRES_TUPLES_OK time is 673626.054000 ms
+test.sql: PGRES_TUPLES_OK time is 642457.093000 ms
+test.sql: PGRES_TUPLES_OK time is 638608.345000 ms
+test.sql: PGRES_TUPLES_OK time is 637366.677000 ms
+test.sql: PGRES_TUPLES_OK time is 637732.219000 ms
+test.sql: PGRES_TUPLES_OK time is 643940.225000 ms
+test.sql: PGRES_TUPLES_OK time is 639173.768000 ms
+test.sql: PGRES_TUPLES_OK time is 643045.513000 ms
+test.sql: PGRES_TUPLES_OK time is 641300.220000 ms
+test.sql: PGRES_TUPLES_OK time is 651779.420000 ms
+
+query test.sql geomean time is 644821.270381 ms with deviation = 10374.817724
 
