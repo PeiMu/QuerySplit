@@ -147,7 +147,7 @@ int main()
 		PGresult* result;
 		double time;
 		std::vector<double> time_vec;
-		for (int j = 0; j < ITERATION_TIME; j++) {
+		for (int iter = 0; iter < ITERATION_TIME; iter++) {
 			PGconn* conn;
 			switch (benchmark) {
 				case TPCH:
@@ -185,7 +185,7 @@ int main()
 
 			timespec timer = tic();
 			result = PQexec(conn, query_str.c_str());
-			time = toc(&timer, (std::to_string(j) + ": time consumption").c_str());
+			time = toc(&timer, (std::to_string(iter) + ": time consumption").c_str());
 			time_vec.emplace_back(time);
 
 			auto status = PQresultStatus(result);
@@ -206,9 +206,9 @@ int main()
 					int field_num = PQnfields(result);
 					for (int tuple = 0; tuple < tuple_num; tuple++) {
 						for (int field = 0; field < field_num; field++) {
-							printf("%s, ", PQgetvalue(result, tuple, field));
+							fprintf(f_result, "%s, ", PQgetvalue(result, tuple, field));
 						}
-						printf("\n");
+						fprintf(f_result, "\n");
 					}
 					break;
 				}
@@ -228,8 +228,12 @@ int main()
 					fprintf(f_log, "%s: PGRES_SINGLE_TUPLE time is %f ms\n", file_path.c_str(), time);
 					int tuple_num = PQntuples(result);
 					int field_num = PQnfields(result);
-					auto return_tuples = PQgetvalue(result, tuple_num, field_num);
-					printf("%s\n", return_tuples);
+					for (int tuple = 0; tuple < tuple_num; tuple++) {
+						for (int field = 0; field < field_num; field++) {
+							fprintf(f_result, "%s, ", PQgetvalue(result, tuple, field));
+						}
+						fprintf(f_result, "\n");
+					}
 					break;
 				}
 				case PGRES_BAD_RESPONSE:
