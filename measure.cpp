@@ -99,6 +99,7 @@ int main()
 {
 	char file[100] = "log.txt";
 	FILE* f_log = fopen(file, "w+");
+	FILE* f_result = fopen("result.txt", "w+");
 	fclose(f_log);
 
 	std::string dir_path;
@@ -133,7 +134,10 @@ int main()
 		std::stringstream buffer;
 		std::string line;
 		while (std::getline(input_file, line)) {
-			buffer << line << ' ';
+			// omit comments
+			if (line.find("--") == 0)
+				continue;
+			buffer << line << '\t';
 		}
 		// Close the input file
 		input_file.close();
@@ -198,6 +202,14 @@ int main()
 				}
 				case PGRES_TUPLES_OK: {
 					fprintf(f_log, "%s: PGRES_TUPLES_OK time is %f ms\n", file_path.c_str(), time);
+					int tuple_num = PQntuples(result);
+					int field_num = PQnfields(result);
+					for (int tuple = 0; tuple < tuple_num; tuple++) {
+						for (int field = 0; field < field_num; field++) {
+							printf("%s, ", PQgetvalue(result, tuple, field));
+						}
+						printf("\n");
+					}
 					break;
 				}
 				case PGRES_COPY_OUT: {
@@ -214,6 +226,10 @@ int main()
 				}
 				case PGRES_SINGLE_TUPLE: {
 					fprintf(f_log, "%s: PGRES_SINGLE_TUPLE time is %f ms\n", file_path.c_str(), time);
+					int tuple_num = PQntuples(result);
+					int field_num = PQnfields(result);
+					auto return_tuples = PQgetvalue(result, tuple_num, field_num);
+					printf("%s\n", return_tuples);
 					break;
 				}
 				case PGRES_BAD_RESPONSE:
