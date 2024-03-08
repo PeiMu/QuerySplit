@@ -12,17 +12,7 @@
 #include <filesystem>
 #include <iomanip>
 
-#define N 33
 #define ITERATION_TIME 10
-
-#define ENABLE_QUERY_SPLIT false
-
-enum Benchmark {
-	TPCH,
-	IMDB,
-};
-
-Benchmark benchmark = IMDB;
 
 /***************************************
  * Timer functions of the test framework
@@ -95,8 +85,38 @@ double calculateDeviation(const std::vector<double>& numbers, double geometricMe
 using recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
 
 
-int main()
+int main(int argc, char** argv)
 {
+	bool enable_query_split = false;
+
+	enum Benchmark {
+		TPCH,
+		IMDB,
+	};
+
+	Benchmark benchmark = TPCH;
+
+	if (argc != 3) {
+		printf("run with benchmark name and whether enable query_split, e.g. \n`./measure TPCH 1`\n`./meaure IMDB 0`");
+		return -1;
+	}
+
+	if (0 == strcmp(argv[1], "TPCH")) {
+		benchmark = TPCH;
+	} else if (0 == strcmp(argv[1], "IMDB")) {
+		benchmark = IMDB;
+	} else {
+		return -1;
+	}
+
+	if (0 == strcmp(argv[2], "1")) {
+		enable_query_split = true;
+	} else if (0 == strcmp(argv[2], "0")) {
+		enable_query_split = false;
+	} else {
+		return -1;
+	}
+
 	char file[100] = "log.txt";
 	FILE* f_log = fopen(file, "w+");
 	FILE* f_result = fopen("result.txt", "w+");
@@ -177,7 +197,7 @@ int main()
 				fclose(f_log);
 				return 0;
 			}
-			if (ENABLE_QUERY_SPLIT) {
+			if (enable_query_split) {
 				PQexec(conn, "switch to c_r;");
 				PQexec(conn, "switch to relationshipcenter;");
 			}
