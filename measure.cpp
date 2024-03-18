@@ -125,7 +125,7 @@ int main(int argc, char** argv)
 	std::string dir_path;
 	switch (benchmark) {
 		case TPCH:
-			dir_path = "/home/pei/Project/benchmarks/tpch-postgre/dbgen/out/pure_queries/";
+			dir_path = "/home/pei/Project/benchmarks/tpch-postgres/dbgen/out/pure_queries/";
 			break;
 		case IMDB:
 			dir_path = "/home/pei/Project/benchmarks/imdb_job_postgres/out/pure_queries/";
