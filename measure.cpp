@@ -189,7 +189,9 @@ int main(int argc, char** argv)
 				fclose(f_log);
 				return 0;
 			}
-			PQexec(conn, "switch to c_r;");
+			if (0 != strcmp(split_algorithm, "Postgres")) {
+				PQexec(conn, "switch to c_r;");
+			}
 			auto switch_split_algorithm = std::string("switch to ") + split_algorithm + std::string(";");
 			PQexec(conn, switch_split_algorithm.c_str());
 
