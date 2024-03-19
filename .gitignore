@@ -1,0 +1,4 @@
+.idea/
+measure
+cmake-build-debug/
+docker/
