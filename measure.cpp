@@ -128,7 +128,7 @@ int main(int argc, char** argv)
 			dir_path = "/home/pei/Project/benchmarks/tpch-postgres/dbgen/out/pure_queries/";
 			break;
 		case IMDB:
-			dir_path = "/home/pei/Project/benchmarks/imdb_job_postgres/out/pure_queries/";
+			dir_path = "/home/pei/Project/benchmarks/imdb_job-postgres/out/pure_queries/";
 			break;
 		default:
 			std::cerr << "No such benchmark!" << std::endl;
