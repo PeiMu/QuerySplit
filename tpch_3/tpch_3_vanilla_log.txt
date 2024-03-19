@@ -1,0 +1,132 @@
+1.sql: PGRES_TUPLES_OK time is 210515.038000 ms
+1.sql: PGRES_TUPLES_OK time is 267926.507000 ms
+1.sql: PGRES_TUPLES_OK time is 223331.234000 ms
+
+query 1.sql geomean time is 232674.840133 ms with deviation = 24637.639383
+
+3.sql: PGRES_TUPLES_OK time is 80594.350000 ms
+3.sql: PGRES_TUPLES_OK time is 87287.552000 ms
+3.sql: PGRES_TUPLES_OK time is 82033.966000 ms
+
+query 3.sql geomean time is 83256.255255 ms with deviation = 2876.982450
+
+4.sql: PGRES_TUPLES_OK time is 975648.820000 ms
+4.sql: PGRES_TUPLES_OK time is 962006.578000 ms
+4.sql: PGRES_TUPLES_OK time is 971961.363000 ms
+
+query 4.sql geomean time is 969855.103735 ms with deviation = 5762.026046
+
+5.sql: PGRES_TUPLES_OK time is 895999.555000 ms
+5.sql: PGRES_TUPLES_OK time is 922406.301000 ms
+5.sql: PGRES_TUPLES_OK time is 882909.827000 ms
+
+query 5.sql geomean time is 900289.396694 ms with deviation = 16427.716828
+
+6.sql: PGRES_TUPLES_OK time is 996145.198000 ms
+6.sql: PGRES_TUPLES_OK time is 991427.838000 ms
+6.sql: PGRES_TUPLES_OK time is 998377.277000 ms
+
+query 6.sql geomean time is 995312.551789 ms with deviation = 2896.943306
+
+7.sql: PGRES_TUPLES_OK time is 71366.278000 ms
+7.sql: PGRES_TUPLES_OK time is 91259.100000 ms
+7.sql: PGRES_TUPLES_OK time is 67255.617000 ms
+
+query 7.sql geomean time is 75945.013449 ms with deviation = 10503.835424
+
+8.sql: PGRES_TUPLES_OK time is 144671.366000 ms
+8.sql: PGRES_TUPLES_OK time is 167623.603000 ms
+8.sql: PGRES_TUPLES_OK time is 168112.848000 ms
+
+query 8.sql geomean time is 159749.516740 ms with deviation = 10943.752768
+
+9.sql: PGRES_TUPLES_OK time is 223863.163000 ms
+9.sql: PGRES_TUPLES_OK time is 296374.997000 ms
+9.sql: PGRES_TUPLES_OK time is 209521.250000 ms
+
+query 9.sql geomean time is 240445.927053 ms with deviation = 38119.918589
+
+10.sql: PGRES_TUPLES_OK time is 847605.912000 ms
+10.sql: PGRES_TUPLES_OK time is 782389.390000 ms
+10.sql: PGRES_TUPLES_OK time is 775669.943000 ms
+
+query 10.sql geomean time is 801243.705662 ms with deviation = 32449.739251
+
+11.sql: PGRES_TUPLES_OK time is 441155.196000 ms
+11.sql: PGRES_TUPLES_OK time is 426537.654000 ms
+11.sql: PGRES_TUPLES_OK time is 430410.891000 ms
+
+query 11.sql geomean time is 432657.273301 ms with deviation = 6183.598306
+
+12.sql: PGRES_TUPLES_OK time is 909547.834000 ms
+12.sql: PGRES_TUPLES_OK time is 903511.012000 ms
+12.sql: PGRES_TUPLES_OK time is 906794.713000 ms
+
+query 12.sql geomean time is 906614.493968 ms with deviation = 2467.695482
+
+13.sql: PGRES_TUPLES_OK time is 801322.321000 ms
+13.sql: PGRES_TUPLES_OK time is 787736.145000 ms
+13.sql: PGRES_TUPLES_OK time is 822862.084000 ms
+
+query 13.sql geomean time is 803843.840509 ms with deviation = 14462.704919
+
+14.sql: PGRES_TUPLES_OK time is 928301.408000 ms
+14.sql: PGRES_TUPLES_OK time is 933584.599000 ms
+14.sql: PGRES_TUPLES_OK time is 923055.578000 ms
+
+query 14.sql geomean time is 928303.909892 ms with deviation = 4298.475364
+
+15.sql: PGRES_COMMAND_OK time is 152069.223000 ms
+15.sql: PGRES_COMMAND_OK time is 160829.397000 ms
+15.sql: PGRES_COMMAND_OK time is 175762.970000 ms
+
+query 15.sql geomean time is 162596.570449 ms with deviation = 9786.078947
+
+16.sql: PGRES_TUPLES_OK time is 228377.449000 ms
+16.sql: PGRES_TUPLES_OK time is 219707.620000 ms
+16.sql: PGRES_TUPLES_OK time is 224106.788000 ms
+
+query 16.sql geomean time is 224035.985915 ms with deviation = 3539.682949
+
+17.sql: PGRES_TUPLES_OK time is 25686.165000 ms
+17.sql: PGRES_TUPLES_OK time is 16169.606000 ms
+17.sql: PGRES_TUPLES_OK time is 992812.064000 ms
+
+query 17.sql geomean time is 74431.239356 ms with deviation = 532038.168828
+
+18.sql: PGRES_TUPLES_OK time is 6017.565000 ms
+18.sql: PGRES_TUPLES_OK time is 21175.030000 ms
+18.sql: PGRES_TUPLES_OK time is 11470.477000 ms
+
+query 18.sql geomean time is 11348.595089 ms with deviation = 6454.805963
+
+19.sql: PGRES_TUPLES_OK time is 233332.655000 ms
+19.sql: PGRES_TUPLES_OK time is 233847.846000 ms
+19.sql: PGRES_TUPLES_OK time is 232452.984000 ms
+
+query 19.sql geomean time is 233210.450246 ms with deviation = 575.894221
+
+20.sql: PGRES_TUPLES_OK time is 606748.748000 ms
+20.sql: PGRES_TUPLES_OK time is 593541.667000 ms
+20.sql: PGRES_TUPLES_OK time is 600304.080000 ms
+
+query 20.sql geomean time is 600173.937104 ms with deviation = 5392.342788
+
+21.sql: PGRES_TUPLES_OK time is 189935.643000 ms
+21.sql: PGRES_TUPLES_OK time is 191374.734000 ms
+21.sql: PGRES_TUPLES_OK time is 191795.163000 ms
+
+query 21.sql geomean time is 191033.518142 ms with deviation = 796.212070
+
+22.sql: PGRES_TUPLES_OK time is 430369.095000 ms
+22.sql: PGRES_TUPLES_OK time is 413577.373000 ms
+22.sql: PGRES_TUPLES_OK time is 413207.247000 ms
+
+query 22.sql geomean time is 418975.465652 ms with deviation = 8004.718201
+
+2.sql: PGRES_TUPLES_OK time is 118933.883000 ms
+2.sql: PGRES_TUPLES_OK time is 128137.998000 ms
+2.sql: PGRES_TUPLES_OK time is 124839.884000 ms
+
+query 2.sql geomean time is 123911.694586 ms with deviation = 3807.964650
+
