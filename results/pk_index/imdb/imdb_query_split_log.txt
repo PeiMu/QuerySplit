@@ -5,112 +5,103 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 10a.sql geomean time is 136189.784493 ms with deviation = 4400.617300
+query 10a.sql geomean time is 135595.484875 ms with deviation = 7486.659986
 
-10b.sql: PGRES_TUPLES_OK time is 132940.361000 ms
-10b.sql: PGRES_TUPLES_OK time is 115062.863000 ms
-10b.sql: PGRES_TUPLES_OK time is 120320.386000 ms
+10b.sql: PGRES_TUPLES_OK time is 127743.279000 ms
+10b.sql: PGRES_TUPLES_OK time is 105639.362000 ms
+10b.sql: PGRES_TUPLES_OK time is 112399.951000 ms
 
-query 10b.sql geomean time is 122549.181626 ms with deviation = 7505.311570
+query 10b.sql geomean time is 114897.342475 ms with deviation = 9255.003185
 
-10c.sql: PGRES_TUPLES_OK time is 806596.537000 ms
-10c.sql: PGRES_TUPLES_OK time is 838148.666000 ms
-10c.sql: PGRES_TUPLES_OK time is 811041.489000 ms
+10c.sql: PGRES_TUPLES_OK time is 841321.103000 ms
+10c.sql: PGRES_TUPLES_OK time is 5750.940000 ms
+10c.sql: PGRES_TUPLES_OK time is 836482.349000 ms
 
-query 10c.sql geomean time is 818477.655195 ms with deviation = 13945.204711
+query 10c.sql geomean time is 159362.377426 ms with deviation = 561888.373552
 
-11a.sql: PGRES_TUPLES_OK time is 735714.908000 ms
-11a.sql: PGRES_TUPLES_OK time is 728793.267000 ms
-11a.sql: PGRES_TUPLES_OK time is 731841.564000 ms
+11a.sql: PGRES_TUPLES_OK time is 737729.041000 ms
+11a.sql: PGRES_TUPLES_OK time is 733166.398000 ms
+11a.sql: PGRES_TUPLES_OK time is 732626.591000 ms
 
-query 11a.sql geomean time is 732111.102578 ms with deviation = 2832.436965
+query 11a.sql geomean time is 734503.782522 ms with deviation = 2288.721449
 
-11b.sql: PGRES_TUPLES_OK time is 729992.474000 ms
-11b.sql: PGRES_TUPLES_OK time is 728040.424000 ms
-11b.sql: PGRES_TUPLES_OK time is 728247.155000 ms
+11b.sql: PGRES_TUPLES_OK time is 731602.922000 ms
+11b.sql: PGRES_TUPLES_OK time is 728998.035000 ms
+11b.sql: PGRES_TUPLES_OK time is 730760.406000 ms
 
-query 11b.sql geomean time is 728759.491992 ms with deviation = 875.555557
+query 11b.sql geomean time is 730452.981057 ms with deviation = 1085.317511
 
-11c.sql: PGRES_TUPLES_OK time is 688097.109000 ms
-11c.sql: PGRES_TUPLES_OK time is 691119.007000 ms
-11c.sql: PGRES_TUPLES_OK time is 690969.812000 ms
+11c.sql: PGRES_TUPLES_OK time is 688342.438000 ms
+11c.sql: PGRES_TUPLES_OK time is 693417.760000 ms
+11c.sql: PGRES_TUPLES_OK time is 693305.108000 ms
 
-query 11c.sql geomean time is 690060.573310 ms with deviation = 1390.705932
+query 11c.sql geomean time is 691684.380753 ms with deviation = 2366.427813
 
-11d.sql: PGRES_TUPLES_OK time is 872169.063000 ms
-11d.sql: PGRES_TUPLES_OK time is 856369.159000 ms
-11d.sql: PGRES_TUPLES_OK time is 862442.406000 ms
+11d.sql: PGRES_TUPLES_OK time is 868194.760000 ms
+11d.sql: PGRES_TUPLES_OK time is 860885.951000 ms
+11d.sql: PGRES_TUPLES_OK time is 952995.395000 ms
 
-query 11d.sql geomean time is 863635.725998 ms with deviation = 6507.555838
+query 11d.sql geomean time is 893067.998835 ms with deviation = 41815.686945
 
-12a.sql: PGRES_TUPLES_OK time is 111692.632000 ms
-12a.sql: PGRES_TUPLES_OK time is 104844.836000 ms
-12a.sql: PGRES_TUPLES_OK time is 104429.835000 ms
+12a.sql: PGRES_TUPLES_OK time is 116599.217000 ms
+12a.sql: PGRES_TUPLES_OK time is 106529.150000 ms
+12a.sql: PGRES_TUPLES_OK time is 103322.228000 ms
 
-query 12a.sql geomean time is 106937.999109 ms with deviation = 3330.603195
+query 12a.sql geomean time is 108672.406926 ms with deviation = 5658.394435
 
-12b.sql: PGRES_TUPLES_OK time is 10328.128000 ms
-12b.sql: PGRES_TUPLES_OK time is 4619.433000 ms
-12b.sql: PGRES_TUPLES_OK time is 10747.617000 ms
+12b.sql: PGRES_TUPLES_OK time is 11326.948000 ms
+12b.sql: PGRES_TUPLES_OK time is 8282.964000 ms
+12b.sql: PGRES_TUPLES_OK time is 2822.307000 ms
 
-query 12b.sql geomean time is 8004.007531 ms with deviation = 2850.980745
+query 12b.sql geomean time is 6421.467830 ms with deviation = 3673.457153
 
-12c.sql: PGRES_TUPLES_OK time is 698077.453000 ms
-12c.sql: PGRES_TUPLES_OK time is 695947.219000 ms
-12c.sql: PGRES_TUPLES_OK time is 701409.972000 ms
+12c.sql: PGRES_TUPLES_OK time is 696804.423000 ms
+12c.sql: PGRES_TUPLES_OK time is 702166.838000 ms
+12c.sql: PGRES_TUPLES_OK time is 703170.984000 ms
 
-query 12c.sql geomean time is 698474.598874 ms with deviation = 2248.094694
+query 12c.sql geomean time is 700708.498715 ms with deviation = 2794.780518
 
-13a.sql: PGRES_TUPLES_OK time is 804190.276000 ms
-13a.sql: PGRES_TUPLES_OK time is 780673.985000 ms
-13a.sql: PGRES_TUPLES_OK time is 789419.510000 ms
+13a.sql: PGRES_TUPLES_OK time is 804314.534000 ms
+13a.sql: PGRES_TUPLES_OK time is 816639.335000 ms
+13a.sql: PGRES_TUPLES_OK time is 818513.900000 ms
 
-query 13a.sql geomean time is 791368.561950 ms with deviation = 9705.138344
+query 13a.sql geomean time is 813131.446002 ms with deviation = 6298.519231
 
-13b.sql: PGRES_TUPLES_OK time is 623712.237000 ms
-13b.sql: PGRES_TUPLES_OK time is 683190.941000 ms
-13b.sql: PGRES_TUPLES_OK time is 641288.765000 ms
+13b.sql: PGRES_TUPLES_OK time is 622431.021000 ms
+13b.sql: PGRES_TUPLES_OK time is 622467.883000 ms
+13b.sql: PGRES_TUPLES_OK time is 654652.187000 ms
 
-query 13b.sql geomean time is 648923.245765 ms with deviation = 24954.326253
+query 13b.sql geomean time is 633003.726682 ms with deviation = 15181.589088
 
-13c.sql: PGRES_TUPLES_OK time is 554893.696000 ms
-13c.sql: PGRES_TUPLES_OK time is 576256.904000 ms
-13c.sql: PGRES_TUPLES_OK time is 561210.664000 ms
+13c.sql: PGRES_TUPLES_OK time is 564569.967000 ms
+13c.sql: PGRES_TUPLES_OK time is 550128.765000 ms
+13c.sql: PGRES_TUPLES_OK time is 566227.829000 ms
 
-query 13c.sql geomean time is 564049.582950 ms with deviation = 8961.183215
+query 13c.sql geomean time is 560261.928579 ms with deviation = 7230.310436
 
-13d.sql: PGRES_TUPLES_OK time is 662629.813000 ms
-13d.sql: PGRES_TUPLES_OK time is 627627.862000 ms
-13d.sql: PGRES_TUPLES_OK time is 634348.977000 ms
+13d.sql: PGRES_TUPLES_OK time is 659050.009000 ms
+13d.sql: PGRES_TUPLES_OK time is 680328.085000 ms
+13d.sql: PGRES_TUPLES_OK time is 632384.614000 ms
 
-query 13d.sql geomean time is 641357.941647 ms with deviation = 15167.214460
+query 13d.sql geomean time is 656960.646357 ms with deviation = 19616.183722
 
-14a.sql: PGRES_TUPLES_OK time is 250228.705000 ms
-14a.sql: PGRES_TUPLES_OK time is 217429.136000 ms
-14a.sql: PGRES_TUPLES_OK time is 220588.271000 ms
+14a.sql: PGRES_TUPLES_OK time is 240925.282000 ms
+14a.sql: PGRES_TUPLES_OK time is 229957.170000 ms
+14a.sql: PGRES_TUPLES_OK time is 220845.137000 ms
 
-query 14a.sql geomean time is 228952.695908 ms with deviation = 14780.895326
+query 14a.sql geomean time is 230430.019872 ms with deviation = 8210.645403
 
-14b.sql: PGRES_TUPLES_OK time is 421430.616000 ms
-14b.sql: PGRES_TUPLES_OK time is 426134.292000 ms
-14b.sql: PGRES_TUPLES_OK time is 408340.688000 ms
+14b.sql: PGRES_TUPLES_OK time is 419735.103000 ms
+14b.sql: PGRES_TUPLES_OK time is 437020.038000 ms
+14b.sql: PGRES_TUPLES_OK time is 426883.727000 ms
 
-query 14b.sql geomean time is 418567.085850 ms with deviation = 7528.648104
+query 14b.sql geomean time is 427820.982228 ms with deviation = 7091.838439
 
-14c.sql: PGRES_TUPLES_OK time is 231223.679000 ms
-14c.sql: PGRES_TUPLES_OK time is 204875.465000 ms
-14c.sql: PGRES_TUPLES_OK time is 228888.849000 ms
+14c.sql: PGRES_TUPLES_OK time is 227819.691000 ms
+14c.sql: PGRES_TUPLES_OK time is 226289.758000 ms
+14c.sql: PGRES_TUPLES_OK time is 215194.682000 ms
 
-query 14c.sql geomean time is 221334.424057 ms with deviation = 11913.074509
-
-ERROR:  non-MVCC snapshots are not supported in index-only scans
-
-ERROR:  non-MVCC snapshots are not supported in index-only scans
-
-ERROR:  non-MVCC snapshots are not supported in index-only scans
-
-
-query 15a.sql geomean time is 344727.876254 ms with deviation = 2899.278742
+query 14c.sql geomean time is 223029.629893 ms with deviation = 5626.115568
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -119,19 +110,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 15b.sql geomean time is 29882.317551 ms with deviation = 1587.720678
-
-15c.sql: PGRES_TUPLES_OK time is 524019.528000 ms
-15c.sql: PGRES_TUPLES_OK time is 606403.622000 ms
-15c.sql: PGRES_TUPLES_OK time is 553714.246000 ms
-
-query 15c.sql geomean time is 560357.236931 ms with deviation = 34082.390354
-
-15d.sql: PGRES_TUPLES_OK time is 595353.223000 ms
-15d.sql: PGRES_TUPLES_OK time is 586491.800000 ms
-15d.sql: PGRES_TUPLES_OK time is 576998.585000 ms
-
-query 15d.sql geomean time is 586233.277094 ms with deviation = 7494.882376
+query 15a.sql geomean time is 346597.429872 ms with deviation = 3440.293755
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -140,25 +119,19 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 16a.sql geomean time is 347872.035167 ms with deviation = 17257.123245
+query 15b.sql geomean time is 29484.491543 ms with deviation = 1514.878032
 
-16b.sql: PGRES_TUPLES_OK time is 650710.430000 ms
-16b.sql: PGRES_TUPLES_OK time is 652037.033000 ms
-16b.sql: PGRES_TUPLES_OK time is 746084.111000 ms
+15c.sql: PGRES_TUPLES_OK time is 517197.303000 ms
+15c.sql: PGRES_TUPLES_OK time is 572368.389000 ms
+15c.sql: PGRES_TUPLES_OK time is 543871.326000 ms
 
-query 16b.sql geomean time is 681526.280152 ms with deviation = 44672.683085
+query 15c.sql geomean time is 544013.092112 ms with deviation = 22532.417424
 
-16c.sql: PGRES_TUPLES_OK time is 1004752.136000 ms
-16c.sql: PGRES_TUPLES_OK time is 18697.575000 ms
-16c.sql: PGRES_TUPLES_OK time is 1006695.177000 ms
+15d.sql: PGRES_TUPLES_OK time is 596533.694000 ms
+15d.sql: PGRES_TUPLES_OK time is 600718.333000 ms
+15d.sql: PGRES_TUPLES_OK time is 581412.390000 ms
 
-query 16c.sql geomean time is 266428.534954 ms with deviation = 620345.889997
-
-16d.sql: PGRES_TUPLES_OK time is 45040.103000 ms
-16d.sql: PGRES_TUPLES_OK time is 38194.201000 ms
-16d.sql: PGRES_TUPLES_OK time is 38269.174000 ms
-
-query 16d.sql geomean time is 40378.355835 ms with deviation = 3212.012193
+query 15d.sql geomean time is 592829.831134 ms with deviation = 8292.667924
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -167,7 +140,25 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 17a.sql geomean time is 11818.532861 ms with deviation = 1431.340795
+query 16a.sql geomean time is 368099.120364 ms with deviation = 15896.174540
+
+16b.sql: PGRES_TUPLES_OK time is 708507.141000 ms
+16b.sql: PGRES_TUPLES_OK time is 718436.848000 ms
+16b.sql: PGRES_TUPLES_OK time is 728156.002000 ms
+
+query 16b.sql geomean time is 718321.868261 ms with deviation = 8021.892502
+
+16c.sql: PGRES_TUPLES_OK time is 978064.998000 ms
+16c.sql: PGRES_TUPLES_OK time is 1000767.281000 ms
+16c.sql: PGRES_TUPLES_OK time is 14923.720000 ms
+
+query 16c.sql geomean time is 244451.460194 ms with deviation = 622598.165532
+
+16d.sql: PGRES_TUPLES_OK time is 975927.187000 ms
+16d.sql: PGRES_TUPLES_OK time is 978986.055000 ms
+16d.sql: PGRES_TUPLES_OK time is 51058.298000 ms
+
+query 16d.sql geomean time is 365387.275111 ms with deviation = 531684.478033
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -176,7 +167,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 17b.sql geomean time is 10446.107304 ms with deviation = 34.202405
+query 17a.sql geomean time is 11901.166205 ms with deviation = 1394.596184
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -185,7 +176,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 17c.sql geomean time is 10415.587828 ms with deviation = 12.500486
+query 17b.sql geomean time is 10852.680206 ms with deviation = 286.478094
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -194,7 +185,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 17d.sql geomean time is 10421.333635 ms with deviation = 0.810022
+query 17c.sql geomean time is 10733.799160 ms with deviation = 378.027345
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -203,7 +194,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 17e.sql geomean time is 10615.918910 ms with deviation = 42.900651
+query 17d.sql geomean time is 10708.863445 ms with deviation = 226.672839
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -212,25 +203,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 17f.sql geomean time is 10651.378094 ms with deviation = 386.749978
-
-18a.sql: PGRES_TUPLES_OK time is 671888.034000 ms
-18a.sql: PGRES_TUPLES_OK time is 644227.531000 ms
-18a.sql: PGRES_TUPLES_OK time is 646996.851000 ms
-
-query 18a.sql geomean time is 654253.595432 ms with deviation = 12438.592248
-
-18b.sql: PGRES_TUPLES_OK time is 322041.802000 ms
-18b.sql: PGRES_TUPLES_OK time is 303666.610000 ms
-18b.sql: PGRES_TUPLES_OK time is 293290.929000 ms
-
-query 18b.sql geomean time is 306104.212909 ms with deviation = 11890.176597
-
-18c.sql: PGRES_TUPLES_OK time is 817420.685000 ms
-18c.sql: PGRES_TUPLES_OK time is 855591.307000 ms
-18c.sql: PGRES_TUPLES_OK time is 812145.064000 ms
-
-query 18c.sql geomean time is 828161.808385 ms with deviation = 19358.763963
+query 17e.sql geomean time is 10954.827022 ms with deviation = 376.140879
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -239,7 +212,25 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 19a.sql geomean time is 24806.826591 ms with deviation = 544796.526065
+query 17f.sql geomean time is 10705.741837 ms with deviation = 84.414626
+
+18a.sql: PGRES_TUPLES_OK time is 667300.081000 ms
+18a.sql: PGRES_TUPLES_OK time is 655625.507000 ms
+18a.sql: PGRES_TUPLES_OK time is 653155.440000 ms
+
+query 18a.sql geomean time is 658664.902672 ms with deviation = 6168.695425
+
+18b.sql: PGRES_TUPLES_OK time is 326459.675000 ms
+18b.sql: PGRES_TUPLES_OK time is 310175.723000 ms
+18b.sql: PGRES_TUPLES_OK time is 295785.791000 ms
+
+query 18b.sql geomean time is 310554.779995 ms with deviation = 12533.055031
+
+18c.sql: PGRES_TUPLES_OK time is 803463.483000 ms
+18c.sql: PGRES_TUPLES_OK time is 818495.636000 ms
+18c.sql: PGRES_TUPLES_OK time is 9253.069000 ms
+
+query 18c.sql geomean time is 182567.206623 ms with deviation = 522798.541062
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -248,7 +239,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 19b.sql geomean time is 624993.299630 ms with deviation = 2928.666299
+query 19a.sql geomean time is 21966.421479 ms with deviation = 368304.266574
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -257,7 +248,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 19c.sql geomean time is 4021.240791 ms with deviation = 521.725608
+query 19b.sql geomean time is 631751.718727 ms with deviation = 6646.519451
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -266,31 +257,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 19d.sql geomean time is 3456.196409 ms with deviation = 64.534543
-
-1a.sql: PGRES_TUPLES_OK time is 594569.949000 ms
-1a.sql: PGRES_TUPLES_OK time is 574286.620000 ms
-1a.sql: PGRES_TUPLES_OK time is 565088.301000 ms
-
-query 1a.sql geomean time is 577851.160464 ms with deviation = 12316.850525
-
-1b.sql: PGRES_TUPLES_OK time is 407099.492000 ms
-1b.sql: PGRES_TUPLES_OK time is 426748.159000 ms
-1b.sql: PGRES_TUPLES_OK time is 408674.628000 ms
-
-query 1b.sql geomean time is 414079.087449 ms with deviation = 8914.937063
-
-1c.sql: PGRES_TUPLES_OK time is 450593.631000 ms
-1c.sql: PGRES_TUPLES_OK time is 451009.497000 ms
-1c.sql: PGRES_TUPLES_OK time is 450962.843000 ms
-
-query 1c.sql geomean time is 450855.285283 ms with deviation = 186.022293
-
-1d.sql: PGRES_TUPLES_OK time is 411587.388000 ms
-1d.sql: PGRES_TUPLES_OK time is 408536.349000 ms
-1d.sql: PGRES_TUPLES_OK time is 407812.356000 ms
-
-query 1d.sql geomean time is 409308.767358 ms with deviation = 1635.847293
+query 19c.sql geomean time is 4040.917209 ms with deviation = 475.681963
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -299,115 +266,31 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 20a.sql geomean time is 171695.200135 ms with deviation = 20878.661218
+query 19d.sql geomean time is 3487.741838 ms with deviation = 93.730365
 
-20b.sql: PGRES_TUPLES_OK time is 636529.115000 ms
-20b.sql: PGRES_TUPLES_OK time is 631425.774000 ms
-20b.sql: PGRES_TUPLES_OK time is 629910.073000 ms
+1a.sql: PGRES_TUPLES_OK time is 594680.714000 ms
+1a.sql: PGRES_TUPLES_OK time is 574002.007000 ms
+1a.sql: PGRES_TUPLES_OK time is 564717.553000 ms
 
-query 20b.sql geomean time is 632615.328146 ms with deviation = 2831.440859
+query 1a.sql geomean time is 577665.171674 ms with deviation = 12524.486489
 
-20c.sql: PGRES_TUPLES_OK time is 857749.596000 ms
-20c.sql: PGRES_TUPLES_OK time is 949655.994000 ms
-20c.sql: PGRES_TUPLES_OK time is 880979.019000 ms
+1b.sql: PGRES_TUPLES_OK time is 407358.476000 ms
+1b.sql: PGRES_TUPLES_OK time is 408911.125000 ms
+1b.sql: PGRES_TUPLES_OK time is 407983.508000 ms
 
-query 20c.sql geomean time is 895290.824990 ms with deviation = 39028.806738
+query 1b.sql geomean time is 408083.871271 ms with deviation = 637.866187
 
-21a.sql: PGRES_TUPLES_OK time is 92496.292000 ms
-21a.sql: PGRES_TUPLES_OK time is 945780.435000 ms
-21a.sql: PGRES_TUPLES_OK time is 949401.479000 ms
+1c.sql: PGRES_TUPLES_OK time is 452236.344000 ms
+1c.sql: PGRES_TUPLES_OK time is 451038.492000 ms
+1c.sql: PGRES_TUPLES_OK time is 451987.937000 ms
 
-query 21a.sql geomean time is 436302.984969 ms with deviation = 462255.477270
+query 1c.sql geomean time is 451753.962635 ms with deviation = 516.182789
 
-21b.sql: PGRES_TUPLES_OK time is 119005.334000 ms
-21b.sql: PGRES_TUPLES_OK time is 120723.895000 ms
-21b.sql: PGRES_TUPLES_OK time is 119372.391000 ms
+1d.sql: PGRES_TUPLES_OK time is 411297.081000 ms
+1d.sql: PGRES_TUPLES_OK time is 428137.067000 ms
+1d.sql: PGRES_TUPLES_OK time is 410465.392000 ms
 
-query 21b.sql geomean time is 119698.264350 ms with deviation = 738.977704
-
-21c.sql: PGRES_TUPLES_OK time is 170208.301000 ms
-21c.sql: PGRES_TUPLES_OK time is 172607.186000 ms
-21c.sql: PGRES_TUPLES_OK time is 166707.867000 ms
-
-query 21c.sql geomean time is 169823.805261 ms with deviation = 2422.403528
-
-22a.sql: PGRES_TUPLES_OK time is 762874.591000 ms
-22a.sql: PGRES_TUPLES_OK time is 751182.981000 ms
-22a.sql: PGRES_TUPLES_OK time is 767365.393000 ms
-
-query 22a.sql geomean time is 760443.641912 ms with deviation = 6821.045671
-
-22b.sql: PGRES_TUPLES_OK time is 751764.435000 ms
-22b.sql: PGRES_TUPLES_OK time is 754158.796000 ms
-22b.sql: PGRES_TUPLES_OK time is 754175.393000 ms
-
-query 22b.sql geomean time is 753365.355961 ms with deviation = 1132.645138
-
-22c.sql: PGRES_TUPLES_OK time is 660522.439000 ms
-22c.sql: PGRES_TUPLES_OK time is 639996.195000 ms
-22c.sql: PGRES_TUPLES_OK time is 648604.793000 ms
-
-query 22c.sql geomean time is 649653.387236 ms with deviation = 8416.198627
-
-22d.sql: PGRES_TUPLES_OK time is 801042.148000 ms
-22d.sql: PGRES_TUPLES_OK time is 802241.344000 ms
-22d.sql: PGRES_TUPLES_OK time is 804835.020000 ms
-
-query 22d.sql geomean time is 802704.610746 ms with deviation = 1582.934200
-
-23a.sql: PGRES_TUPLES_OK time is 175587.576000 ms
-23a.sql: PGRES_TUPLES_OK time is 159920.231000 ms
-23a.sql: PGRES_TUPLES_OK time is 162482.398000 ms
-
-query 23a.sql geomean time is 165857.266677 ms with deviation = 6863.358040
-
-23b.sql: PGRES_TUPLES_OK time is 814221.995000 ms
-23b.sql: PGRES_TUPLES_OK time is 812619.043000 ms
-23b.sql: PGRES_TUPLES_OK time is 812105.025000 ms
-
-query 23b.sql geomean time is 812981.521309 ms with deviation = 901.556299
-
-23c.sql: PGRES_TUPLES_OK time is 166863.430000 ms
-23c.sql: PGRES_TUPLES_OK time is 165896.994000 ms
-23c.sql: PGRES_TUPLES_OK time is 166841.175000 ms
-
-query 23c.sql geomean time is 166533.256413 ms with deviation = 450.428800
-
-24a.sql: PGRES_TUPLES_OK time is 984074.011000 ms
-24a.sql: PGRES_TUPLES_OK time is 18955.499000 ms
-24a.sql: PGRES_TUPLES_OK time is 990615.587000 ms
-
-query 24a.sql geomean time is 264376.417787 ms with deviation = 607074.785056
-
-24b.sql: PGRES_TUPLES_OK time is 694002.219000 ms
-24b.sql: PGRES_TUPLES_OK time is 658336.167000 ms
-24b.sql: PGRES_TUPLES_OK time is 673918.180000 ms
-
-query 24b.sql geomean time is 675261.385202 ms with deviation = 14600.069210
-
-25a.sql: PGRES_TUPLES_OK time is 77925.048000 ms
-25a.sql: PGRES_TUPLES_OK time is 64740.472000 ms
-25a.sql: PGRES_TUPLES_OK time is 53623.260000 ms
-
-query 25a.sql geomean time is 64674.843180 ms with deviation = 9961.755630
-
-25b.sql: PGRES_TUPLES_OK time is 331407.856000 ms
-25b.sql: PGRES_TUPLES_OK time is 335189.953000 ms
-25b.sql: PGRES_TUPLES_OK time is 324285.102000 ms
-
-query 25b.sql geomean time is 330263.259618 ms with deviation = 4521.090468
-
-25c.sql: PGRES_TUPLES_OK time is 734536.231000 ms
-25c.sql: PGRES_TUPLES_OK time is 737048.791000 ms
-25c.sql: PGRES_TUPLES_OK time is 731713.679000 ms
-
-query 25c.sql geomean time is 734429.666593 ms with deviation = 2179.277957
-
-26a.sql: PGRES_TUPLES_OK time is 39861.339000 ms
-26a.sql: PGRES_TUPLES_OK time is 132171.329000 ms
-26a.sql: PGRES_TUPLES_OK time is 42844.076000 ms
-
-query 26a.sql geomean time is 60887.289393 ms with deviation = 44155.265606
+query 1d.sql geomean time is 416554.343757 ms with deviation = 8141.941270
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -416,7 +299,115 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 26b.sql geomean time is 970448.997694 ms with deviation = 14594.499411
+query 20a.sql geomean time is 171486.106048 ms with deviation = 21628.484624
+
+20b.sql: PGRES_TUPLES_OK time is 618700.002000 ms
+20b.sql: PGRES_TUPLES_OK time is 629296.300000 ms
+20b.sql: PGRES_TUPLES_OK time is 628147.266000 ms
+
+query 20b.sql geomean time is 625363.106792 ms with deviation = 4747.578919
+
+20c.sql: PGRES_TUPLES_OK time is 872552.863000 ms
+20c.sql: PGRES_TUPLES_OK time is 876715.414000 ms
+20c.sql: PGRES_TUPLES_OK time is 886080.305000 ms
+
+query 20c.sql geomean time is 878431.345507 ms with deviation = 5657.076950
+
+21a.sql: PGRES_TUPLES_OK time is 971700.264000 ms
+21a.sql: PGRES_TUPLES_OK time is 298319.617000 ms
+21a.sql: PGRES_TUPLES_OK time is 970383.947000 ms
+
+query 21a.sql geomean time is 655218.139629 ms with deviation = 330084.320862
+
+21b.sql: PGRES_TUPLES_OK time is 118750.947000 ms
+21b.sql: PGRES_TUPLES_OK time is 129493.826000 ms
+21b.sql: PGRES_TUPLES_OK time is 125860.664000 ms
+
+query 21b.sql geomean time is 124621.236003 ms with deviation = 4462.383818
+
+21c.sql: PGRES_TUPLES_OK time is 174578.184000 ms
+21c.sql: PGRES_TUPLES_OK time is 171153.613000 ms
+21c.sql: PGRES_TUPLES_OK time is 177080.906000 ms
+
+query 21c.sql geomean time is 174253.934452 ms with deviation = 2429.602094
+
+22a.sql: PGRES_TUPLES_OK time is 766881.719000 ms
+22a.sql: PGRES_TUPLES_OK time is 760773.066000 ms
+22a.sql: PGRES_TUPLES_OK time is 763703.732000 ms
+
+query 22a.sql geomean time is 763782.099182 ms with deviation = 2494.531694
+
+22b.sql: PGRES_TUPLES_OK time is 757852.284000 ms
+22b.sql: PGRES_TUPLES_OK time is 755722.938000 ms
+22b.sql: PGRES_TUPLES_OK time is 759698.860000 ms
+
+query 22b.sql geomean time is 757756.285725 ms with deviation = 1624.532082
+
+22c.sql: PGRES_TUPLES_OK time is 656036.460000 ms
+22c.sql: PGRES_TUPLES_OK time is 662689.571000 ms
+22c.sql: PGRES_TUPLES_OK time is 651663.729000 ms
+
+query 22c.sql geomean time is 656780.959622 ms with deviation = 4533.284951
+
+22d.sql: PGRES_TUPLES_OK time is 808766.855000 ms
+22d.sql: PGRES_TUPLES_OK time is 809606.553000 ms
+22d.sql: PGRES_TUPLES_OK time is 821412.779000 ms
+
+query 22d.sql geomean time is 813241.634940 ms with deviation = 5773.649091
+
+23a.sql: PGRES_TUPLES_OK time is 176948.505000 ms
+23a.sql: PGRES_TUPLES_OK time is 174195.294000 ms
+23a.sql: PGRES_TUPLES_OK time is 163609.816000 ms
+
+query 23a.sql geomean time is 171486.876734 ms with deviation = 5750.738886
+
+23b.sql: PGRES_TUPLES_OK time is 816013.765000 ms
+23b.sql: PGRES_TUPLES_OK time is 812436.226000 ms
+23b.sql: PGRES_TUPLES_OK time is 817181.278000 ms
+
+query 23b.sql geomean time is 815207.921272 ms with deviation = 2018.730259
+
+23c.sql: PGRES_TUPLES_OK time is 173034.992000 ms
+23c.sql: PGRES_TUPLES_OK time is 174537.321000 ms
+23c.sql: PGRES_TUPLES_OK time is 221137.461000 ms
+
+query 23c.sql geomean time is 188319.309855 ms with deviation = 22365.036953
+
+24a.sql: PGRES_TUPLES_OK time is 14033.574000 ms
+24a.sql: PGRES_TUPLES_OK time is 14556.662000 ms
+24a.sql: PGRES_TUPLES_OK time is 16278.183000 ms
+
+query 24a.sql geomean time is 14926.065320 ms with deviation = 959.378582
+
+24b.sql: PGRES_TUPLES_OK time is 695333.844000 ms
+24b.sql: PGRES_TUPLES_OK time is 698482.555000 ms
+24b.sql: PGRES_TUPLES_OK time is 690746.970000 ms
+
+query 24b.sql geomean time is 694847.192166 ms with deviation = 3176.188216
+
+25a.sql: PGRES_TUPLES_OK time is 73574.647000 ms
+25a.sql: PGRES_TUPLES_OK time is 77260.378000 ms
+25a.sql: PGRES_TUPLES_OK time is 69973.658000 ms
+
+query 25a.sql geomean time is 73542.749844 ms with deviation = 2975.465965
+
+25b.sql: PGRES_TUPLES_OK time is 351549.912000 ms
+25b.sql: PGRES_TUPLES_OK time is 329097.439000 ms
+25b.sql: PGRES_TUPLES_OK time is 337915.367000 ms
+
+query 25b.sql geomean time is 339395.812356 ms with deviation = 9237.069347
+
+25c.sql: PGRES_TUPLES_OK time is 736485.932000 ms
+25c.sql: PGRES_TUPLES_OK time is 748265.796000 ms
+25c.sql: PGRES_TUPLES_OK time is 729567.235000 ms
+
+query 25c.sql geomean time is 738066.041027 ms with deviation = 7719.271337
+
+26a.sql: PGRES_TUPLES_OK time is 82904.712000 ms
+26a.sql: PGRES_TUPLES_OK time is 302464.643000 ms
+26a.sql: PGRES_TUPLES_OK time is 299941.362000 ms
+
+query 26a.sql geomean time is 195928.101179 ms with deviation = 107924.479261
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -425,121 +416,130 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 26c.sql geomean time is 59266.085892 ms with deviation = 30268.353709
+query 26b.sql geomean time is 999765.875883 ms with deviation = 4671.081589
 
-27a.sql: PGRES_TUPLES_OK time is 661255.954000 ms
-27a.sql: PGRES_TUPLES_OK time is 663538.472000 ms
-27a.sql: PGRES_TUPLES_OK time is 669564.431000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
 
-query 27a.sql geomean time is 664777.062618 ms with deviation = 3504.816146
+ERROR:  non-MVCC snapshots are not supported in index-only scans
 
-27b.sql: PGRES_TUPLES_OK time is 387526.623000 ms
-27b.sql: PGRES_TUPLES_OK time is 392400.225000 ms
-27b.sql: PGRES_TUPLES_OK time is 386334.387000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
 
-query 27b.sql geomean time is 388744.913055 ms with deviation = 2624.002791
 
-27c.sql: PGRES_TUPLES_OK time is 391952.761000 ms
-27c.sql: PGRES_TUPLES_OK time is 381438.860000 ms
-27c.sql: PGRES_TUPLES_OK time is 377265.089000 ms
+query 26c.sql geomean time is 84252.196320 ms with deviation = 16403.960052
 
-query 27c.sql geomean time is 383502.701436 ms with deviation = 6179.826238
+27a.sql: PGRES_TUPLES_OK time is 667186.006000 ms
+27a.sql: PGRES_TUPLES_OK time is 682652.263000 ms
+27a.sql: PGRES_TUPLES_OK time is 676994.842000 ms
 
-28a.sql: PGRES_TUPLES_OK time is 697423.697000 ms
-28a.sql: PGRES_TUPLES_OK time is 706095.460000 ms
-28a.sql: PGRES_TUPLES_OK time is 699798.459000 ms
+query 27a.sql geomean time is 675580.762322 ms with deviation = 6389.514246
 
-query 28a.sql geomean time is 701096.340450 ms with deviation = 3658.961713
+27b.sql: PGRES_TUPLES_OK time is 398770.471000 ms
+27b.sql: PGRES_TUPLES_OK time is 387051.130000 ms
+27b.sql: PGRES_TUPLES_OK time is 392331.267000 ms
 
-28b.sql: PGRES_TUPLES_OK time is 732870.284000 ms
-28b.sql: PGRES_TUPLES_OK time is 736779.641000 ms
-28b.sql: PGRES_TUPLES_OK time is 735616.224000 ms
+query 27b.sql geomean time is 392688.410406 ms with deviation = 4792.283480
 
-query 28b.sql geomean time is 735086.887906 ms with deviation = 1638.997927
+27c.sql: PGRES_TUPLES_OK time is 410838.195000 ms
+27c.sql: PGRES_TUPLES_OK time is 417051.953000 ms
+27c.sql: PGRES_TUPLES_OK time is 390017.276000 ms
 
-28c.sql: PGRES_TUPLES_OK time is 755462.452000 ms
-28c.sql: PGRES_TUPLES_OK time is 744861.195000 ms
-28c.sql: PGRES_TUPLES_OK time is 730465.744000 ms
+query 27c.sql geomean time is 405802.706130 ms with deviation = 11562.605065
 
-query 28c.sql geomean time is 743525.776355 ms with deviation = 10244.218101
+28a.sql: PGRES_TUPLES_OK time is 695212.566000 ms
+28a.sql: PGRES_TUPLES_OK time is 693051.364000 ms
+28a.sql: PGRES_TUPLES_OK time is 700409.195000 ms
 
-29a.sql: PGRES_TUPLES_OK time is 224121.117000 ms
-29a.sql: PGRES_TUPLES_OK time is 385667.048000 ms
-29a.sql: PGRES_TUPLES_OK time is 220986.066000 ms
+query 28a.sql geomean time is 696217.536649 ms with deviation = 3087.858750
 
-query 29a.sql geomean time is 267312.992364 ms with deviation = 77501.407921
+28b.sql: PGRES_TUPLES_OK time is 741332.783000 ms
+28b.sql: PGRES_TUPLES_OK time is 738890.624000 ms
+28b.sql: PGRES_TUPLES_OK time is 740988.644000 ms
 
-29b.sql: PGRES_TUPLES_OK time is 722748.790000 ms
-29b.sql: PGRES_TUPLES_OK time is 744081.433000 ms
-29b.sql: PGRES_TUPLES_OK time is 710088.273000 ms
+query 28b.sql geomean time is 740403.229822 ms with deviation = 1079.313863
 
-query 29b.sql geomean time is 725504.416383 ms with deviation = 14028.025520
+28c.sql: PGRES_TUPLES_OK time is 750176.396000 ms
+28c.sql: PGRES_TUPLES_OK time is 763515.729000 ms
+28c.sql: PGRES_TUPLES_OK time is 968648.873000 ms
 
-29c.sql: PGRES_TUPLES_OK time is 478061.162000 ms
-29c.sql: PGRES_TUPLES_OK time is 464942.647000 ms
-29c.sql: PGRES_TUPLES_OK time is 476879.887000 ms
+query 28c.sql geomean time is 821704.982370 ms with deviation = 100157.933401
 
-query 29c.sql geomean time is 473257.259105 ms with deviation = 5925.472987
+29a.sql: PGRES_TUPLES_OK time is 247010.452000 ms
+29a.sql: PGRES_TUPLES_OK time is 260085.187000 ms
+29a.sql: PGRES_TUPLES_OK time is 249521.297000 ms
 
-2a.sql: PGRES_TUPLES_OK time is 729702.038000 ms
-2a.sql: PGRES_TUPLES_OK time is 732440.478000 ms
-2a.sql: PGRES_TUPLES_OK time is 733755.229000 ms
+query 29a.sql geomean time is 252142.578148 ms with deviation = 5665.535251
 
-query 2a.sql geomean time is 731963.966533 ms with deviation = 1688.392242
+29b.sql: PGRES_TUPLES_OK time is 736252.219000 ms
+29b.sql: PGRES_TUPLES_OK time is 747452.100000 ms
+29b.sql: PGRES_TUPLES_OK time is 724228.804000 ms
 
-2b.sql: PGRES_TUPLES_OK time is 699988.159000 ms
-2b.sql: PGRES_TUPLES_OK time is 712520.894000 ms
-2b.sql: PGRES_TUPLES_OK time is 701778.131000 ms
+query 29b.sql geomean time is 735916.587891 ms with deviation = 9483.054714
 
-query 2b.sql geomean time is 704740.736637 ms with deviation = 5534.584445
+29c.sql: PGRES_TUPLES_OK time is 487694.678000 ms
+29c.sql: PGRES_TUPLES_OK time is 491906.762000 ms
+29c.sql: PGRES_TUPLES_OK time is 482633.472000 ms
 
-2c.sql: PGRES_TUPLES_OK time is 678367.007000 ms
-2c.sql: PGRES_TUPLES_OK time is 664741.213000 ms
-2c.sql: PGRES_TUPLES_OK time is 690714.574000 ms
+query 29c.sql geomean time is 487396.884788 ms with deviation = 3791.120092
 
-query 2c.sql geomean time is 677857.877546 ms with deviation = 10608.184660
+2a.sql: PGRES_TUPLES_OK time is 738771.101000 ms
+2a.sql: PGRES_TUPLES_OK time is 726980.077000 ms
+2a.sql: PGRES_TUPLES_OK time is 855649.326000 ms
 
-2d.sql: PGRES_TUPLES_OK time is 29188.393000 ms
-2d.sql: PGRES_TUPLES_OK time is 43367.908000 ms
-2d.sql: PGRES_TUPLES_OK time is 33077.582000 ms
+query 2a.sql geomean time is 771689.764782 ms with deviation = 58114.262526
 
-query 2d.sql geomean time is 34724.617528 ms with deviation = 6001.915756
+2b.sql: PGRES_TUPLES_OK time is 702804.412000 ms
+2b.sql: PGRES_TUPLES_OK time is 708518.889000 ms
+2b.sql: PGRES_TUPLES_OK time is 708429.948000 ms
 
-30a.sql: PGRES_TUPLES_OK time is 244743.535000 ms
-30a.sql: PGRES_TUPLES_OK time is 234336.133000 ms
-30a.sql: PGRES_TUPLES_OK time is 241520.967000 ms
+query 2b.sql geomean time is 706579.350896 ms with deviation = 2673.118115
 
-query 30a.sql geomean time is 240160.608593 ms with deviation = 4350.413980
+2c.sql: PGRES_TUPLES_OK time is 674707.063000 ms
+2c.sql: PGRES_TUPLES_OK time is 668190.029000 ms
+2c.sql: PGRES_TUPLES_OK time is 674592.235000 ms
 
-30b.sql: PGRES_TUPLES_OK time is 186640.833000 ms
-30b.sql: PGRES_TUPLES_OK time is 162093.176000 ms
-30b.sql: PGRES_TUPLES_OK time is 160786.565000 ms
+query 2c.sql geomean time is 672489.531762 ms with deviation = 3045.462729
 
-query 30b.sql geomean time is 169436.530917 ms with deviation = 11898.666339
+2d.sql: PGRES_TUPLES_OK time is 33218.349000 ms
+2d.sql: PGRES_TUPLES_OK time is 46038.636000 ms
+2d.sql: PGRES_TUPLES_OK time is 35836.371000 ms
 
-30c.sql: PGRES_TUPLES_OK time is 903422.976000 ms
-30c.sql: PGRES_TUPLES_OK time is 860896.248000 ms
-30c.sql: PGRES_TUPLES_OK time is 877042.167000 ms
+query 2d.sql geomean time is 37984.653749 ms with deviation = 5543.747524
 
-query 30c.sql geomean time is 880279.943445 ms with deviation = 17529.126250
+30a.sql: PGRES_TUPLES_OK time is 252379.022000 ms
+30a.sql: PGRES_TUPLES_OK time is 257145.812000 ms
+30a.sql: PGRES_TUPLES_OK time is 236095.394000 ms
 
-31a.sql: PGRES_TUPLES_OK time is 472427.069000 ms
-31a.sql: PGRES_TUPLES_OK time is 409419.671000 ms
-31a.sql: PGRES_TUPLES_OK time is 396424.532000 ms
+query 30a.sql geomean time is 248374.348562 ms with deviation = 9013.854250
 
-query 31a.sql geomean time is 424836.022001 ms with deviation = 33215.379955
+30b.sql: PGRES_TUPLES_OK time is 196619.219000 ms
+30b.sql: PGRES_TUPLES_OK time is 208567.848000 ms
+30b.sql: PGRES_TUPLES_OK time is 184766.110000 ms
 
-31b.sql: PGRES_TUPLES_OK time is 394805.566000 ms
-31b.sql: PGRES_TUPLES_OK time is 379302.480000 ms
-31b.sql: PGRES_TUPLES_OK time is 377942.230000 ms
+query 30b.sql geomean time is 196410.731940 ms with deviation = 9720.016424
 
-query 31b.sql geomean time is 383941.263790 ms with deviation = 7649.396141
+30c.sql: PGRES_TUPLES_OK time is 912324.389000 ms
+30c.sql: PGRES_TUPLES_OK time is 873468.681000 ms
+30c.sql: PGRES_TUPLES_OK time is 883264.917000 ms
 
-31c.sql: PGRES_TUPLES_OK time is 967476.669000 ms
-31c.sql: PGRES_TUPLES_OK time is 973390.683000 ms
-31c.sql: PGRES_TUPLES_OK time is 986774.524000 ms
+query 30c.sql geomean time is 889533.963060 ms with deviation = 16500.482222
 
-query 31c.sql geomean time is 975847.314771 ms with deviation = 8072.724691
+31a.sql: PGRES_TUPLES_OK time is 405081.975000 ms
+31a.sql: PGRES_TUPLES_OK time is 403327.341000 ms
+31a.sql: PGRES_TUPLES_OK time is 382446.301000 ms
+
+query 31a.sql geomean time is 396817.072615 ms with deviation = 10282.854381
+
+31b.sql: PGRES_TUPLES_OK time is 377154.748000 ms
+31b.sql: PGRES_TUPLES_OK time is 374344.102000 ms
+31b.sql: PGRES_TUPLES_OK time is 399896.413000 ms
+
+query 31b.sql geomean time is 383630.117063 ms with deviation = 11441.923844
+
+31c.sql: PGRES_TUPLES_OK time is 1000203.425000 ms
+31c.sql: PGRES_TUPLES_OK time is 15316.693000 ms
+31c.sql: PGRES_TUPLES_OK time is 998217.026000 ms
+
+query 31c.sql geomean time is 248213.904385 ms with deviation = 627756.330810
 
 ERROR:  no relation entry for relid 0
 
@@ -548,7 +548,7 @@ ERROR:  no relation entry for relid 0
 ERROR:  no relation entry for relid 0
 
 
-query 32a.sql geomean time is 1507.039092 ms with deviation = 306.923890
+query 32a.sql geomean time is 734.965804 ms with deviation = 48.600439
 
 ERROR:  no relation entry for relid 0
 
@@ -557,7 +557,7 @@ ERROR:  no relation entry for relid 0
 ERROR:  no relation entry for relid 0
 
 
-query 32b.sql geomean time is 1011.725122 ms with deviation = 82.158218
+query 32b.sql geomean time is 684.223798 ms with deviation = 25.515730
 
 ERROR:  no relation entry for relid 0
 
@@ -566,7 +566,7 @@ ERROR:  no relation entry for relid 0
 ERROR:  no relation entry for relid 0
 
 
-query 33a.sql geomean time is 1285.846969 ms with deviation = 85.945891
+query 33a.sql geomean time is 968.886876 ms with deviation = 39.122190
 
 ERROR:  no relation entry for relid 0
 
@@ -575,7 +575,7 @@ ERROR:  no relation entry for relid 0
 ERROR:  no relation entry for relid 0
 
 
-query 33b.sql geomean time is 1168.261587 ms with deviation = 20.462550
+query 33b.sql geomean time is 924.536541 ms with deviation = 26.230229
 
 ERROR:  no relation entry for relid 0
 
@@ -584,127 +584,127 @@ ERROR:  no relation entry for relid 0
 ERROR:  no relation entry for relid 0
 
 
-query 33c.sql geomean time is 1276.159095 ms with deviation = 21.168304
+query 33c.sql geomean time is 973.336993 ms with deviation = 5.343729
 
-3a.sql: PGRES_TUPLES_OK time is 617209.308000 ms
-3a.sql: PGRES_TUPLES_OK time is 601920.633000 ms
-3a.sql: PGRES_TUPLES_OK time is 592417.698000 ms
+3a.sql: PGRES_TUPLES_OK time is 616353.130000 ms
+3a.sql: PGRES_TUPLES_OK time is 601099.180000 ms
+3a.sql: PGRES_TUPLES_OK time is 592267.403000 ms
 
-query 3a.sql geomean time is 603763.109822 ms with deviation = 10212.954775
+query 3a.sql geomean time is 603158.136402 ms with deviation = 9949.124443
 
-3b.sql: PGRES_TUPLES_OK time is 448106.514000 ms
-3b.sql: PGRES_TUPLES_OK time is 434928.046000 ms
-3b.sql: PGRES_TUPLES_OK time is 448687.490000 ms
+3b.sql: PGRES_TUPLES_OK time is 443328.296000 ms
+3b.sql: PGRES_TUPLES_OK time is 437907.673000 ms
+3b.sql: PGRES_TUPLES_OK time is 439119.376000 ms
 
-query 3b.sql geomean time is 443861.568959 ms with deviation = 6353.920175
+query 3b.sql geomean time is 440112.329979 ms with deviation = 2322.994292
 
-3c.sql: PGRES_TUPLES_OK time is 899244.731000 ms
-3c.sql: PGRES_TUPLES_OK time is 915142.747000 ms
-3c.sql: PGRES_TUPLES_OK time is 906956.962000 ms
+3c.sql: PGRES_TUPLES_OK time is 912827.312000 ms
+3c.sql: PGRES_TUPLES_OK time is 911989.230000 ms
+3c.sql: PGRES_TUPLES_OK time is 913915.238000 ms
 
-query 3c.sql geomean time is 907091.590974 ms with deviation = 6491.339096
+query 3c.sql geomean time is 912910.252849 ms with deviation = 788.491688
 
-4a.sql: PGRES_TUPLES_OK time is 590255.270000 ms
-4a.sql: PGRES_TUPLES_OK time is 592321.624000 ms
-4a.sql: PGRES_TUPLES_OK time is 589572.830000 ms
+4a.sql: PGRES_TUPLES_OK time is 590188.681000 ms
+4a.sql: PGRES_TUPLES_OK time is 589868.900000 ms
+4a.sql: PGRES_TUPLES_OK time is 589253.722000 ms
 
-query 4a.sql geomean time is 590715.419494 ms with deviation = 1168.637558
+query 4a.sql geomean time is 589770.306688 ms with deviation = 387.993748
 
-4b.sql: PGRES_TUPLES_OK time is 479603.525000 ms
-4b.sql: PGRES_TUPLES_OK time is 479196.582000 ms
-4b.sql: PGRES_TUPLES_OK time is 479685.302000 ms
+4b.sql: PGRES_TUPLES_OK time is 481362.609000 ms
+4b.sql: PGRES_TUPLES_OK time is 478507.369000 ms
+4b.sql: PGRES_TUPLES_OK time is 478917.034000 ms
 
-query 4b.sql geomean time is 479495.088689 ms with deviation = 213.733308
+query 4b.sql geomean time is 479594.015942 ms with deviation = 1260.559073
 
-4c.sql: PGRES_TUPLES_OK time is 618228.754000 ms
-4c.sql: PGRES_TUPLES_OK time is 618139.980000 ms
-4c.sql: PGRES_TUPLES_OK time is 617012.522000 ms
+4c.sql: PGRES_TUPLES_OK time is 614353.763000 ms
+4c.sql: PGRES_TUPLES_OK time is 619273.903000 ms
+4c.sql: PGRES_TUPLES_OK time is 617215.970000 ms
 
-query 4c.sql geomean time is 617793.503858 ms with deviation = 553.600658
+query 4c.sql geomean time is 616944.578278 ms with deviation = 2017.567094
 
-5a.sql: PGRES_TUPLES_OK time is 261032.635000 ms
-5a.sql: PGRES_TUPLES_OK time is 262434.002000 ms
-5a.sql: PGRES_TUPLES_OK time is 260440.709000 ms
+5a.sql: PGRES_TUPLES_OK time is 260285.339000 ms
+5a.sql: PGRES_TUPLES_OK time is 261306.231000 ms
+5a.sql: PGRES_TUPLES_OK time is 262915.739000 ms
 
-query 5a.sql geomean time is 261301.113174 ms with deviation = 835.825533
+query 5a.sql geomean time is 261500.196268 ms with deviation = 1082.783748
 
-5b.sql: PGRES_TUPLES_OK time is 246088.072000 ms
-5b.sql: PGRES_TUPLES_OK time is 246890.053000 ms
-5b.sql: PGRES_TUPLES_OK time is 245720.329000 ms
+5b.sql: PGRES_TUPLES_OK time is 265993.804000 ms
+5b.sql: PGRES_TUPLES_OK time is 266923.491000 ms
+5b.sql: PGRES_TUPLES_OK time is 247065.623000 ms
 
-query 5b.sql geomean time is 246232.333933 ms with deviation = 488.383363
+query 5b.sql geomean time is 259830.550019 ms with deviation = 9151.299966
 
-5c.sql: PGRES_TUPLES_OK time is 887454.027000 ms
-5c.sql: PGRES_TUPLES_OK time is 893360.508000 ms
-5c.sql: PGRES_TUPLES_OK time is 887986.797000 ms
+5c.sql: PGRES_TUPLES_OK time is 887527.525000 ms
+5c.sql: PGRES_TUPLES_OK time is 891111.293000 ms
+5c.sql: PGRES_TUPLES_OK time is 888844.318000 ms
 
-query 5c.sql geomean time is 889596.449724 ms with deviation = 2667.651384
+query 5c.sql geomean time is 889159.813852 ms with deviation = 1480.109838
 
-6a.sql: PGRES_TUPLES_OK time is 258187.115000 ms
-6a.sql: PGRES_TUPLES_OK time is 237420.079000 ms
-6a.sql: PGRES_TUPLES_OK time is 249304.478000 ms
+6a.sql: PGRES_TUPLES_OK time is 254195.396000 ms
+6a.sql: PGRES_TUPLES_OK time is 256379.991000 ms
+6a.sql: PGRES_TUPLES_OK time is 253006.862000 ms
 
-query 6a.sql geomean time is 248157.475873 ms with deviation = 8508.837886
+query 6a.sql geomean time is 254523.587607 ms with deviation = 1396.949039
 
-6b.sql: PGRES_TUPLES_OK time is 342909.556000 ms
-6b.sql: PGRES_TUPLES_OK time is 340689.221000 ms
-6b.sql: PGRES_TUPLES_OK time is 360780.654000 ms
+6b.sql: PGRES_TUPLES_OK time is 346688.878000 ms
+6b.sql: PGRES_TUPLES_OK time is 340579.306000 ms
+6b.sql: PGRES_TUPLES_OK time is 352531.860000 ms
 
-query 6b.sql geomean time is 348011.616587 ms with deviation = 8994.383726
+query 6b.sql geomean time is 346565.647954 ms with deviation = 4880.135306
 
-6c.sql: PGRES_TUPLES_OK time is 254423.877000 ms
-6c.sql: PGRES_TUPLES_OK time is 235906.387000 ms
-6c.sql: PGRES_TUPLES_OK time is 241787.910000 ms
+6c.sql: PGRES_TUPLES_OK time is 256620.582000 ms
+6c.sql: PGRES_TUPLES_OK time is 252070.914000 ms
+6c.sql: PGRES_TUPLES_OK time is 251942.423000 ms
 
-query 6c.sql geomean time is 243918.111511 ms with deviation = 7726.504096
+query 6c.sql geomean time is 253535.342412 ms with deviation = 2175.672014
 
-6d.sql: PGRES_TUPLES_OK time is 355024.912000 ms
-6d.sql: PGRES_TUPLES_OK time is 346084.475000 ms
-6d.sql: PGRES_TUPLES_OK time is 343953.629000 ms
+6d.sql: PGRES_TUPLES_OK time is 337490.766000 ms
+6d.sql: PGRES_TUPLES_OK time is 351171.974000 ms
+6d.sql: PGRES_TUPLES_OK time is 354749.160000 ms
 
-query 6d.sql geomean time is 348321.499025 ms with deviation = 4796.467817
+query 6d.sql geomean time is 347723.764828 ms with deviation = 7437.754787
 
-6e.sql: PGRES_TUPLES_OK time is 251295.206000 ms
-6e.sql: PGRES_TUPLES_OK time is 242871.304000 ms
-6e.sql: PGRES_TUPLES_OK time is 247539.054000 ms
+6e.sql: PGRES_TUPLES_OK time is 254615.777000 ms
+6e.sql: PGRES_TUPLES_OK time is 249567.350000 ms
+6e.sql: PGRES_TUPLES_OK time is 241825.250000 ms
 
-query 6e.sql geomean time is 247211.144373 ms with deviation = 3445.833163
+query 6e.sql geomean time is 248613.614644 ms with deviation = 5260.464448
 
-6f.sql: PGRES_TUPLES_OK time is 177634.953000 ms
-6f.sql: PGRES_TUPLES_OK time is 881326.258000 ms
-6f.sql: PGRES_TUPLES_OK time is 752176.052000 ms
+6f.sql: PGRES_TUPLES_OK time is 780959.630000 ms
+6f.sql: PGRES_TUPLES_OK time is 727542.847000 ms
+6f.sql: PGRES_TUPLES_OK time is 758412.360000 ms
 
-query 6f.sql geomean time is 490149.103196 ms with deviation = 326263.075045
+query 6f.sql geomean time is 755319.773059 ms with deviation = 21897.670951
 
-7a.sql: PGRES_TUPLES_OK time is 781321.285000 ms
-7a.sql: PGRES_TUPLES_OK time is 751911.064000 ms
-7a.sql: PGRES_TUPLES_OK time is 797425.220000 ms
+7a.sql: PGRES_TUPLES_OK time is 797833.346000 ms
+7a.sql: PGRES_TUPLES_OK time is 837291.659000 ms
+7a.sql: PGRES_TUPLES_OK time is 807966.362000 ms
 
-query 7a.sql geomean time is 776655.995663 ms with deviation = 18845.311063
+query 7a.sql geomean time is 814193.085213 ms with deviation = 16732.774825
 
-7b.sql: PGRES_TUPLES_OK time is 310402.156000 ms
-7b.sql: PGRES_TUPLES_OK time is 291345.375000 ms
-7b.sql: PGRES_TUPLES_OK time is 243916.264000 ms
+7b.sql: PGRES_TUPLES_OK time is 284081.858000 ms
+7b.sql: PGRES_TUPLES_OK time is 272456.997000 ms
+7b.sql: PGRES_TUPLES_OK time is 244829.308000 ms
 
-query 7b.sql geomean time is 280451.567855 ms with deviation = 27991.315273
+query 7b.sql geomean time is 266605.000038 ms with deviation = 16470.855031
 
-7c.sql: PGRES_TUPLES_OK time is 865212.799000 ms
-7c.sql: PGRES_TUPLES_OK time is 845791.468000 ms
-7c.sql: PGRES_TUPLES_OK time is 814651.754000 ms
+7c.sql: PGRES_TUPLES_OK time is 963101.781000 ms
+7c.sql: PGRES_TUPLES_OK time is 907725.120000 ms
+7c.sql: PGRES_TUPLES_OK time is 905358.313000 ms
 
-query 7c.sql geomean time is 841626.517788 ms with deviation = 20827.044542
+query 7c.sql geomean time is 925015.502533 ms with deviation = 26682.872384
 
-8a.sql: PGRES_TUPLES_OK time is 802194.824000 ms
-8a.sql: PGRES_TUPLES_OK time is 785725.431000 ms
-8a.sql: PGRES_TUPLES_OK time is 816183.113000 ms
+8a.sql: PGRES_TUPLES_OK time is 802186.293000 ms
+8a.sql: PGRES_TUPLES_OK time is 786054.730000 ms
+8a.sql: PGRES_TUPLES_OK time is 801755.381000 ms
 
-query 8a.sql geomean time is 801270.997380 ms with deviation = 12448.417329
+query 8a.sql geomean time is 796629.959456 ms with deviation = 7505.070875
 
-8b.sql: PGRES_TUPLES_OK time is 832843.334000 ms
-8b.sql: PGRES_TUPLES_OK time is 809734.157000 ms
-8b.sql: PGRES_TUPLES_OK time is 807289.066000 ms
+8b.sql: PGRES_TUPLES_OK time is 835554.047000 ms
+8b.sql: PGRES_TUPLES_OK time is 814281.324000 ms
+8b.sql: PGRES_TUPLES_OK time is 790546.181000 ms
 
-query 8b.sql geomean time is 816541.535806 ms with deviation = 11513.719759
+query 8b.sql geomean time is 813252.528181 ms with deviation = 18384.725225
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -713,7 +713,7 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 8c.sql geomean time is 18630.194826 ms with deviation = 508649.494735
+query 8c.sql geomean time is 18548.479954 ms with deviation = 505001.283381
 
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
@@ -722,29 +722,29 @@ ERROR:  non-MVCC snapshots are not supported in index-only scans
 ERROR:  non-MVCC snapshots are not supported in index-only scans
 
 
-query 8d.sql geomean time is 14725.349621 ms with deviation = 203999.716748
+query 8d.sql geomean time is 14338.837833 ms with deviation = 203802.137037
 
-9a.sql: PGRES_TUPLES_OK time is 932144.269000 ms
-9a.sql: PGRES_TUPLES_OK time is 918541.518000 ms
-9a.sql: PGRES_TUPLES_OK time is 895011.515000 ms
+9a.sql: PGRES_TUPLES_OK time is 933118.601000 ms
+9a.sql: PGRES_TUPLES_OK time is 918969.321000 ms
+9a.sql: PGRES_TUPLES_OK time is 917609.140000 ms
 
-query 9a.sql geomean time is 915103.428799 ms with deviation = 15339.444712
+query 9a.sql geomean time is 923205.812705 ms with deviation = 7012.702264
 
-9b.sql: PGRES_TUPLES_OK time is 174791.834000 ms
-9b.sql: PGRES_TUPLES_OK time is 164637.839000 ms
-9b.sql: PGRES_TUPLES_OK time is 139513.646000 ms
+9b.sql: PGRES_TUPLES_OK time is 172065.306000 ms
+9b.sql: PGRES_TUPLES_OK time is 185168.695000 ms
+9b.sql: PGRES_TUPLES_OK time is 170898.367000 ms
 
-query 9b.sql geomean time is 158936.079105 ms with deviation = 14845.267898
+query 9b.sql geomean time is 175927.175412 ms with deviation = 6470.668015
 
-9c.sql: PGRES_TUPLES_OK time is 83730.440000 ms
-9c.sql: PGRES_TUPLES_OK time is 111059.012000 ms
-9c.sql: PGRES_TUPLES_OK time is 116525.017000 ms
+9c.sql: PGRES_TUPLES_OK time is 126976.953000 ms
+9c.sql: PGRES_TUPLES_OK time is 113532.566000 ms
+9c.sql: PGRES_TUPLES_OK time is 117516.638000 ms
 
-query 9c.sql geomean time is 102711.432112 ms with deviation = 14384.891136
+query 9c.sql geomean time is 119210.608402 ms with deviation = 5639.911632
 
-9d.sql: PGRES_TUPLES_OK time is 486959.978000 ms
-9d.sql: PGRES_TUPLES_OK time is 493407.863000 ms
-9d.sql: PGRES_TUPLES_OK time is 499140.447000 ms
+9d.sql: PGRES_TUPLES_OK time is 704645.775000 ms
+9d.sql: PGRES_TUPLES_OK time is 485751.325000 ms
+9d.sql: PGRES_TUPLES_OK time is 480955.376000 ms
 
-query 9d.sql geomean time is 493144.317334 ms with deviation = 4975.576358
+query 9d.sql geomean time is 548062.233920 ms with deviation = 104728.832527
 
