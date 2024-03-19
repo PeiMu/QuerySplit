@@ -12,7 +12,7 @@
 #include <filesystem>
 #include <iomanip>
 
-#define ITERATION_TIME 10
+#define ITERATION_TIME 3
 
 /***************************************
  * Timer functions of the test framework
