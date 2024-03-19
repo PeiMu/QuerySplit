@@ -1,0 +1,754 @@
+run IMDB with query split
+0: time consumption: 135194.761000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 142102.455000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 131483.772000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 132940.361000 ms
+1: time consumption: 115062.863000 ms
+2: time consumption: 120320.386000 ms
+0: time consumption: 806596.537000 ms
+1: time consumption: 838148.666000 ms
+2: time consumption: 811041.489000 ms
+0: time consumption: 735714.908000 ms
+1: time consumption: 728793.267000 ms
+2: time consumption: 731841.564000 ms
+0: time consumption: 729992.474000 ms
+1: time consumption: 728040.424000 ms
+2: time consumption: 728247.155000 ms
+0: time consumption: 688097.109000 ms
+1: time consumption: 691119.007000 ms
+2: time consumption: 690969.812000 ms
+0: time consumption: 872169.063000 ms
+1: time consumption: 856369.159000 ms
+2: time consumption: 862442.406000 ms
+0: time consumption: 111692.632000 ms
+1: time consumption: 104844.836000 ms
+2: time consumption: 104429.835000 ms
+0: time consumption: 10328.128000 ms
+1: time consumption: 4619.433000 ms
+2: time consumption: 10747.617000 ms
+0: time consumption: 698077.453000 ms
+1: time consumption: 695947.219000 ms
+2: time consumption: 701409.972000 ms
+0: time consumption: 804190.276000 ms
+1: time consumption: 780673.985000 ms
+2: time consumption: 789419.510000 ms
+0: time consumption: 623712.237000 ms
+1: time consumption: 683190.941000 ms
+2: time consumption: 641288.765000 ms
+0: time consumption: 554893.696000 ms
+1: time consumption: 576256.904000 ms
+2: time consumption: 561210.664000 ms
+0: time consumption: 662629.813000 ms
+1: time consumption: 627627.862000 ms
+2: time consumption: 634348.977000 ms
+0: time consumption: 250228.705000 ms
+1: time consumption: 217429.136000 ms
+2: time consumption: 220588.271000 ms
+0: time consumption: 421430.616000 ms
+1: time consumption: 426134.292000 ms
+2: time consumption: 408340.688000 ms
+0: time consumption: 231223.679000 ms
+1: time consumption: 204875.465000 ms
+2: time consumption: 228888.849000 ms
+0: time consumption: 348840.183000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 342689.589000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 342690.287000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 32141.678000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 29112.083000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 28516.814000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 524019.528000 ms
+1: time consumption: 606403.622000 ms
+2: time consumption: 553714.246000 ms
+0: time consumption: 595353.223000 ms
+1: time consumption: 586491.800000 ms
+2: time consumption: 576998.585000 ms
+0: time consumption: 360535.203000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 323912.405000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 360481.762000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 650710.430000 ms
+1: time consumption: 652037.033000 ms
+2: time consumption: 746084.111000 ms
+0: time consumption: 1004752.136000 ms
+1: time consumption: 18697.575000 ms
+2: time consumption: 1006695.177000 ms
+0: time consumption: 45040.103000 ms
+1: time consumption: 38194.201000 ms
+2: time consumption: 38269.174000 ms
+0: time consumption: 13910.882000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 11071.363000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 10718.523000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 10453.390000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 10483.969000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 10401.131000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 10425.875000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 10398.000000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 10422.911000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 10422.220000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 10420.262000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 10421.519000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 10625.203000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 10559.472000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 10663.342000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 10378.258000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 10391.490000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 11205.084000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 671888.034000 ms
+1: time consumption: 644227.531000 ms
+2: time consumption: 646996.851000 ms
+0: time consumption: 322041.802000 ms
+1: time consumption: 303666.610000 ms
+2: time consumption: 293290.929000 ms
+0: time consumption: 817420.685000 ms
+1: time consumption: 855591.307000 ms
+2: time consumption: 812145.064000 ms
+0: time consumption: 967961.917000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 3987.687000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 3954.889000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 626895.943000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 627241.354000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 620863.232000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 4781.594000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 3782.461000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 3595.283000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 3368.517000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 3520.964000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 3480.927000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 594569.949000 ms
+1: time consumption: 574286.620000 ms
+2: time consumption: 565088.301000 ms
+0: time consumption: 407099.492000 ms
+1: time consumption: 426748.159000 ms
+2: time consumption: 408674.628000 ms
+0: time consumption: 450593.631000 ms
+1: time consumption: 451009.497000 ms
+2: time consumption: 450962.843000 ms
+0: time consumption: 411587.388000 ms
+1: time consumption: 408536.349000 ms
+2: time consumption: 407812.356000 ms
+0: time consumption: 202366.826000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 158021.597000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 158277.323000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 636529.115000 ms
+1: time consumption: 631425.774000 ms
+2: time consumption: 629910.073000 ms
+0: time consumption: 857749.596000 ms
+1: time consumption: 949655.994000 ms
+2: time consumption: 880979.019000 ms
+0: time consumption: 92496.292000 ms
+1: time consumption: 945780.435000 ms
+2: time consumption: 949401.479000 ms
+0: time consumption: 119005.334000 ms
+1: time consumption: 120723.895000 ms
+2: time consumption: 119372.391000 ms
+0: time consumption: 170208.301000 ms
+1: time consumption: 172607.186000 ms
+2: time consumption: 166707.867000 ms
+0: time consumption: 762874.591000 ms
+1: time consumption: 751182.981000 ms
+2: time consumption: 767365.393000 ms
+0: time consumption: 751764.435000 ms
+1: time consumption: 754158.796000 ms
+2: time consumption: 754175.393000 ms
+0: time consumption: 660522.439000 ms
+1: time consumption: 639996.195000 ms
+2: time consumption: 648604.793000 ms
+0: time consumption: 801042.148000 ms
+1: time consumption: 802241.344000 ms
+2: time consumption: 804835.020000 ms
+0: time consumption: 175587.576000 ms
+1: time consumption: 159920.231000 ms
+2: time consumption: 162482.398000 ms
+0: time consumption: 814221.995000 ms
+1: time consumption: 812619.043000 ms
+2: time consumption: 812105.025000 ms
+0: time consumption: 166863.430000 ms
+1: time consumption: 165896.994000 ms
+2: time consumption: 166841.175000 ms
+0: time consumption: 984074.011000 ms
+1: time consumption: 18955.499000 ms
+2: time consumption: 990615.587000 ms
+0: time consumption: 694002.219000 ms
+1: time consumption: 658336.167000 ms
+2: time consumption: 673918.180000 ms
+0: time consumption: 77925.048000 ms
+1: time consumption: 64740.472000 ms
+2: time consumption: 53623.260000 ms
+0: time consumption: 331407.856000 ms
+1: time consumption: 335189.953000 ms
+2: time consumption: 324285.102000 ms
+0: time consumption: 734536.231000 ms
+1: time consumption: 737048.791000 ms
+2: time consumption: 731713.679000 ms
+0: time consumption: 39861.339000 ms
+1: time consumption: 132171.329000 ms
+2: time consumption: 42844.076000 ms
+0: time consumption: 975343.606000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 985554.209000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 950779.894000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 106453.594000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 51993.787000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 37610.314000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 661255.954000 ms
+1: time consumption: 663538.472000 ms
+2: time consumption: 669564.431000 ms
+0: time consumption: 387526.623000 ms
+1: time consumption: 392400.225000 ms
+2: time consumption: 386334.387000 ms
+0: time consumption: 391952.761000 ms
+1: time consumption: 381438.860000 ms
+2: time consumption: 377265.089000 ms
+0: time consumption: 697423.697000 ms
+1: time consumption: 706095.460000 ms
+2: time consumption: 699798.459000 ms
+0: time consumption: 732870.284000 ms
+1: time consumption: 736779.641000 ms
+2: time consumption: 735616.224000 ms
+0: time consumption: 755462.452000 ms
+1: time consumption: 744861.195000 ms
+2: time consumption: 730465.744000 ms
+0: time consumption: 224121.117000 ms
+1: time consumption: 385667.048000 ms
+2: time consumption: 220986.066000 ms
+0: time consumption: 722748.790000 ms
+1: time consumption: 744081.433000 ms
+2: time consumption: 710088.273000 ms
+0: time consumption: 478061.162000 ms
+1: time consumption: 464942.647000 ms
+2: time consumption: 476879.887000 ms
+0: time consumption: 729702.038000 ms
+1: time consumption: 732440.478000 ms
+2: time consumption: 733755.229000 ms
+0: time consumption: 699988.159000 ms
+1: time consumption: 712520.894000 ms
+2: time consumption: 701778.131000 ms
+0: time consumption: 678367.007000 ms
+1: time consumption: 664741.213000 ms
+2: time consumption: 690714.574000 ms
+0: time consumption: 29188.393000 ms
+1: time consumption: 43367.908000 ms
+2: time consumption: 33077.582000 ms
+0: time consumption: 244743.535000 ms
+1: time consumption: 234336.133000 ms
+2: time consumption: 241520.967000 ms
+0: time consumption: 186640.833000 ms
+1: time consumption: 162093.176000 ms
+2: time consumption: 160786.565000 ms
+0: time consumption: 903422.976000 ms
+1: time consumption: 860896.248000 ms
+2: time consumption: 877042.167000 ms
+0: time consumption: 472427.069000 ms
+1: time consumption: 409419.671000 ms
+2: time consumption: 396424.532000 ms
+0: time consumption: 394805.566000 ms
+1: time consumption: 379302.480000 ms
+2: time consumption: 377942.230000 ms
+0: time consumption: 967476.669000 ms
+1: time consumption: 973390.683000 ms
+2: time consumption: 986774.524000 ms
+0: time consumption: 1934.994000 ms
+ERROR:  no relation entry for relid 0
+1: time consumption: 1483.244000 ms
+ERROR:  no relation entry for relid 0
+2: time consumption: 1192.563000 ms
+ERROR:  no relation entry for relid 0
+0: time consumption: 1072.971000 ms
+ERROR:  no relation entry for relid 0
+1: time consumption: 1073.479000 ms
+ERROR:  no relation entry for relid 0
+2: time consumption: 899.096000 ms
+ERROR:  no relation entry for relid 0
+0: time consumption: 1408.454000 ms
+ERROR:  no relation entry for relid 0
+1: time consumption: 1211.371000 ms
+ERROR:  no relation entry for relid 0
+2: time consumption: 1246.086000 ms
+ERROR:  no relation entry for relid 0
+0: time consumption: 1155.807000 ms
+ERROR:  no relation entry for relid 0
+1: time consumption: 1197.302000 ms
+ERROR:  no relation entry for relid 0
+2: time consumption: 1152.209000 ms
+ERROR:  no relation entry for relid 0
+0: time consumption: 1289.805000 ms
+ERROR:  no relation entry for relid 0
+1: time consumption: 1246.449000 ms
+ERROR:  no relation entry for relid 0
+2: time consumption: 1292.754000 ms
+ERROR:  no relation entry for relid 0
+0: time consumption: 617209.308000 ms
+1: time consumption: 601920.633000 ms
+2: time consumption: 592417.698000 ms
+0: time consumption: 448106.514000 ms
+1: time consumption: 434928.046000 ms
+2: time consumption: 448687.490000 ms
+0: time consumption: 899244.731000 ms
+1: time consumption: 915142.747000 ms
+2: time consumption: 906956.962000 ms
+0: time consumption: 590255.270000 ms
+1: time consumption: 592321.624000 ms
+2: time consumption: 589572.830000 ms
+0: time consumption: 479603.525000 ms
+1: time consumption: 479196.582000 ms
+2: time consumption: 479685.302000 ms
+0: time consumption: 618228.754000 ms
+1: time consumption: 618139.980000 ms
+2: time consumption: 617012.522000 ms
+0: time consumption: 261032.635000 ms
+1: time consumption: 262434.002000 ms
+2: time consumption: 260440.709000 ms
+0: time consumption: 246088.072000 ms
+1: time consumption: 246890.053000 ms
+2: time consumption: 245720.329000 ms
+0: time consumption: 887454.027000 ms
+1: time consumption: 893360.508000 ms
+2: time consumption: 887986.797000 ms
+0: time consumption: 258187.115000 ms
+1: time consumption: 237420.079000 ms
+2: time consumption: 249304.478000 ms
+0: time consumption: 342909.556000 ms
+1: time consumption: 340689.221000 ms
+2: time consumption: 360780.654000 ms
+0: time consumption: 254423.877000 ms
+1: time consumption: 235906.387000 ms
+2: time consumption: 241787.910000 ms
+0: time consumption: 355024.912000 ms
+1: time consumption: 346084.475000 ms
+2: time consumption: 343953.629000 ms
+0: time consumption: 251295.206000 ms
+1: time consumption: 242871.304000 ms
+2: time consumption: 247539.054000 ms
+0: time consumption: 177634.953000 ms
+1: time consumption: 881326.258000 ms
+2: time consumption: 752176.052000 ms
+0: time consumption: 781321.285000 ms
+1: time consumption: 751911.064000 ms
+2: time consumption: 797425.220000 ms
+0: time consumption: 310402.156000 ms
+1: time consumption: 291345.375000 ms
+2: time consumption: 243916.264000 ms
+0: time consumption: 865212.799000 ms
+1: time consumption: 845791.468000 ms
+2: time consumption: 814651.754000 ms
+0: time consumption: 802194.824000 ms
+1: time consumption: 785725.431000 ms
+2: time consumption: 816183.113000 ms
+0: time consumption: 832843.334000 ms
+1: time consumption: 809734.157000 ms
+2: time consumption: 807289.066000 ms
+0: time consumption: 899348.284000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 2809.533000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 2559.117000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 367670.375000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+1: time consumption: 2941.053000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+2: time consumption: 2952.809000 ms
+ERROR:  non-MVCC snapshots are not supported in index-only scans
+0: time consumption: 932144.269000 ms
+1: time consumption: 918541.518000 ms
+2: time consumption: 895011.515000 ms
+0: time consumption: 174791.834000 ms
+1: time consumption: 164637.839000 ms
+2: time consumption: 139513.646000 ms
+0: time consumption: 83730.440000 ms
+1: time consumption: 111059.012000 ms
+2: time consumption: 116525.017000 ms
+0: time consumption: 486959.978000 ms
+1: time consumption: 493407.863000 ms
+2: time consumption: 499140.447000 ms
+copy to imdb
+run IMDB with vanilla postgres
+0: time consumption: 855840.201000 ms
+1: time consumption: 845499.161000 ms
+2: time consumption: 850523.344000 ms
+0: time consumption: 597757.311000 ms
+1: time consumption: 595083.612000 ms
+2: time consumption: 594349.102000 ms
+0: time consumption: 571051.054000 ms
+1: time consumption: 554175.997000 ms
+2: time consumption: 561390.196000 ms
+0: time consumption: 683994.218000 ms
+1: time consumption: 678843.167000 ms
+2: time consumption: 681748.871000 ms
+0: time consumption: 889413.881000 ms
+1: time consumption: 872837.373000 ms
+2: time consumption: 865311.219000 ms
+0: time consumption: 508959.448000 ms
+1: time consumption: 503462.840000 ms
+2: time consumption: 505291.302000 ms
+0: time consumption: 503536.397000 ms
+1: time consumption: 503065.463000 ms
+2: time consumption: 503204.735000 ms
+0: time consumption: 706523.929000 ms
+1: time consumption: 694890.043000 ms
+2: time consumption: 694963.846000 ms
+0: time consumption: 477428.578000 ms
+1: time consumption: 475935.120000 ms
+2: time consumption: 477834.320000 ms
+0: time consumption: 92841.410000 ms
+1: time consumption: 69158.812000 ms
+2: time consumption: 64630.244000 ms
+0: time consumption: 973760.238000 ms
+1: time consumption: 958910.311000 ms
+2: time consumption: 956563.175000 ms
+0: time consumption: 215341.611000 ms
+1: time consumption: 226426.504000 ms
+2: time consumption: 224504.536000 ms
+0: time consumption: 126397.755000 ms
+1: time consumption: 132719.594000 ms
+2: time consumption: 121538.079000 ms
+0: time consumption: 101213.759000 ms
+1: time consumption: 96193.611000 ms
+2: time consumption: 90873.351000 ms
+0: time consumption: 654404.158000 ms
+1: time consumption: 655877.007000 ms
+2: time consumption: 656130.788000 ms
+0: time consumption: 148770.897000 ms
+1: time consumption: 151696.231000 ms
+2: time consumption: 158111.564000 ms
+0: time consumption: 103803.771000 ms
+1: time consumption: 107896.509000 ms
+2: time consumption: 91420.789000 ms
+0: time consumption: 524577.043000 ms
+1: time consumption: 518765.126000 ms
+2: time consumption: 521080.141000 ms
+0: time consumption: 502173.364000 ms
+1: time consumption: 503728.385000 ms
+2: time consumption: 503499.214000 ms
+0: time consumption: 528659.424000 ms
+1: time consumption: 520547.793000 ms
+2: time consumption: 517907.524000 ms
+0: time consumption: 582362.191000 ms
+1: time consumption: 571314.739000 ms
+2: time consumption: 576717.727000 ms
+0: time consumption: 991176.679000 ms
+1: time consumption: 991871.720000 ms
+2: time consumption: 993422.546000 ms
+0: time consumption: 229382.168000 ms
+1: time consumption: 229625.991000 ms
+2: time consumption: 210293.241000 ms
+0: time consumption: 872839.614000 ms
+1: time consumption: 871772.981000 ms
+2: time consumption: 880698.699000 ms
+0: time consumption: 939700.769000 ms
+1: time consumption: 940953.820000 ms
+2: time consumption: 924859.513000 ms
+0: time consumption: 702414.973000 ms
+1: time consumption: 703983.321000 ms
+2: time consumption: 735407.231000 ms
+0: time consumption: 51723.071000 ms
+1: time consumption: 101772.897000 ms
+2: time consumption: 70095.633000 ms
+0: time consumption: 931362.811000 ms
+1: time consumption: 909074.696000 ms
+2: time consumption: 943503.579000 ms
+0: time consumption: 998378.557000 ms
+1: time consumption: 33590.950000 ms
+2: time consumption: 972275.294000 ms
+0: time consumption: 780046.581000 ms
+1: time consumption: 761753.617000 ms
+2: time consumption: 775230.775000 ms
+0: time consumption: 174026.414000 ms
+1: time consumption: 212843.168000 ms
+2: time consumption: 181672.379000 ms
+0: time consumption: 44838.165000 ms
+1: time consumption: 47410.652000 ms
+2: time consumption: 54425.152000 ms
+0: time consumption: 189888.388000 ms
+1: time consumption: 170092.837000 ms
+2: time consumption: 183836.641000 ms
+0: time consumption: 187925.050000 ms
+1: time consumption: 150920.464000 ms
+2: time consumption: 157833.731000 ms
+0: time consumption: 22486.633000 ms
+1: time consumption: 984028.606000 ms
+2: time consumption: 963227.641000 ms
+0: time consumption: 143578.257000 ms
+1: time consumption: 132729.437000 ms
+2: time consumption: 132829.627000 ms
+0: time consumption: 881531.481000 ms
+1: time consumption: 860138.265000 ms
+2: time consumption: 856438.392000 ms
+0: time consumption: 165247.701000 ms
+1: time consumption: 172813.247000 ms
+2: time consumption: 157326.656000 ms
+0: time consumption: 484751.154000 ms
+1: time consumption: 482672.166000 ms
+2: time consumption: 482626.506000 ms
+0: time consumption: 366647.065000 ms
+1: time consumption: 366645.624000 ms
+2: time consumption: 366987.893000 ms
+0: time consumption: 390256.983000 ms
+1: time consumption: 390123.295000 ms
+2: time consumption: 390214.076000 ms
+0: time consumption: 367083.618000 ms
+1: time consumption: 366840.608000 ms
+2: time consumption: 367006.519000 ms
+0: time consumption: 114585.347000 ms
+1: time consumption: 161109.940000 ms
+2: time consumption: 105730.458000 ms
+0: time consumption: 658205.094000 ms
+1: time consumption: 644980.454000 ms
+2: time consumption: 656569.963000 ms
+0: time consumption: 806247.553000 ms
+1: time consumption: 801516.526000 ms
+2: time consumption: 793508.127000 ms
+0: time consumption: 844792.763000 ms
+1: time consumption: 862714.648000 ms
+2: time consumption: 858736.291000 ms
+0: time consumption: 964936.374000 ms
+1: time consumption: 963757.550000 ms
+2: time consumption: 961166.428000 ms
+0: time consumption: 937547.059000 ms
+1: time consumption: 922099.217000 ms
+2: time consumption: 929360.414000 ms
+0: time consumption: 853917.812000 ms
+1: time consumption: 844155.713000 ms
+2: time consumption: 875358.923000 ms
+0: time consumption: 560829.358000 ms
+1: time consumption: 524709.877000 ms
+2: time consumption: 546648.371000 ms
+0: time consumption: 919481.652000 ms
+1: time consumption: 939534.083000 ms
+2: time consumption: 946076.459000 ms
+0: time consumption: 441630.181000 ms
+1: time consumption: 400093.339000 ms
+2: time consumption: 410450.425000 ms
+0: time consumption: 597812.625000 ms
+1: time consumption: 299163.664000 ms
+2: time consumption: 248666.832000 ms
+0: time consumption: 854207.868000 ms
+1: time consumption: 726640.026000 ms
+2: time consumption: 786626.032000 ms
+0: time consumption: 96705.776000 ms
+1: time consumption: 60199.595000 ms
+2: time consumption: 961985.104000 ms
+0: time consumption: 386236.135000 ms
+1: time consumption: 347085.426000 ms
+2: time consumption: 351883.376000 ms
+0: time consumption: 583917.739000 ms
+1: time consumption: 575886.159000 ms
+2: time consumption: 580232.303000 ms
+0: time consumption: 478152.402000 ms
+1: time consumption: 469500.473000 ms
+2: time consumption: 444265.577000 ms
+0: time consumption: 288800.964000 ms
+1: time consumption: 271770.659000 ms
+2: time consumption: 261268.258000 ms
+0: time consumption: 401638.770000 ms
+1: time consumption: 385935.477000 ms
+2: time consumption: 391339.590000 ms
+0: time consumption: 335152.586000 ms
+1: time consumption: 334785.835000 ms
+2: time consumption: 338798.793000 ms
+0: time consumption: 846965.473000 ms
+1: time consumption: 835838.450000 ms
+2: time consumption: 830335.896000 ms
+0: time consumption: 183787.659000 ms
+1: time consumption: 189208.277000 ms
+2: time consumption: 204863.725000 ms
+0: time consumption: 20010.760000 ms
+1: time consumption: 20060.915000 ms
+2: time consumption: 17916.063000 ms
+0: time consumption: 5757.008000 ms
+1: time consumption: 2620.824000 ms
+2: time consumption: 42668.931000 ms
+0: time consumption: 544629.138000 ms
+1: time consumption: 575728.258000 ms
+2: time consumption: 556978.854000 ms
+0: time consumption: 47245.501000 ms
+1: time consumption: 31373.701000 ms
+2: time consumption: 32847.187000 ms
+0: time consumption: 254424.216000 ms
+1: time consumption: 257834.865000 ms
+2: time consumption: 252547.424000 ms
+0: time consumption: 702846.258000 ms
+1: time consumption: 702517.580000 ms
+2: time consumption: 689203.807000 ms
+0: time consumption: 937369.800000 ms
+1: time consumption: 920064.165000 ms
+2: time consumption: 937906.142000 ms
+0: time consumption: 568639.959000 ms
+1: time consumption: 573230.421000 ms
+2: time consumption: 589231.758000 ms
+0: time consumption: 22891.259000 ms
+1: time consumption: 50562.448000 ms
+2: time consumption: 24260.586000 ms
+0: time consumption: 686092.939000 ms
+1: time consumption: 674882.458000 ms
+2: time consumption: 667538.995000 ms
+0: time consumption: 661235.303000 ms
+1: time consumption: 657460.783000 ms
+2: time consumption: 655442.690000 ms
+0: time consumption: 646861.828000 ms
+1: time consumption: 645331.970000 ms
+2: time consumption: 647738.965000 ms
+0: time consumption: 785590.621000 ms
+1: time consumption: 795690.291000 ms
+2: time consumption: 794339.061000 ms
+0: time consumption: 523834.805000 ms
+1: time consumption: 517103.762000 ms
+2: time consumption: 513202.085000 ms
+0: time consumption: 469943.701000 ms
+1: time consumption: 448546.557000 ms
+2: time consumption: 443148.348000 ms
+0: time consumption: 521411.141000 ms
+1: time consumption: 519343.595000 ms
+2: time consumption: 502149.722000 ms
+0: time consumption: 952503.052000 ms
+1: time consumption: 967904.753000 ms
+2: time consumption: 943683.686000 ms
+0: time consumption: 749256.789000 ms
+1: time consumption: 733373.747000 ms
+2: time consumption: 779920.566000 ms
+0: time consumption: 907121.975000 ms
+1: time consumption: 907625.154000 ms
+2: time consumption: 881021.334000 ms
+0: time consumption: 293939.653000 ms
+1: time consumption: 292427.411000 ms
+2: time consumption: 292086.828000 ms
+0: time consumption: 329362.823000 ms
+1: time consumption: 313558.092000 ms
+2: time consumption: 313199.939000 ms
+0: time consumption: 595633.396000 ms
+1: time consumption: 594920.846000 ms
+2: time consumption: 595213.465000 ms
+0: time consumption: 603394.775000 ms
+1: time consumption: 600368.797000 ms
+2: time consumption: 601529.264000 ms
+0: time consumption: 605470.322000 ms
+1: time consumption: 605085.659000 ms
+2: time consumption: 605636.087000 ms
+0: time consumption: 414341.589000 ms
+1: time consumption: 395037.280000 ms
+2: time consumption: 391213.306000 ms
+0: time consumption: 284895.322000 ms
+1: time consumption: 283544.191000 ms
+2: time consumption: 283499.971000 ms
+0: time consumption: 672086.046000 ms
+1: time consumption: 676057.964000 ms
+2: time consumption: 675351.356000 ms
+0: time consumption: 485572.098000 ms
+1: time consumption: 484733.746000 ms
+2: time consumption: 484919.793000 ms
+0: time consumption: 410132.418000 ms
+1: time consumption: 408999.045000 ms
+2: time consumption: 409277.528000 ms
+0: time consumption: 504545.019000 ms
+1: time consumption: 504262.068000 ms
+2: time consumption: 504556.696000 ms
+0: time consumption: 239197.422000 ms
+1: time consumption: 239074.734000 ms
+2: time consumption: 238497.101000 ms
+0: time consumption: 223994.348000 ms
+1: time consumption: 223866.606000 ms
+2: time consumption: 224039.042000 ms
+0: time consumption: 630835.627000 ms
+1: time consumption: 627632.302000 ms
+2: time consumption: 622634.247000 ms
+0: time consumption: 646120.285000 ms
+1: time consumption: 625351.437000 ms
+2: time consumption: 638717.340000 ms
+0: time consumption: 734112.663000 ms
+1: time consumption: 732494.545000 ms
+2: time consumption: 734933.322000 ms
+0: time consumption: 636778.580000 ms
+1: time consumption: 630283.818000 ms
+2: time consumption: 629425.031000 ms
+0: time consumption: 541106.651000 ms
+1: time consumption: 581001.060000 ms
+2: time consumption: 551679.613000 ms
+0: time consumption: 660076.125000 ms
+1: time consumption: 638158.774000 ms
+2: time consumption: 638174.957000 ms
+0: time consumption: 645949.886000 ms
+1: time consumption: 672417.561000 ms
+2: time consumption: 654829.810000 ms
+0: time consumption: 626360.539000 ms
+1: time consumption: 616695.112000 ms
+2: time consumption: 616698.395000 ms
+0: time consumption: 620980.164000 ms
+1: time consumption: 610014.017000 ms
+2: time consumption: 610913.720000 ms
+0: time consumption: 250628.285000 ms
+1: time consumption: 268497.313000 ms
+2: time consumption: 229252.009000 ms
+0: time consumption: 410622.689000 ms
+1: time consumption: 409617.885000 ms
+2: time consumption: 410064.947000 ms
+0: time consumption: 413149.545000 ms
+1: time consumption: 410982.506000 ms
+2: time consumption: 414282.945000 ms
+0: time consumption: 458104.207000 ms
+1: time consumption: 421516.655000 ms
+2: time consumption: 439803.665000 ms
+0: time consumption: 435990.011000 ms
+1: time consumption: 449100.489000 ms
+2: time consumption: 410466.516000 ms
+0: time consumption: 315419.095000 ms
+1: time consumption: 274687.234000 ms
+2: time consumption: 266661.264000 ms
+0: time consumption: 537169.755000 ms
+1: time consumption: 540029.050000 ms
+2: time consumption: 534562.377000 ms
+0: time consumption: 252935.915000 ms
+1: time consumption: 292044.365000 ms
+2: time consumption: 295485.336000 ms
+0: time consumption: 837000.448000 ms
+1: time consumption: 846567.985000 ms
+2: time consumption: 855007.079000 ms
+copy to imdb_vanilla
