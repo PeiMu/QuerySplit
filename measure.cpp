@@ -87,8 +87,6 @@ using recursive_directory_iterator = std::filesystem::recursive_directory_iterat
 
 int main(int argc, char** argv)
 {
-	bool enable_query_split = false;
-
 	enum Benchmark {
 		TPCH,
 		IMDB,
@@ -97,7 +95,7 @@ int main(int argc, char** argv)
 	Benchmark benchmark = TPCH;
 
 	if (argc != 3) {
-		printf("run with benchmark name and whether enable query_split, e.g. \n`./measure TPCH 1`\n`./meaure IMDB 0`");
+		printf("run with benchmark name and whether enable query_split, e.g. \n`./measure TPCH relationshipcenter`\n`./meaure IMDB Postgres`");
 		return -1;
 	}
 
@@ -109,13 +107,7 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
-	if (0 == strcmp(argv[2], "1")) {
-		enable_query_split = true;
-	} else if (0 == strcmp(argv[2], "0")) {
-		enable_query_split = false;
-	} else {
-		return -1;
-	}
+	auto split_algorithm = argv[2];
 
 	char file[100] = "log.txt";
 	FILE* f_log = fopen(file, "w+");
@@ -197,10 +189,9 @@ int main(int argc, char** argv)
 				fclose(f_log);
 				return 0;
 			}
-			if (enable_query_split) {
-				PQexec(conn, "switch to c_r;");
-				PQexec(conn, "switch to relationshipcenter;");
-			}
+			PQexec(conn, "switch to c_r;");
+			auto switch_split_algorithm = std::string("switch to ") + split_algorithm + std::string(";");
+			PQexec(conn, switch_split_algorithm.c_str());
 
 
 			timespec timer = tic();
