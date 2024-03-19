@@ -1,0 +1,6 @@
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+FATAL:  the database system is in recovery mode
+
