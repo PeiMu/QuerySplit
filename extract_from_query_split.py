@@ -38,8 +38,10 @@ def write_to_excel(geomean_times, deviations, output_file):
     wb.save(output_file)
 
 
-log_file = "imdb-job/query_split.log"
-output_file = "imdb-job_query_split.xlsx"
+#log_file = "imdb/imdb_query_split_log.txt"
+#output_file = "imdb-job_query_split.xlsx"
+log_file = "imdb/imdb_vanilla_log.txt"
+output_file = "imdb-job_vanilla.xlsx"
 
 geomean_times, deviations = extract_stats(log_file)
 write_to_excel(geomean_times, deviations, output_file)
