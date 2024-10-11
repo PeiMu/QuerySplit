@@ -1,0 +1,7 @@
+alter system set max_parallel_workers = '0';
+alter system set max_parallel_workers_per_gather = '0';
+alter system set shared_buffers = '512MB';
+alter system set temp_buffers = '2047MB';
+alter system set work_mem = '2047MB';
+alter system set effective_cache_size = '4GB';
+alter system set default_statistics_target = 100;
