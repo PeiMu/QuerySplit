@@ -120,7 +120,7 @@ int main(int argc, char** argv)
 			dir_path = "/home/pei/Project/benchmarks/tpch-postgres/dbgen/out/pure_queries/";
 			break;
 		case IMDB:
-			dir_path = "/home/pei/Project/benchmarks/imdb_job-postgres/out/pure_queries/";
+			dir_path = "/home/pei/Project/QuerySplit/package/query/";
 			break;
 		default:
 			std::cerr << "No such benchmark!" << std::endl;
@@ -189,6 +189,16 @@ int main(int argc, char** argv)
 				fclose(f_log);
 				return 0;
 			}
+            PQexec(conn, "set enable_nestloop = false;");
+            // QuerySplit paper config
+            PQexec(conn, "set max_parallel_workers = '0';");
+            PQexec(conn, "set max_parallel_workers_per_gather = '0';");
+            PQexec(conn, "set shared_buffers = '512MB';");
+            PQexec(conn, "set temp_buffers = '2047MB';");
+            PQexec(conn, "set work_mem = '2047MB';");
+            PQexec(conn, "set effective_cache_size = '4 GB';");
+            PQexec(conn, "set statement_timeout = '1000s';");
+
 			if (0 != strcmp(split_algorithm, "Postgres")) {
 				PQexec(conn, "switch to c_r;");
 			}
