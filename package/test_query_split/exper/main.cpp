@@ -1,3 +1,5 @@
+// g++ main.cpp -O3 -std=c++17 -lpq -L/home/pei/Project/project_bins/lib/ -o main
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <libpq-fe.h>
@@ -86,7 +88,7 @@ int main()
             f_log = fopen(file, "a");
             std::vector<double> time_vec;
             for (int iter = 0; iter < ITERATION_TIME; iter++) {
-                PGconn *conn = PQsetdbLogin("localhost", "5432", NULL, NULL, "imdb_pk_fk", "imdb_pk_fk", "");
+                PGconn *conn = PQsetdbLogin("localhost", "5432", NULL, NULL, "imdb", "imdb", "");
                 if (PQstatus(conn) == CONNECTION_BAD) {
                     std::cout << PQerrorMessage(conn) << std::endl;
                     fprintf(f_log, "%s\n", PQerrorMessage(conn));
@@ -95,12 +97,13 @@ int main()
                     fclose(f_train);
                     return 0;
                 }
+//                PQexec(conn, "set enable_nestloop = false;");
                 PQexec(conn, "set max_parallel_workers = '0';");
                 PQexec(conn, "set max_parallel_workers_per_gather = '0';");
                 PQexec(conn, "set shared_buffers = '512MB';");
                 PQexec(conn, "set temp_buffers = '2047MB';");
                 PQexec(conn, "set work_mem = '2047MB';");
-                PQexec(conn, "set effective_cache_size = '4 GB';");
+                PQexec(conn, "set effective_cache_size = '8 GB';");
                 PQexec(conn, "set statement_timeout = '1000s';");
                 PQexec(conn, "set default_statistics_target = 100;");
 
@@ -138,6 +141,17 @@ int main()
 //				std::cout << endtime << std::endl;
 //				fprintf(f_log, "%d\n", endtime);
                         std::cout << time_diff << std::endl;
+                        if (0 == iter) {
+                            int tuple_num = PQntuples(result);
+                            int field_num = PQnfields(result);
+                            for (int tuple = 0; tuple < tuple_num; tuple++) {
+                                for (int field = 0; field < field_num; field++) {
+//                                    fprintf(f_result, "%s, ", PQgetvalue(result, tuple, field));
+                                    std::cout << PQgetvalue(result, tuple, field) << std::endl;
+                                }
+//                                fprintf(f_result, "\n");
+                            }
+                        }
                         break;
                     }
                     case PGRES_COPY_OUT: {
